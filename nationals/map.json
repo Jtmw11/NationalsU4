@@ -1,0 +1,13 @@
+{
+    "segments" : {
+        
+        "bridge16" : {
+            "nodes" : ["wp_1", "wp_3", "wp_2"],
+            "drivability" : 1 ,
+        }
+        "bridge17" : {
+            "nodes" : ["wp_4", "wp_5", "wp_6", "wp_7", "wp_8"],
+            "drivability" : 1 ,
+        }
+    }
+}

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
+    </contributor>
+    <created>2019-12-01T10:19:59</created>
+    <modified>2019-12-01T10:19:59</modified>
+    <unit name="meter" meter="1" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="rocks_01_a_d_dds" name="rocks_01_a_d_dds">
+      <init_from>/D:/game/levels/Utah/art/shapes/rocks/rocks_01_a_d.dds</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="rocks_01_a-effect">
+      <profile_COMMON>
+        <newparam sid="rocks_01_a_d_dds-surface">
+          <surface type="2D">
+            <init_from>rocks_01_a_d_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="rocks_01_a_d_dds-sampler">
+          <sampler2D>
+            <source>rocks_01_a_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="rocks_01_a_d_dds-sampler" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="rocks_01_a-material" name="rocks_01_a">
+      <instance_effect url="#rocks_01_a-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="tree_oak_bush_a200_004-mesh" name="tree_oak_bush_a200.004">
+      <mesh>
+        <source id="tree_oak_bush_a200_004-mesh-positions">
+          <float_array id="tree_oak_bush_a200_004-mesh-positions-array" count="72">-0.1948661 -0.03986668 -0.03540062 0.0335536 0.1572245 0.1219512 0.2050051 0.06540226 -0.001449406 0.04644012 0.2104205 0.03706663 0.1223511 0.07122188 0.1289526 0.07992887 -0.09648257 0.1452223 0.09497547 -0.1576924 -0.03661751 0.1073579 0.144048 -0.06073963 0.2013978 -0.07821244 -0.03951853 -0.1016936 -0.01514506 0.1283181 -0.2000718 -0.04254502 0.01814877 -0.03842258 0.1246203 -0.06988883 -0.09305429 0.1203804 0.136576 -0.1141276 0.1088925 0.03591585 -0.1567211 0.04386502 -0.0365225 0.02184861 -0.122782 -0.06002008 -0.07133769 -0.119681 -0.05303061 -0.01055949 -0.08136624 0.1312043 0.08598566 -0.1569539 0.03936982 0.1668148 0.07588577 0.07056158 -0.1550021 0.02868551 0.07697868 0.1861219 -0.08336055 0.0794112 -0.1507558 -0.02880978 0.07337522 -0.06517791 -0.1277489 0.03911805</float_array>
+          <technique_common>
+            <accessor source="#tree_oak_bush_a200_004-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tree_oak_bush_a200_004-mesh-normals">
+          <float_array id="tree_oak_bush_a200_004-mesh-normals-array" count="72">-0.4965812 0.5033566 0.7071346 0.1723753 0.6168951 0.7679371 0.1125844 0.9930254 0.03500521 0.4672563 0.2829784 0.8376126 -0.7079806 0.7032197 -0.06515812 -0.2946599 0.48934 -0.8208057 0.3806011 0.5468375 -0.745729 0.9201834 0.3584171 -0.1574789 0.773145 0.4276972 0.4683184 0.7829973 -0.4129535 0.4651716 0.1171927 -0.465017 0.8775109 0.1574181 -0.9590667 0.2353948 -0.6862927 0.4011487 -0.6066978 0.06058079 -0.2930159 -0.9541864 -0.31832 -0.6405771 -0.6988086 -0.223795 -0.4800012 0.8482422 -0.3798435 -0.882039 0.278794 0.7387825 -0.3642182 -0.56705 0.2385079 -0.8030835 -0.5460504 -0.7867923 -0.2032292 -0.5828 -0.8670571 0.2310321 0.4414026 -0.9324812 -0.282546 0.225048 -0.449457 -0.2704921 0.851365 -0.6402272 -0.3817314 0.6666261</float_array>
+          <technique_common>
+            <accessor source="#tree_oak_bush_a200_004-mesh-normals-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tree_oak_bush_a200_004-mesh-map-0">
+          <float_array id="tree_oak_bush_a200_004-mesh-map-0-array" count="264">0.5590674 0.6215234 0.585863 0.6427173 0.5704815 0.6690319 0.6184611 0.6220884 0.585863 0.6427173 0.5590674 0.6215234 0.5362076 0.6297962 0.5704815 0.6690319 0.5242507 0.6643489 0.5932366 0.6733087 0.6325881 0.6862636 0.6041945 0.7223386 0.5932366 0.6733087 0.6574641 0.6509317 0.6325881 0.6862636 0.585863 0.6427173 0.6184611 0.6220884 0.6366356 0.6360406 0.6521595 0.5808436 0.6412122 0.6295229 0.6184611 0.6220884 0.6156136 0.5704926 0.6116085 0.5366224 0.6454379 0.5499079 0.1548302 0.9657517 0.1791323 0.9803997 0.1684809 0.9822582 0.5888867 0.572317 0.570703 0.5450318 0.6116085 0.5366224 0.1548302 0.9657517 0.1667765 0.953647 0.1791323 0.9803997 0.1988028 0.9711464 0.1886221 0.9826524 0.1828854 0.9480918 0.1828854 0.9480918 0.1977999 0.9539894 0.1988028 0.9711464 0.1524857 0.976131 0.1548302 0.9657517 0.1684809 0.9822582 0.5590674 0.6215234 0.5362076 0.6297962 0.5347586 0.6013451 0.6184611 0.6220884 0.5590674 0.6215234 0.5888867 0.572317 0.5042845 0.5875791 0.5362076 0.6297962 0.5058847 0.6238594 0.557332 0.5856856 0.5409355 0.5699208 0.570703 0.5450318 0.6156136 0.5704926 0.6184611 0.6220884 0.5888867 0.572317 0.5362076 0.6297962 0.5042845 0.5875791 0.5347586 0.6013451 0.6683295 0.632195 0.6412122 0.6295229 0.6521595 0.5808436 0.5255346 0.5533446 0.5217584 0.5379068 0.5617877 0.52037 0.6116085 0.5366224 0.6119107 0.5153391 0.6509939 0.5157492 0.5932366 0.6733087 0.585863 0.6427173 0.6366356 0.6360406 0.5310127 0.5832868 0.5347586 0.6013451 0.5042845 0.5875791 0.5617877 0.52037 0.5875428 0.5107827 0.6119107 0.5153391 0.557332 0.5856856 0.5590674 0.6215234 0.5347586 0.6013451 0.5409355 0.5699208 0.5255346 0.5533446 0.570703 0.5450318 0.5617877 0.52037 0.6119107 0.5153391 0.6116085 0.5366224 0.6889621 0.5900059 0.6683295 0.632195 0.6521595 0.5808436 0.6454379 0.5499079 0.6116085 0.5366224 0.6509939 0.5157492 0.570703 0.5450318 0.5617877 0.52037 0.6116085 0.5366224 0.5362076 0.6297962 0.5590674 0.6215234 0.5704815 0.6690319 0.5058847 0.6238594 0.5362076 0.6297962 0.5242507 0.6643489 0.6156136 0.5704926 0.6521595 0.5808436 0.6184611 0.6220884 0.6156136 0.5704926 0.5888867 0.572317 0.6116085 0.5366224 0.1667765 0.953647 0.1886221 0.9826524 0.1791323 0.9803997 0.1886221 0.9826524 0.1667765 0.953647 0.1828854 0.9480918 0.5590674 0.6215234 0.557332 0.5856856 0.5888867 0.572317 0.4902133 0.5981747 0.5042845 0.5875791 0.5058847 0.6238594 0.5888867 0.572317 0.557332 0.5856856 0.570703 0.5450318 0.570703 0.5450318 0.5255346 0.5533446 0.5617877 0.52037 0.6574641 0.6509317 0.5932366 0.6733087 0.6366356 0.6360406 0.5310127 0.5832868 0.557332 0.5856856 0.5347586 0.6013451</float_array>
+          <technique_common>
+            <accessor source="#tree_oak_bush_a200_004-mesh-map-0-array" count="132" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="tree_oak_bush_a200_004-mesh-vertices">
+          <input semantic="POSITION" source="#tree_oak_bush_a200_004-mesh-positions" />
+        </vertices>
+        <triangles material="rocks_01_a-material" count="44">
+          <input semantic="VERTEX" source="#tree_oak_bush_a200_004-mesh-vertices" offset="0" />
+          <input semantic="NORMAL" source="#tree_oak_bush_a200_004-mesh-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#tree_oak_bush_a200_004-mesh-map-0" offset="2" set="0" />
+          <p>12 0 0 1 1 1 3 2 2 4 3 3 1 1 4 12 0 5 13 4 6 3 2 7 11 5 8 3 2 9 7 6 10 11 5 11 3 2 12 2 7 13 7 6 14 1 1 15 4 3 16 19 8 17 21 9 18 19 8 19 4 3 20 5 10 21 18 11 22 21 9 23 14 12 24 15 13 25 16 14 26 17 15 27 23 16 28 18 11 29 14 12 30 11 5 31 15 13 32 8 17 33 6 18 34 7 6 35 7 6 36 2 7 37 8 17 38 0 19 39 14 12 40 16 14 41 12 0 42 13 4 43 20 20 44 4 3 45 12 0 46 17 15 47 10 21 48 13 4 49 14 12 50 9 22 51 22 23 52 23 16 53 5 10 54 4 3 55 17 15 56 13 4 57 10 21 58 20 20 59 2 7 60 19 8 61 21 9 62 10 21 63 0 19 64 16 14 65 18 11 66 6 18 67 8 17 68 3 2 69 1 1 70 19 8 71 22 23 72 20 20 73 10 21 74 16 14 75 15 13 76 6 18 77 9 22 78 12 0 79 20 20 80 22 23 81 10 21 82 23 16 83 16 14 84 6 18 85 18 11 86 8 17 87 2 7 88 21 9 89 21 9 90 18 11 91 8 17 92 23 16 93 16 14 94 18 11 95 13 4 96 12 0 97 3 2 98 14 12 99 13 4 100 11 5 101 5 10 102 21 9 103 4 3 104 5 10 105 17 15 106 18 11 107 11 5 108 6 18 109 15 13 110 6 18 111 11 5 112 7 6 113 12 0 114 9 22 115 17 15 116 0 19 117 10 21 118 14 12 119 17 15 120 9 22 121 23 16 122 23 16 123 10 21 124 16 14 125 2 7 126 3 2 127 19 8 128 22 23 129 9 22 130 20 20 131</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="base00" name="base00" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="start01" name="start01" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="rock_small_b_a40" name="rock_small_b_a40" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry url="#tree_oak_bush_a200_004-mesh" name="rock_small_b_a40">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="rocks_01_a-material" target="#rocks_01_a-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

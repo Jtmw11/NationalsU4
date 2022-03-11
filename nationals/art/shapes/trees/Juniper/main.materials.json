@@ -1,0 +1,109 @@
+{
+  "juniper_bark" : {
+    "name" : "juniper_bark",
+    "mapTo" : "juniper_bark",
+    "class" : "Material",
+    "persistentId" : "b8449213-9476-4eac-a87f-13bfb6a3918a",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/Juniper/juniper_bark_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/Juniper/juniper_bark_n.dds",
+        "pixelSpecular" : true,
+        "specular" : [ 0.2039215862751007, 0.2039215862751007, 0.2039215862751007, 1 ],
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 70,
+    "alphaTest" : true,
+    "groundType" : "WOOD",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "small_island",
+    "materialTag3" : "Natural"
+  },
+  "juniper_dry" : {
+    "name" : "juniper_dry",
+    "mapTo" : "juniper_dry",
+    "class" : "Material",
+    "persistentId" : "52f0ff93-a2ae-42c2-b3e7-bc5403cca5b8",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/Juniper/Juniper_branches_dry_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/Juniper/juniper_leave_n.dds",
+        "pixelSpecular" : true,
+        "specular" : [ 0.1450980454683304, 0.1450980454683304, 0.1450980454683304, 1 ],
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 70,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "groundType" : "WOOD",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "small_island",
+    "materialTag3" : "Natural"
+  },
+  "juniper_leave_01" : {
+    "name" : "juniper_leave_01",
+    "mapTo" : "juniper_leave_01",
+    "class" : "Material",
+    "persistentId" : "734109e6-9338-4ebd-a9da-f8135d06ff3e",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/Juniper/juniper_leave_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/Juniper/juniper_leave_n.dds",
+        "pixelSpecular" : true,
+        "specular" : [ 0.1568627506494522, 0.1568627506494522, 0.1568627506494522, 1 ],
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 70,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "small_island",
+	"groundType" : "LEAVES_THIN",
+    "materialTag3" : "Natural"
+  },
+  "juniper_leave_02" : {
+    "name" : "juniper_leave_02",
+    "mapTo" : "juniper_leave_02",
+    "class" : "Material",
+    "persistentId" : "8251fc74-fabb-4fcb-ac33-0a55f737ab69",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/Juniper/juniper_leave_02_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/Juniper/juniper_leave_n.dds",
+        "pixelSpecular" : true,
+        "specular" : [ 0.1372549086809158, 0.1372549086809158, 0.1372549086809158, 1 ],
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 70,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "small_island",
+	"groundType" : "LEAVES_THIN",
+    "materialTag3" : "Natural"
+  }
+}

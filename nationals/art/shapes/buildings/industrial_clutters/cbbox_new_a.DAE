@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>lucar</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.6;  Revision: 57</authoring_tool>
+      <source_data>file:///H:/BeamNG_Drive/1_BNGD_MAXFiles/Industrial/Clutters/ind_clutter_115.max</source_data>
+    </contributor>
+    <created>2020-03-13T12:01:21</created>
+    <modified>2020-03-13T12:01:21</modified>
+    <unit name="centimeter" meter="0.01" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="non_metal_clutters_coll01">
+      <profile_COMMON>
+        <newparam sid="non_metal_clutters_coll01_color_png-surface">
+          <surface type="2D">
+            <init_from>non_metal_clutters_coll01_color_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="non_metal_clutters_coll01_color_png-sampler">
+          <sampler2D>
+            <source>non_metal_clutters_coll01_color_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="non_metal_clutters_coll01_color_png-sampler" texcoord="CHANNEL1" />
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="SOFT_COLLISION_GENERAL">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="non_metal_clutters_coll01-material" name="non_metal_clutters_coll01">
+      <instance_effect url="#non_metal_clutters_coll01" />
+    </material>
+    <material id="SOFT_COLLISION_GENERAL-material" name="SOFT_COLLISION_GENERAL">
+      <instance_effect url="#SOFT_COLLISION_GENERAL" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-si_box_new_a100" name="si_box_new_a100">
+      <mesh>
+        <source id="geom-si_box_new_a100-positions">
+          <float_array id="geom-si_box_new_a100-positions-array" count="72">25 -39.3 0.6999999 -24.3 -40 0.6999999 25 -39.3 39.3 -24.3 -40 39.3 24.3 -40 0.6999999 24.3 -39.3 0 -25 -39.3 0.6999999 -24.3 -39.3 0 24.3 -39.3 40 24.3 -40 39.3 -24.3 -39.3 40 -25 -39.3 39.3 24.3 39.3 0 -24.3 39.3 0 25 39.3 0.6999999 25 39.3 39.3 -24.3 40 0.6999999 24.3 40 0.6999999 24.3 40 39.3 -24.3 40 39.3 -25 39.3 0.6999999 24.3 39.3 40 -24.3 39.3 40 -25 39.3 39.3</float_array>
+          <technique_common>
+            <accessor source="#geom-si_box_new_a100-positions-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_box_new_a100-normals">
+          <float_array id="geom-si_box_new_a100-normals-array" count="72">0.01411438 -0.008773806 -0.9998619 -0.01411438 -0.008773806 -0.9998619 -0.01411438 0.008773806 -0.9998619 0.01411438 0.008773806 -0.9998619 0.9998044 -0.00877356 -0.01773189 0.9998044 0.00877356 -0.01773189 0.9998075 0.008773588 0.01754718 0.9998075 -0.008773588 0.01754718 -0.01411314 -0.9997441 -0.01768314 0.01411314 -0.9997441 -0.01768314 0.01411317 -0.9997464 0.0175461 -0.01411317 -0.9997464 0.0175461 -0.9998044 -0.00877356 -0.01773189 0.0141148 -0.008774064 0.9998619 -0.0141148 -0.008774064 0.9998619 -0.9998075 -0.008773588 0.01754718 -0.9998044 0.00877356 -0.01773189 0.0141148 0.008774064 0.9998619 -0.0141148 0.008774064 0.9998619 -0.01411314 0.9997441 -0.01768314 -0.01411317 0.9997464 0.0175461 0.01411317 0.9997464 0.0175461 0.01411314 0.9997441 -0.01768314 -0.9998075 0.008773588 0.01754718</float_array>
+          <technique_common>
+            <accessor source="#geom-si_box_new_a100-normals-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_box_new_a100-map1">
+          <float_array id="geom-si_box_new_a100-map1-array" count="132">0.9628189 0.6640392 0 0.8416517 0.664039 0 0.8416505 0.4670127 0 0.8666357 0.163163 0 0.9628184 0.4670101 0 0.86431 0.1634935 0 0.5348749 0.1838625 0 0.7323651 0.1838643 0 0.8645331 0.1611517 0 0.7421975 0.1611517 0 0.8666357 0.361094 0 0.534874 0.2808489 0 0.742309 0.0641653 0 0.8644214 0.0641653 0 0.7424207 0.1634935 0 0.7400951 0.163163 0 0.7323646 0.2808506 0 0.86431 0.3607635 0 0.7330372 0.1785108 0 0.535547 0.178511 0 0.7330372 0.08152443 0 0.5355469 0.08152464 0 0.7424208 0.3607635 0 0.8645332 0.3631053 0 0.7421976 0.3631053 0 0.7400951 0.361094 0 0.7423092 0.4600916 0 0.8644216 0.4600916 0 0.5323867 0.2808488 0 0.7355245 0.1785108 0 0.5330596 0.178511 0 0.7348521 0.2808507 0 0.9646323 0.6640823 0 0.9646326 0.4669579 0 0.8409618 0.6664059 0 0.9635099 0.6664111 0 0.8398374 0.6640844 0 0.8398367 0.4669679 0 0.8409603 0.4646464 0 0.963507 0.4646426 0 0.7355245 0.08152442 0 0.5323876 0.1838624 0 0.5330596 0.08152465 0 0.7348521 0.1838643 0</float_array>
+          <technique_common>
+            <accessor source="#geom-si_box_new_a100-map1-array" count="44" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_box_new_a100-map2">
+          <float_array id="geom-si_box_new_a100-map2-array" count="144">0.3744223 0.6834344 -0.4825 0.2957329 0.681681 0.008750021 0.3019862 0.6834344 0.4825 0.1084436 0.681681 -0.008750081 0.2043383 0.681681 0.008750021 0.2043383 0.6835426 -0.008749962 0.1516641 0.699626 -0.4825 0.2957329 0.6835426 -0.008749962 0.1998382 0.6835426 0.008749962 0.1998382 0.681681 -0.008750081 0.1084436 0.6835426 0.008749962 0.2230136 0.699626 0.4825 0.2043383 0.8313537 -0.008749962 0.2957329 0.8313537 -0.008749962 0.3744223 0.8310922 -0.4825 0.3019862 0.8310922 0.4825 0.2957329 0.8332153 0.008750021 0.2043383 0.8332153 0.008750021 0.1998383 0.8332154 -0.008750081 0.1084436 0.8332154 -0.008750081 0.1516641 0.845069 -0.4825 0.1998382 0.8313537 0.008749962 0.1084436 0.8313537 0.008749962 0.2230136 0.845069 0.4825 0.1514378 0.697899 -0.4825 0.2232398 0.697899 0.4825 0.374652 0.681681 -0.4825 0.3761756 0.6832047 -0.5 0.149937 0.6993997 -0.5 0.3002329 0.6832047 0.5 0.3017566 0.681681 0.4825 0.2247406 0.6993997 0.5 0.3761756 0.831322 -0.5 0.149937 0.8452953 -0.5 0.1514378 0.846796 -0.4825 0.374652 0.8328456 -0.4825 0.3017566 0.8328456 0.4825 0.2232398 0.846796 0.4825 0.3002329 0.831322 0.5 0.2247406 0.8452953 0.5 0.229076 0.7757615 -0.4825 0.229076 0.8472618 0.4825 0.3190998 0.7757615 -0.4825 0.3190998 0.8472618 0.4825 0.2290761 0.7706758 -0.4825 0.3190998 0.7706757 -0.4825 0.3190998 0.6991754 0.4825 0.229076 0.6991755 0.4825</float_array>
+          <technique_common>
+            <accessor source="#geom-si_box_new_a100-map2-array" count="48" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-si_box_new_a100-vertices">
+          <input semantic="POSITION" source="#geom-si_box_new_a100-positions" />
+        </vertices>
+        <triangles material="non_metal_clutters_coll01" count="44">
+          <input semantic="VERTEX" source="#geom-si_box_new_a100-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_box_new_a100-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#geom-si_box_new_a100-map1" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_box_new_a100-map2" offset="3" set="1" />
+          <p>7 1 1 7 13 2 2 13 12 3 4 12 12 3 4 12 5 0 0 5 7 1 1 7 14 5 7 14 15 6 16 15 2 7 11 2 2 7 11 2 0 4 6 0 14 5 7 14 4 9 13 42 9 10 8 43 3 11 9 41 3 11 9 41 1 8 12 40 4 9 13 42 0 4 32 0 4 9 35 26 5 0 0 27 1 8 34 24 6 12 36 6 7 1 1 28 2 7 3 2 8 13 5 29 9 10 8 30 3 11 9 25 10 14 14 31 11 15 15 11 5 0 0 5 4 9 35 4 1 8 34 1 1 8 34 1 7 1 1 7 5 0 0 5 6 12 36 6 20 16 37 20 13 2 2 33 13 2 2 33 7 1 1 28 6 12 36 6 2 7 3 2 15 6 10 15 21 17 17 38 21 17 17 38 8 13 5 29 2 7 3 2 3 11 9 3 9 10 8 9 8 13 5 8 8 13 5 8 10 14 14 10 3 11 9 3 2 7 11 2 9 10 28 30 4 9 41 26 4 9 41 26 0 4 6 0 2 7 11 2 1 8 40 24 3 11 29 25 11 15 18 11 11 15 18 11 6 12 20 6 1 8 40 24 0 4 32 0 5 0 0 27 12 3 4 32 12 3 4 32 14 5 33 14 0 4 32 0 8 13 5 8 21 17 17 21 22 18 22 22 22 18 22 22 10 14 14 10 8 13 5 8 17 22 27 45 16 19 26 44 19 20 24 47 19 20 24 47 18 21 23 46 17 22 27 45 14 5 33 14 12 3 4 32 17 22 39 35 16 19 38 34 13 2 2 33 20 16 37 20 15 6 10 15 18 21 23 36 21 17 17 38 19 20 24 37 23 23 25 23 22 18 22 39 12 3 4 12 13 2 2 13 16 19 38 16 16 19 38 16 17 22 39 17 12 3 4 12 19 20 24 19 22 18 22 22 21 17 17 21 21 17 17 21 18 21 23 18 19 20 24 19 15 6 16 15 14 5 7 14 17 22 43 35 17 22 43 35 18 21 31 36 15 6 16 15 16 19 42 34 20 16 21 20 23 23 19 23 23 23 19 23 19 20 30 37 16 19 42 34 11 15 18 11 23 23 19 23 20 16 21 20 20 16 21 20 6 12 20 6 11 15 18 11 11 15 15 11 10 14 14 31 22 18 22 39 22 18 22 39 23 23 25 23 11 15 15 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom-Colmesh-1_24" name="Colmesh-1">
+      <mesh>
+        <source id="geom-Colmesh-1_24-positions">
+          <float_array id="geom-Colmesh-1_24-positions-array" count="24">24.53333 -39.53334 0.4666666 -24.53333 -39.53334 0.4666666 24.53333 -39.53333 39.53334 -24.53333 -39.53334 39.53334 24.53333 39.53334 0.4666666 -24.53333 39.53333 0.4666666 24.53333 39.53333 39.53334 -24.53333 39.53334 39.53334</float_array>
+          <technique_common>
+            <accessor source="#geom-Colmesh-1_24-positions-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Colmesh-1_24-normals">
+          <float_array id="geom-Colmesh-1_24-normals-array" count="72">0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 4.82466e-8 1.95836e-15 1 4.82466e-8 4.71108e-15 1 4.82466e-8 -1.95836e-15 1 4.82466e-8 -4.71108e-15 4.44645e-8 -1 5.58462e-8 7.77452e-8 -1 9.76458e-8 3.32807e-8 -1 4.17996e-8 0 -1 0 0 0 0.9999999 0 0 0.9999999 0 0 1 0 0 1 1.11838e-8 1 1.40466e-8 -7.77452e-8 1 -9.76458e-8 -1.11838e-8 1 -1.40466e-8 7.77452e-8 1 9.76458e-8 -1 -4.82466e-8 1.37636e-15 -1 -4.82466e-8 4.71108e-15 -1 -4.82466e-8 3.33472e-15 -1 -4.82466e-8 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Colmesh-1_24-normals-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Colmesh-1_24-map1">
+          <float_array id="geom-Colmesh-1_24-map1-array" count="60">0.8726501 0.3625193 0 0.5368326 0.3858627 0 0.9962386 0.3625193 0 0.5368314 0.4828491 0 0.9955006 0.4609567 0 0.8733882 0.4609566 0 0.7368095 0.4828518 0 0.8726501 0.1634677 0 0.533354 0.284804 0 0.9962386 0.1634677 0 0.9955005 0.06503032 0 0.8733881 0.06503032 0 0.7333317 0.3817901 0 0.533354 0.3817904 0 0.9636537 0.6648442 0 0.840817 0.6648431 0 0.8408159 0.466209 0 0.9636527 0.4662036 0 0.7333316 0.2848037 0 0.7368098 0.3858654 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Colmesh-1_24-map1-array" count="20" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-Colmesh-1_24-vertices">
+          <input semantic="POSITION" source="#geom-Colmesh-1_24-positions" />
+        </vertices>
+        <triangles material="SOFT_COLLISION_GENERAL" count="12">
+          <input semantic="VERTEX" source="#geom-Colmesh-1_24-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-Colmesh-1_24-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#geom-Colmesh-1_24-map1" offset="2" set="0" />
+          <p>1 0 15 5 1 16 4 2 17 4 2 17 0 3 14 1 0 15 4 4 19 6 5 6 2 6 3 2 6 3 0 7 1 4 4 19 0 8 5 2 9 0 3 10 2 3 10 2 1 11 4 0 8 5 2 12 0 6 13 7 7 14 9 7 14 9 3 15 2 2 12 0 4 16 11 5 17 10 7 18 9 7 18 9 6 19 7 4 16 11 3 20 12 7 21 13 5 22 8 5 22 8 1 23 18 3 20 12</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom-si_box_new_a40" name="si_box_new_a40">
+      <mesh>
+        <source id="geom-si_box_new_a40-positions">
+          <float_array id="geom-si_box_new_a40-positions-array" count="24">24.53333 -39.53334 0.4666666 -24.53333 -39.53334 0.4666666 24.53333 -39.53333 39.53334 -24.53333 -39.53334 39.53334 24.53333 39.53334 0.4666666 -24.53333 39.53333 0.4666666 24.53333 39.53333 39.53334 -24.53333 39.53334 39.53334</float_array>
+          <technique_common>
+            <accessor source="#geom-si_box_new_a40-positions-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_box_new_a40-normals">
+          <float_array id="geom-si_box_new_a40-normals-array" count="72">0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 4.82466e-8 1.95836e-15 1 4.82466e-8 4.71108e-15 1 4.82466e-8 -1.95836e-15 1 4.82466e-8 -4.71108e-15 4.44645e-8 -1 5.58462e-8 7.77452e-8 -1 9.76458e-8 3.32807e-8 -1 4.17996e-8 0 -1 0 0 0 0.9999999 0 0 0.9999999 0 0 1 0 0 1 1.11838e-8 1 1.40466e-8 -7.77452e-8 1 -9.76458e-8 -1.11838e-8 1 -1.40466e-8 7.77452e-8 1 9.76458e-8 -1 -4.82466e-8 1.37636e-15 -1 -4.82466e-8 4.71108e-15 -1 -4.82466e-8 3.33472e-15 -1 -4.82466e-8 0</float_array>
+          <technique_common>
+            <accessor source="#geom-si_box_new_a40-normals-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_box_new_a40-map1">
+          <float_array id="geom-si_box_new_a40-map1-array" count="60">0.8651596 0.1626027 0 0.5336313 0.1838624 0 0.7415711 0.1626027 0 0.5336304 0.2808488 0 0.742309 0.0641653 0 0.8644214 0.0641653 0 0.7336084 0.2808507 0 0.8651597 0.3616543 0 0.5343032 0.08152464 0 0.7415712 0.3616543 0 0.7423092 0.4600916 0 0.8644216 0.4600916 0 0.7342808 0.1785108 0 0.5343033 0.178511 0 0.9636537 0.6648442 0 0.840817 0.6648431 0 0.8408159 0.466209 0 0.9636527 0.4662036 0 0.7342808 0.08152443 0 0.7336086 0.1838643 0</float_array>
+          <technique_common>
+            <accessor source="#geom-si_box_new_a40-map1-array" count="20" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-si_box_new_a40-vertices">
+          <input semantic="POSITION" source="#geom-si_box_new_a40-positions" />
+        </vertices>
+        <triangles material="non_metal_clutters_coll01" count="12">
+          <input semantic="VERTEX" source="#geom-si_box_new_a40-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_box_new_a40-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#geom-si_box_new_a40-map1" offset="2" set="0" />
+          <p>1 0 15 5 1 16 4 2 17 4 2 17 0 3 14 1 0 15 4 4 19 6 5 6 2 6 3 2 6 3 0 7 1 4 4 19 0 8 5 2 9 0 3 10 2 3 10 2 1 11 4 0 8 5 2 12 0 6 13 7 7 14 9 7 14 9 3 15 2 2 12 0 4 16 11 5 17 10 7 18 9 7 18 9 6 19 7 4 16 11 3 20 12 7 21 13 5 22 8 5 22 8 1 23 18 3 20 12</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="non_metal_clutters_coll01_color_png">
+      <init_from>../../game/levels/Industrial_v2/art/shapes/buildings/non_metal_clutters_coll01.color.png</init_from>
+    </image>
+  </library_images>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight" />
+      </node>
+      <node id="node-base00" name="base00">
+        <node id="node-collision-1" name="collision-1">
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <node id="node-nulldetail1" name="nulldetail1">
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <node id="node-start01" name="start01">
+          <node id="node-si_box_new_a100" name="si_box_new_a100">
+            <instance_geometry url="#geom-si_box_new_a100">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="non_metal_clutters_coll01" target="#non_metal_clutters_coll01-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <node id="node-Colmesh-1_24" name="Colmesh-1">
+            <instance_geometry url="#geom-Colmesh-1_24">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="SOFT_COLLISION_GENERAL" target="#SOFT_COLLISION_GENERAL-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <node id="node-si_box_new_a40" name="si_box_new_a40">
+            <instance_geometry url="#geom-si_box_new_a40">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="non_metal_clutters_coll01" target="#non_metal_clutters_coll01-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene" />
+  </scene>
+</COLLADA>

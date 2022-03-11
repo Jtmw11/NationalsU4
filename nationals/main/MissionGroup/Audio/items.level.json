@@ -1,0 +1,6 @@
+{"name":"Amb_2D","class":"SimGroup","persistentId":"d2cf0256-c304-406d-b524-4f6907565177","__parent":"Audio"}
+{"name":"Amb_3D","class":"SimGroup","persistentId":"b8cba5e6-f85d-49ff-808b-4ecd2a16cfb8","__parent":"Audio"}
+{"name":"Snapshots","class":"SimGroup","persistentId":"58df25c3-f73c-45ab-94d4-24ea7195ce2b","__parent":"Audio"}
+{"name":"Wind","class":"SimGroup","persistentId":"1194c65b-5d14-41b1-ac85-73742a16b0da","__parent":"Audio"}
+{"name":"Reverb_Generic","class":"SFXEmitter","persistentId":"b97f2813-07ce-4951-a2cf-2b0e9fcba5de","__parent":"Audio","position":[106.823059,175.414032,113.3284],"cloneOrigin":"Animal_QP06_639_1","fadeInTime":0,"fadeOutTime":0,"is3D":false,"isLooping":false,"maxDistance":0.00999999978,"referenceDistance":0,"scale":[0.00999999978,0.00999999978,0.00999999978],"track":"snapshot:>Reverb_SI","useTrackDescriptionOnly":true}
+{"name":"Generic_Air","class":"SFXEmitter","persistentId":"5dec83e6-cf8f-4153-a4f7-02700868cd29","__parent":"Audio","position":[106.823059,175.414032,113.3284],"cloneOrigin":"Animal_QP06_639_1","fadeInTime":0,"fadeOutTime":0,"is3D":false,"isLooping":false,"maxDistance":0.00999999978,"referenceDistance":0,"scale":[0.00999999978,0.00999999978,0.00999999978],"track":"event:>Ambient>2D>Generic_Air","useTrackDescriptionOnly":true}

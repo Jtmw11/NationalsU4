@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f235283</authoring_tool>
+    </contributor>
+    <created>2017-03-27T21:43:23</created>
+    <modified>2017-03-27T21:43:23</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="leaves_strong-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.8000001 0.3848805 0.3000537 1</color>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0.7906977</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="leaves_thin-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.1930614 0.4769851 0.1627324 1</color>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0.5193799</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="leaves_strong-material" name="leaves_strong">
+      <instance_effect url="#leaves_strong-effect" />
+    </material>
+    <material id="leaves_thin-material" name="leaves_thin">
+      <instance_effect url="#leaves_thin-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Circle_203-mesh" name="Circle.203">
+      <mesh>
+        <source id="Circle_203-mesh-positions">
+          <float_array count="123" id="Circle_203-mesh-positions-array">-0.3311991 0.3561034 -3.440268 -0.3311991 -0.3561027 -3.440268 0.3311992 -0.3561026 -3.440268 0.3311992 0.3561034 -3.440268 -0.1221798 0.1417289 0.9470666 -0.1221798 -0.1417294 0.9470666 0.1376163 -0.1417294 0.808481 0.1376163 0.1417289 0.808481 0.2975052 0.08499968 4.414316 -0.4035928 1.642498 6.802649 -0.9978995 1.644275 12.16934 2.475086 0.2531561 6.830396 1.880779 0.254933 12.19709 -1.341947 -1.076338 6.805744 -1.936254 -1.074561 12.17243 -0.1231833 -1.614643 6.805003 -0.71749 -1.612866 12.17169 1.108207 0.1856482 5.137632 0.8163478 -0.09282541 4.838467 1.115181 -0.09282541 4.719741 1.855223 -0.7769399 10.19301 1.705807 -1.055414 10.25237 2.00464 -1.055414 10.13365 0.3528435 0.2171775 4.526574 0.2889379 -0.1364245 4.530962 0.6027757 -0.06799894 4.516104 -0.0200302 0.1613262 12.68106 -0.08393585 -0.1922757 12.68545 0.229902 -0.1238502 12.67059 0.2400252 0.1168607 1.847728 0.2400252 -0.1168613 1.847728 0.5344738 -0.1168612 1.847728 0.5344738 0.1168607 1.847728 0.2975052 -0.08500027 4.414316 0.5919539 -0.08500027 4.414316 0.5919539 0.08499968 4.414316 0.4447295 -2.78499e-7 4.594965 3.20174 0.9685389 9.803394 6.884879 -0.5542191 9.760295 4.013101 -0.5542187 6.711247 2.872768 -2.019449 9.806118</float_array>
+          <technique_common>
+            <accessor count="41" source="#Circle_203-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_203-mesh-normals">
+          <float_array count="177" id="Circle_203-mesh-normals-array">0 0.9987295 0.05039179 0.01212322 0.9996683 0.02272647 -0.9988672 0 0.04758751 0.9989637 0 0.04551506 0.9342021 0 -0.3567441 -0.9277859 0 0.3731132 1.57729e-7 -0.9999231 0.01241278 0.01212334 -0.9996683 0.02272629 0.4337879 0.8997495 0.04773968 0.5820555 -0.810569 0.0647251 -0.4036509 -0.9138352 -0.04439765 -0.9401732 0.3243641 -0.1042221 0.009692609 1.11549e-4 -0.999953 9.62979e-4 8.05827e-4 0.9999993 -0.2161009 0.8108295 -0.5439264 0.3692246 -1.66411e-6 0.9293403 0.9704257 0.2080433 -0.1224426 -0.06526672 -0.9842528 -0.1642767 -0.7851437 0.5745605 0.2311486 -0.04642063 -0.004008889 -0.998914 0.04642951 0.004008591 0.9989135 0.7521884 0.657799 0.03890007 0.2131608 -0.9770123 0.003055334 -0.9832111 0.1771503 -0.04374516 0 0.904841 0.42575 0 0.9999231 0.01241278 0.9997494 0 -0.02238988 -0.9997493 0 0.02238988 0.7751758 0 0.6317457 0 -0.9048408 0.4257501 -0.7751757 0 0.6317458 0.02538204 -0.9985448 0.04758143 0.01155209 -3.6004e-4 0.9999333 0.323642 -0.8957328 -0.3048255 0.3565292 0.8718515 -0.3358007 -0.9482138 0.1041231 -0.3000817 0.02538198 0.9985448 0.04758173 0 0.9997139 0.0239222 -0.9988671 0 0.04758751 0.9989637 0 0.04551512 0.9342023 0 -0.3567441 -0.9277858 0 0.3731134 0 -0.9999231 0.01241278 1.5025e-7 -0.9997139 0.02392202 0.4337878 0.8997495 0.04773968 0.5820553 -0.8105692 0.06472504 -0.4036509 -0.9138353 -0.04439765 -0.9401732 0.3243643 -0.1042221 -9.64977e-4 -8.05862e-4 -0.9999992 -0.009692609 -1.11534e-4 0.9999531 0.8770838 0.4787972 -0.03843647 -0.06526643 -0.9842528 -0.1642764 -0.8396456 0.4971436 0.2187321 0.7521883 0.657799 0.03890007 0.2131612 -0.9770123 0.003055334 -0.9832112 0.1771504 -0.04374516 0 0.9999231 0.01241278 0.9997493 0 -0.02238988 1.90366e-7 -0.9987297 0.05039149</float_array>
+          <technique_common>
+            <accessor count="59" source="#Circle_203-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Circle_203-mesh-vertices">
+          <input semantic="POSITION" source="#Circle_203-mesh-positions" />
+        </vertices>
+        <polylist count="28" material="ColorEffectR27G177B88-material-material">
+          <input offset="0" semantic="VERTEX" source="#Circle_203-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Circle_203-mesh-normals" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 7 0 3 0 29 1 7 1 4 1 1 2 4 2 0 2 2 3 7 3 6 3 7 4 31 4 6 4 5 5 29 5 4 5 31 6 33 6 30 6 6 7 30 7 5 7 35 24 8 24 36 24 32 25 8 25 35 25 32 26 34 26 31 26 30 27 8 27 29 27 34 28 35 28 36 28 33 29 34 29 36 29 8 30 33 30 36 30 1 31 6 31 5 31 0 36 4 36 7 36 29 37 32 37 7 37 1 38 5 38 4 38 2 39 3 39 7 39 7 40 32 40 31 40 5 41 30 41 29 41 31 42 34 42 33 42 6 43 31 43 30 43 32 56 29 56 8 56 32 57 35 57 34 57 30 27 33 27 8 27 1 58 2 58 6 58</p>
+        </polylist>
+        <polylist count="16" material="leaves_strong-material">
+          <input offset="0" semantic="VERTEX" source="#Circle_203-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Circle_203-mesh-normals" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>18 14 17 14 19 14 21 15 22 15 20 15 17 16 22 16 19 16 22 17 18 17 19 17 21 18 17 18 18 18 24 19 23 19 25 19 27 20 28 20 26 20 23 21 28 21 25 21 24 22 28 22 27 22 24 23 26 23 23 23 17 50 20 50 22 50 22 51 21 51 18 51 21 52 20 52 17 52 23 53 26 53 28 53 24 54 25 54 28 54 24 55 27 55 26 55</p>
+        </polylist>
+        <polylist count="16" material="leaves_thin-material">
+          <input offset="0" semantic="VERTEX" source="#Circle_203-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Circle_203-mesh-normals" />
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>9 8 12 8 11 8 12 9 15 9 11 9 16 10 13 10 15 10 13 11 10 11 9 11 15 12 9 12 11 12 16 13 10 13 14 13 40 32 38 32 37 32 40 33 39 33 38 33 38 34 39 34 37 34 39 35 40 35 37 35 9 44 10 44 12 44 12 45 16 45 15 45 16 46 14 46 13 46 13 47 14 47 10 47 15 48 13 48 9 48 16 49 12 49 10 49</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="base00" name="base00" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="start01" name="start01" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Colmesh-1" name="Colmesh-1" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry name="Colmesh-1" url="#Circle_203-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="leaves_strong-material" target="#leaves_strong-material" />
+                  <instance_material symbol="leaves_thin-material" target="#leaves_thin-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="detail900" name="detail900" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="detail350" name="detail350" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="collision-1" name="collision-1" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="bb__autobillboard25" name="bb__autobillboard25" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

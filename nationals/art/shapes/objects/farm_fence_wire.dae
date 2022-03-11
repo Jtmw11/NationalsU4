@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
+    </contributor>
+    <created>2019-07-29T13:26:14</created>
+    <modified>2019-07-29T13:26:14</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="wood_rough-effect">
+      <profile_COMMON>
+        <newparam sid="wood_rough_d_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="wood_rough_d_dds-sampler">
+          <sampler2D>
+            <source>wood_rough_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="wood_rough_s_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="wood_rough_s_dds-sampler">
+          <sampler2D>
+            <source>wood_rough_s_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="wood_rough_n_dds_002-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="wood_rough_n_dds_002-sampler">
+          <sampler2D>
+            <source>wood_rough_n_dds_002-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="wood_rough_d_dds-sampler" />
+            </diffuse>
+            <specular>
+              <texture texture="wood_rough_s_dds-sampler" />
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="wood_rough_n_dds_002-sampler" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="catchfence-effect">
+      <profile_COMMON>
+        <newparam sid="catchfence_d_dds-surface">
+          <surface type="2D">
+            </surface>
+        </newparam>
+        <newparam sid="catchfence_d_dds-sampler">
+          <sampler2D>
+            <source>catchfence_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="catchfence_d_dds-sampler" />
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="catchfence_d_dds-sampler" />
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="wood_rough-material" name="wood_rough">
+      <instance_effect url="#wood_rough-effect" />
+    </material>
+    <material id="catchfence-material" name="catchfence">
+      <instance_effect url="#catchfence-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Circle_024-mesh" name="Circle.024">
+      <mesh>
+        <source id="Circle_024-mesh-positions">
+          <float_array count="96" id="Circle_024-mesh-positions-array">1.296442 0.05658996 1.036825 -1.294891 0.05520725 -0.735607 -1.301152 0.05427837 1.036697 1.298141 0.05718028 -0.735607 1.296442 -0.1639777 1.036825 -1.294891 -0.1653604 -0.735607 -1.301152 -0.1662893 1.036697 1.298141 -0.1633874 -0.735607 -1.375533 -0.05507701 -0.735607 -1.38215 -0.05600541 1.106934 1.377214 -0.05369764 1.107061 1.37901 -0.05310338 -0.735607 1.298141 0.05718028 -0.735607 1.296442 0.05658996 1.036825 1.296442 0.05658996 1.036825 -1.301152 0.05427837 1.036697 -1.301152 0.05427837 1.036697 -1.294891 0.05520725 -0.735607 1.298141 -0.1633874 -0.735607 1.296442 -0.1639777 1.036825 1.296442 -0.1639777 1.036825 -1.301152 -0.1662893 1.036697 -1.301152 -0.1662893 1.036697 -1.294891 -0.1653604 -0.735607 -1.38215 -0.05600541 1.106934 -1.38215 -0.05600541 1.106934 -1.38215 -0.05600541 1.106934 1.377214 -0.05369764 1.107061 1.377214 -0.05369764 1.107061 1.377214 -0.05369764 1.107061 1.37901 -0.05310338 -0.735607 -1.375533 -0.05507701 -0.735607</float_array>
+          <technique_common>
+            <accessor count="32" source="#Circle_024-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_024-mesh-normals">
+          <float_array count="24" id="Circle_024-mesh-normals-array">-8.25463e-4 0.9999996 4.26728e-4 8.25463e-4 -0.9999996 -4.26726e-4 -0.8070744 -0.5904412 -0.003178536 0.8065025 -0.5912304 5.85945e-4 4.22954e-4 -0.5371842 0.8434649 -5.03459e-4 0.5371717 0.8434728 0.806453 0.5912976 9.73384e-4 -0.806985 0.5905665 -0.002571463</float_array>
+          <technique_common>
+            <accessor count="8" source="#Circle_024-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_024-mesh-map-0">
+          <float_array count="64" id="Circle_024-mesh-map-0-array">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor count="32" source="#Circle_024-mesh-map-0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_024-mesh-colors-Col" name="Col">
+          <float_array count="96" id="Circle_024-mesh-colors-Col-array">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor count="32" source="#Circle_024-mesh-colors-Col-array" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Circle_024-mesh-vertices">
+          <input semantic="POSITION" source="#Circle_024-mesh-positions" />
+        </vertices>
+        <polylist count="8" material="wood_rough-material">
+          <input offset="0" semantic="VERTEX" source="#Circle_024-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Circle_024-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#Circle_024-mesh-map-0" />
+          <input offset="3" semantic="COLOR" set="0" source="#Circle_024-mesh-colors-Col" />
+          <vcount>4 4 4 4 4 4 4 4 </vcount>
+          <p>12 0 0 0 17 0 1 1 15 0 2 2 13 0 3 3 18 1 4 4 19 1 5 5 21 1 6 6 23 1 7 7 25 2 8 8 31 2 9 9 5 2 10 10 22 2 11 11 11 3 12 12 27 3 13 13 20 3 14 14 7 3 15 15 29 4 16 16 26 4 17 17 6 4 18 18 4 4 19 19 14 5 20 20 16 5 21 21 24 5 22 22 28 5 23 23 3 6 24 24 0 6 25 25 10 6 26 26 30 6 27 27 2 7 28 28 1 7 29 29 8 7 30 30 9 7 31 31</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="Circle_026-mesh" name="Circle.026">
+      <mesh>
+        <source id="Circle_026-mesh-positions">
+          <float_array count="72" id="Circle_026-mesh-positions-array">1.377214 -0.05449026 0.6529412 -1.375533 -0.05449026 -0.1802738 -1.38215 -0.05449026 0.6529375 1.37901 -0.05449026 -0.1802738 1.378411 -0.05449026 -0.1622059 1.377813 -0.05449026 0.6348734 -1.379944 -0.05449026 0.6348709 -1.377738 -0.05449026 -0.1622072 1.378411 -0.05449026 0.2272998 1.377813 -0.05449026 0.2453677 -1.379944 -0.05449026 0.2453652 -1.377738 -0.05449026 0.2272986 1.377214 -0.05448979 0.8527052 -1.375533 -0.05448979 0.0194903 -1.38215 -0.05449074 0.8527016 1.37901 -0.05448991 0.0194903 1.378411 -0.05449014 0.03755801 1.377813 -0.0544905 0.8346374 -1.379944 -0.05448979 0.834635 -1.377738 -0.05449074 0.03755682 1.378411 -0.05449014 0.4270635 1.377813 -0.0544905 0.4451316 -1.379944 -0.05448979 0.4451289 -1.377738 -0.05449074 0.4270623</float_array>
+          <technique_common>
+            <accessor count="24" source="#Circle_026-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_026-mesh-normals">
+          <float_array count="18" id="Circle_026-mesh-normals-array">0 -1 0 0 -1 -2.07837e-7 0 -1 0 0 -1 -6.48626e-6 0 -1 -3.31344e-5 0 -1 1.6545e-5</float_array>
+          <technique_common>
+            <accessor count="6" source="#Circle_026-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_026-mesh-map-0">
+          <float_array count="48" id="Circle_026-mesh-map-0-array">0.3390555 0.3002091 0.3637113 0.3002836 0.3637096 0.6551866 0.3390555 0.6549053 0.3390557 0.3002093 0.3637399 0.3002864 0.3637382 0.6551864 0.3390557 0.6549023 0.3390556 0.3002092 0.3637256 0.300285 0.3637239 0.6551865 0.3390556 0.6549038 0.3390555 0.3002091 0.3637113 0.3002836 0.3637096 0.6551866 0.3390555 0.6549053 0.3390557 0.3002093 0.3637399 0.3002864 0.3637382 0.6551864 0.3390557 0.6549023 0.3390556 0.3002092 0.3637256 0.300285 0.3637239 0.6551865 0.3390556 0.6549038</float_array>
+          <technique_common>
+            <accessor count="24" source="#Circle_026-mesh-map-0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Circle_026-mesh-colors-Col" name="Col">
+          <float_array count="72" id="Circle_026-mesh-colors-Col-array">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor count="24" source="#Circle_026-mesh-colors-Col-array" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Circle_026-mesh-vertices">
+          <input semantic="POSITION" source="#Circle_026-mesh-positions" />
+        </vertices>
+        <polylist count="6" material="catchfence-material">
+          <input offset="0" semantic="VERTEX" source="#Circle_026-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Circle_026-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#Circle_026-mesh-map-0" />
+          <input offset="3" semantic="COLOR" set="0" source="#Circle_026-mesh-colors-Col" />
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>5 0 0 0 0 0 1 1 2 0 2 2 6 0 3 3 3 1 4 4 4 1 5 5 7 1 6 6 1 1 7 7 8 2 8 8 9 2 9 9 10 2 10 10 11 2 11 11 17 3 12 12 12 3 13 13 14 3 14 14 18 3 15 15 15 4 16 16 16 4 17 17 19 4 18 18 13 4 19 19 20 5 20 20 21 5 21 21 22 5 22 22 23 5 23 23</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="base00" name="base00" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="start01" name="start01" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="nulldetail25" name="nulldetail25" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          </node>
+          <node id="Colmesh-1" name="Colmesh-1" type="NODE">
+            <matrix sid="transform">0.9999999 0 0 0 0 0.9999999 0 0 0 0 0.9999999 0 0 0 0 1</matrix>
+            <instance_geometry name="Colmesh-1" url="#Circle_024-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="wood_rough-material" target="#wood_rough-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="farm_fence_wire_a050" name="farm_fence_wire_a050" type="NODE">
+            <matrix sid="transform">0.9999999 0 0 0 0 0.9999999 0 0 0 0 0.9999999 0 0 0 0 1</matrix>
+            <instance_geometry name="farm_fence_wire_a050" url="#Circle_026-mesh">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="catchfence-material" target="#catchfence-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

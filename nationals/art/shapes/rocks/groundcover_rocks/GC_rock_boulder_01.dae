@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
+    </contributor>
+    <created>2019-12-01T11:27:06</created>
+    <modified>2019-12-01T11:27:06</modified>
+    <unit name="meter" meter="1" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="utah_rocks_b_d_dds" name="utah_rocks_b_d_dds">
+      <init_from>/D:/game/levels/Utah/art/shapes/rocks/utah_rocks_b_d.dds</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="GC_utah_rocks_b-effect">
+      <profile_COMMON>
+        <newparam sid="utah_rocks_b_d_dds-surface">
+          <surface type="2D">
+            <init_from>utah_rocks_b_d_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="utah_rocks_b_d_dds-sampler">
+          <sampler2D>
+            <source>utah_rocks_b_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="utah_rocks_b_d_dds-sampler" />
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="GC_utah_rocks_b-material" name="GC_utah_rocks_b">
+      <instance_effect url="#GC_utah_rocks_b-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cube_000-mesh" name="Cube.000">
+      <mesh>
+        <source id="Cube_000-mesh-positions">
+          <float_array id="Cube_000-mesh-positions-array" count="57">-0.1458343 0.02275282 -0.1391306 -0.1647415 -0.09963101 -0.1219787 -0.05861979 0.05708754 -0.1624687 -0.2233451 0.04658144 -0.03071373 0.1160262 -0.2074144 0.0767703 0.09934717 0.04629683 -0.1599317 -0.1390352 0.1863083 -0.003658711 0.1709325 -0.1272088 -0.1083399 -0.1893492 -0.1594978 -0.02164793 -0.06447649 -0.1927663 -0.1560005 -0.08080607 0.1749424 -0.1245695 0.05120652 0.1357687 0.03796303 0.1377167 -0.09540516 -0.005043327 -0.1480305 0.07900148 0.02077388 0.07644939 0.02348589 0.08757358 0.1349869 0.1248875 -0.1220247 0.04618656 -0.2123106 -0.1362925 -0.113832 -0.173927 0.05593454 0.1355127 0.03542017 0.0822187</float_array>
+          <technique_common>
+            <accessor source="#Cube_000-mesh-positions-array" count="19" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_000-mesh-normals">
+          <float_array id="Cube_000-mesh-normals-array" count="57">-0.9728031 0.199169 0.1182623 -0.1977051 0.7904238 -0.5797784 -0.5698595 0.1330343 -0.8109021 -0.4558361 0.8176424 0.3516738 -0.424946 0.1492377 0.8928321 0.009704887 0.02969449 0.999512 0.9130446 -0.07236111 0.4013893 0.6412088 0.1135315 0.7589215 0.4580909 -0.610381 0.6462103 0.1938285 -0.7886208 -0.5835306 -0.369374 -0.5717775 0.7325527 -0.2449123 -0.6808715 -0.6902406 -0.7971015 -0.5881057 0.1369703 -0.7096074 -0.2226393 -0.6684978 0.2500454 0.7743382 0.5812726 0.6640641 0.626953 -0.4073683 0.8576326 -0.3035789 -0.4150977 -0.1276005 0.1473159 -0.9808243 0.3217076 0.1150591 -0.9398221</float_array>
+          <technique_common>
+            <accessor source="#Cube_000-mesh-normals-array" count="19" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_000-mesh-map-0">
+          <float_array id="Cube_000-mesh-map-0-array" count="204">0.4706162 0.5388892 0.4765152 0.5555093 0.4678847 0.5506765 0.4765152 0.5555093 0.4706162 0.5388892 0.4783705 0.5431399 0.06665694 0.9135734 0.0644989 0.8879951 0.07441806 0.9137462 0.0644989 0.8879951 0.05966806 0.873298 0.06757801 0.8806433 0.0523175 0.8795096 0.05966806 0.873298 0.0644989 0.8879951 0.04298019 0.8860402 0.0523175 0.8795096 0.05257409 0.9059335 0.04339784 0.9229899 0.05252188 0.9178665 0.05130517 0.9305812 0.07499843 0.876694 0.06757801 0.8806433 0.07359051 0.865271 0.4603122 0.5516001 0.4706162 0.5388892 0.4678847 0.5506765 0.05257409 0.9059335 0.06517589 0.9239687 0.05252188 0.9178665 0.0523175 0.8795096 0.05176877 0.8573058 0.05813813 0.8601783 0.05966806 0.873298 0.0523175 0.8795096 0.05813813 0.8601783 0.05252188 0.9178665 0.06517589 0.9239687 0.05857229 0.931884 0.4765152 0.5555093 0.4704168 0.5633718 0.4678847 0.5506765 0.4549199 0.5674346 0.4704168 0.5633718 0.4724261 0.5787616 0.05257409 0.9059335 0.05252188 0.9178665 0.04298019 0.8860402 0.4549199 0.5674346 0.4678847 0.5506765 0.4704168 0.5633718 0.05252188 0.9178665 0.04190415 0.9008264 0.04298019 0.8860402 0.4774439 0.5800871 0.4724261 0.5787616 0.4765152 0.5555093 0.07906162 0.9047314 0.07299536 0.8930176 0.07919931 0.8857408 0.4724261 0.5787616 0.4574724 0.5850365 0.4549199 0.5674346 0.4724261 0.5787616 0.4704168 0.5633718 0.4765152 0.5555093 0.07441806 0.9137462 0.07299536 0.8930176 0.07906162 0.9047314 0.0644989 0.8879951 0.06757801 0.8806433 0.07299536 0.8930176 0.0523175 0.8795096 0.0644989 0.8879951 0.06665694 0.9135734 0.06665694 0.9135734 0.07441806 0.9137462 0.06517589 0.9239687 0.0644989 0.8879951 0.07299536 0.8930176 0.07441806 0.9137462 0.4724261 0.5787616 0.4774439 0.5800871 0.4651793 0.5961911 0.05813813 0.8601783 0.07359051 0.865271 0.06757801 0.8806433 0.05813813 0.8601783 0.06757801 0.8806433 0.05966806 0.873298 0.0523175 0.8795096 0.06665694 0.9135734 0.05257409 0.9059335 0.05257409 0.9059335 0.06665694 0.9135734 0.06517589 0.9239687 0.4549199 0.5674346 0.4603122 0.5516001 0.4678847 0.5506765 0.4651793 0.5961911 0.4574724 0.5850365 0.4724261 0.5787616</float_array>
+          <technique_common>
+            <accessor source="#Cube_000-mesh-map-0-array" count="102" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_000-mesh-colors-Col" name="Col">
+          <float_array id="Cube_000-mesh-colors-Col-array" count="306">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_000-mesh-colors-Col-array" count="102" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_000-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_000-mesh-positions" />
+        </vertices>
+        <triangles material="GC_utah_rocks_b-material" count="34">
+          <input semantic="VERTEX" source="#Cube_000-mesh-vertices" offset="0" />
+          <input semantic="NORMAL" source="#Cube_000-mesh-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#Cube_000-mesh-map-0" offset="2" set="0" />
+          <input semantic="COLOR" source="#Cube_000-mesh-colors-Col" offset="3" set="0" />
+          <p>3 0 0 0 10 1 1 1 0 2 2 2 10 1 3 3 3 0 4 4 6 3 5 5 13 4 6 6 14 5 7 7 6 3 8 8 14 5 9 9 12 6 10 10 18 7 11 11 4 8 12 12 12 6 13 13 14 5 14 14 16 9 15 15 4 8 16 16 17 10 17 17 9 11 18 18 8 12 19 19 1 13 20 20 11 14 21 21 18 7 22 22 15 15 23 23 1 13 24 24 3 0 25 25 0 2 26 26 17 10 27 27 3 0 28 28 8 12 29 29 4 8 30 30 16 9 31 31 7 16 32 32 12 6 33 33 4 8 34 34 7 16 35 35 8 12 36 36 3 0 37 37 1 13 38 38 10 1 39 39 2 17 40 40 0 2 41 41 9 11 42 42 2 17 43 43 5 18 44 44 17 10 45 45 8 12 46 46 16 9 47 47 9 11 48 48 0 2 49 49 2 17 50 50 8 12 51 51 9 11 52 52 16 9 53 53 15 15 54 54 5 18 55 55 10 1 56 56 10 1 57 57 11 14 58 58 15 15 59 59 5 18 60 60 16 9 61 61 9 11 62 62 5 18 63 63 2 17 64 64 10 1 65 65 6 3 66 66 11 14 67 67 10 1 68 68 14 5 69 69 18 7 70 70 11 14 71 71 4 8 72 72 14 5 73 73 13 4 74 74 13 4 75 75 6 3 76 76 3 0 77 77 14 5 78 78 11 14 79 79 6 3 80 80 5 18 81 81 15 15 82 82 7 16 83 83 7 16 84 84 15 15 85 85 18 7 86 86 7 16 87 87 18 7 88 88 12 6 89 89 4 8 90 90 13 4 91 91 17 10 92 92 17 10 93 93 13 4 94 94 3 0 95 95 9 11 96 96 1 13 97 97 0 2 98 98 7 16 99 99 16 9 100 100 5 18 101 101</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="base00" name="base00" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="start01" name="start01" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="rock_boulder_a_a40" name="rock_boulder_a_a40" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry url="#Cube_000-mesh" name="rock_boulder_a_a40">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="GC_utah_rocks_b-material" target="#GC_utah_rocks_b-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

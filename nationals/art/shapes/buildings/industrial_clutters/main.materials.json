@@ -1,0 +1,1214 @@
+{
+  "ind_bricks_01": {
+    "name": "ind_bricks_01",
+    "mapTo": "ind_bricks_01",
+    "class": "Material",
+    "persistentId": "0bfcbd0f-73f6-414a-a746-3f32be522e17",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ind_bricks_01_d.color.png",
+        "detailScale": [
+          0.100000001,
+          0.100000001
+        ],
+        "diffuseColor": [
+          0.996078491,
+          0.996078491,
+          0.996078491,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ind_bricks_01_nm.normal.png",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "roughnessFactor": 0.634000003,
+        "specular": [
+          0.517647088,
+          0.517647088,
+          0.517647088,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ind_bricks_01_s.data.png",
+        "useAnisotropic": true,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "BUILDINGS",
+    "groundType": "ASPHALT_OLD",
+    "invertBackFaceNormals": true,
+    "materialTag0": "beamng",
+    "materialTag1": "Industrial",
+    "materialTag2": "Industrial",
+    "specularStrength0": "1.3",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_bricks_02": {
+    "name": "ind_bricks_02",
+    "mapTo": "ind_bricks_02",
+    "class": "Material",
+    "persistentId": "38baa51b-b451-4ac4-81dc-6a016da405ed",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ind_bricks_02_d.color.png",
+        "detailScale": [
+          0.200000003,
+          0.200000003
+        ],
+        "diffuseColor": [
+          0.996078491,
+          0.996078491,
+          0.996078491,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ind_bricks_02_nm.normal.png",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "roughnessFactor": 0.714999974,
+        "specular": [
+          0.517647088,
+          0.517647088,
+          0.517647088,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ind_bricks_02_s.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 28,
+    "alphaTest": true,
+    "annotation": "BUILDINGS",
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "beamng",
+    "materialTag1": "Industrial",
+    "materialTag2": "Industrial",
+    "specularStrength0": "1.3",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "Add"
+  },
+  "ind_concrete": {
+    "name": "ind_concrete",
+    "mapTo": "ind_concrete",
+    "class": "Material",
+    "persistentId": "2ecf1b1b-a360-4423-ac8c-a511f1decfca",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ind_concrete_d.color .png",
+        "detailScale": [
+          0.150000006,
+          0.150000006
+        ],
+        "diffuseColor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ind_concrete_nm.normal.png",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "specular": [
+          0.996078014,
+          0.996078014,
+          0.996078014,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ind_concrete_s.data.png",
+        "useAnisotropic": true,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "NATURE",
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.3",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_concrete_broken_decals": {
+    "name": "ind_concrete_broken_decals",
+    "mapTo": "ind_concrete_broken_decals",
+    "class": "material",
+    "persistentId": "3563bb08-5572-4e60-813d-163272977b4b",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ut_concrete_decals_d.dds",
+        "detailScale": [
+          0.150000006,
+          0.150000006
+        ],
+        "diffuseColor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ut_concrete_decals_n.dds",
+        "specular": [
+          0.996078014,
+          0.996078014,
+          0.996078014,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ut_concrete_decals_s.dds",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 70,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.3",
+    "specularStrength1": "0.2",
+    "translucentZWrite": true
+  },
+  "ind_concrete_eroded": {
+    "name": "ind_concrete_eroded",
+    "mapTo": "ind_concrete_eroded",
+    "class": "Material",
+    "persistentId": "2faa22b4-0122-4e79-895f-f199eab82c4a",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ind_concrete_eroded_d.color.png",
+        "detailNormalMapStrength": 5,
+        "detailScale": [
+          0.200000003,
+          0.200000003
+        ],
+        "diffuseColor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ind_concrete_eroded_nm.normal.png",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "pixelSpecular": true,
+        "specular": [
+          0.254901975,
+          0.254901975,
+          0.254901975,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ind_concrete_eroded_s.color.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "STREET",
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.3",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_concrete_rough": {
+    "name": "ind_concrete_rough",
+    "mapTo": "ind_concrete_rough",
+    "class": "material",
+    "persistentId": "9248830c-6b43-4f99-a8cb-de8709e0c703",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ut_rough_concrete_d.dds",
+        "detailScale": [
+          0.100000001,
+          0.100000001
+        ],
+        "diffuseColor": [
+          0.858823597,
+          0.858823597,
+          0.858823597,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ut_rough_concrete_n.dds",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "specular": [
+          0.996078014,
+          0.996078014,
+          0.996078014,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ut_rough_concrete_s.dds",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "BUILDINGS",
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.3",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_glass_transparent": {
+    "name": "ind_glass_transparent",
+    "mapTo": "ind_glass_transparent",
+    "class": "Material",
+    "persistentId": "e6f536ee-1190-4974-9742-ac42ec4515c6",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ind_glass_transparent_b.color.png",
+        "diffuseColor": [
+          0.992156982,
+          0.992156982,
+          0.992156982,
+          1
+        ],
+        "pixelSpecular": true,
+        "reflectivityMap": "/levels/nationals/art/shapes/buildings/ind_glass_transparent_ref.data.png",
+        "roughnessFactor": 0.481999993,
+        "specularMap": "/levels/nationals/art/shapes/buildings/ind_glass_transparent_s.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 70,
+    "annotation": "BUILDINGS",
+    "cubemap": "BNG_Sky_02_cubemap",
+    "doubleSided": true,
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "specularStrength0": "0.490196",
+    "specularStrength1": "0.2",
+    "translucent": true,
+    "translucentBlendOp": "Sub"
+  },
+  "ind_metal": {
+    "name": "ind_metal",
+    "mapTo": "ind_metal",
+    "class": "Material",
+    "persistentId": "925fd28a-c5b4-4cbd-9799-3081f3e6da7a",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ind_metal_d.color.png",
+        "diffuseColor": [
+          1,
+          0.999989986,
+          0.999989986,
+          0.044613
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ind_metal_nm.normal.png",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "reflectivityMap": "/levels/nationals/art/shapes/buildings/ind_metal_ref.data.png",
+        "reflectivityMapFactor": 0.193000004,
+        "roughnessFactor": 0.750999987,
+        "specular": [
+          1,
+          0.999989986,
+          0.999989986,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ind_metal_s.data.png",
+        "useAnisotropic": true,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 114,
+    "cubemap": "global_cubemap_metalblurred",
+    "groundType": "METAL",
+    "materialTag0": "Industrial",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "Natural",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.490196",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_metal_expanded": {
+    "name": "ind_metal_expanded",
+    "mapTo": "ind_metal_expanded",
+    "class": "Material",
+    "persistentId": "61bb6a24-25f6-4906-b5b1-5a49bcf0640e",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ind_metal_expanded_d.color.png",
+        "normalMap": "/levels/nationals/art/shapes/buildings/ind_metal_expanded_nm.normal.png",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "pixelSpecular": true,
+        "reflectivityMap": "/levels/nationals/art/shapes/buildings/ind_metal_expanded_ref.data.png",
+        "roughnessFactor": 0.490999997,
+        "specularMap": "/levels/nationals/art/shapes/buildings/ind_metal_expanded_s.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 58,
+    "alphaTest": true,
+    "cubemap": "global_cubemap_metalblurred",
+    "doubleSided": true,
+    "groundType": "METAL",
+    "materialTag0": "beamng",
+    "materialTag1": "object",
+    "materialTag2": "beamng",
+    "materialTag3": "Natural",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.3",
+    "specularStrength1": "0.2",
+    "translucent": true,
+    "translucentBlendOp": "None"
+  },
+  "ind_metal_grate": {
+    "name": "ind_metal_grate",
+    "mapTo": "ind_metal_grate",
+    "class": "Material",
+    "persistentId": "8adabdf2-ea50-4aba-baa3-18d66a0e823b",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ind_metal_grate_d.color.png",
+        "normalMap": "/levels/nationals/art/shapes/buildings/ind_metal_grate_nm.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "/levels/nationals/art/shapes/buildings/ind_metal_ref.data.png",
+        "reflectivityMapFactor": 0.300000012,
+        "roughnessFactor": 0.757000029,
+        "specularMap": "/levels/nationals/art/shapes/buildings/ind_metal_grate_s.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 114,
+    "cubemap": "global_cubemap_metalblurred",
+    "groundType": "METAL",
+    "materialTag0": "Industrial",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "Natural",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.490196",
+    "specularStrength1": "0.2",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "translucentZWrite": true
+  },
+  "ind_metal_plates": {
+    "name": "ind_metal_plates",
+    "mapTo": "ind_metal_plates",
+    "class": "material",
+    "persistentId": "2f8dce43-be0f-4aa2-a827-fe453fc0c557",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ind_metal_plates_d.color.png",
+        "detailScale": [
+          0.100000001,
+          0.100000001
+        ],
+        "diffuseColor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ind_metal_plates_nm.normal.png",
+        "reflectivityMap": "/levels/nationals/art/shapes/buildings/ind_metal_plates_ref.data.png",
+        "roughnessFactor": 0.488999993,
+        "specular": [
+          0.996078014,
+          0.996078014,
+          0.996078014,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ind_metal_plates_s.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "BUILDINGS",
+    "cubemap": "global_cubemap_metalblurred",
+    "groundType": "METAL",
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "1.3",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_metal_rust": {
+    "name": "ind_metal_rust",
+    "mapTo": "ind_metal_rust",
+    "class": "Material",
+    "persistentId": "8d318413-c70d-4030-9426-16f4e09fb732",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ind_rust_d.color.png",
+        "detailScale": [
+          0.100000001,
+          0.100000001
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ind_rust_nm.normal.png",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.778999984,
+        "specularMap": "/levels/nationals/art/shapes/buildings/ind_rust_s.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": true,
+    "groundType": "METAL",
+    "invertBackFaceNormals": true,
+    "materialTag0": "Industrial",
+    "materialTag1": "beamng",
+    "materialTag2": "beamng",
+    "materialTag3": "Natural",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.3",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_metal_trim": {
+    "name": "ind_metal_trim",
+    "mapTo": "ind_metal_trim",
+    "class": "Material",
+    "persistentId": "6fc54099-1c9a-4a9b-995f-74b5a831e70c",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/Ind_metal_trim_d.color.png",
+        "detailScale": [
+          0.100000001,
+          0.100000001
+        ],
+        "diffuseColor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/Ind_metal_trim_nm.normal.png",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "reflectivityMap": "/levels/nationals/art/shapes/buildings/ind_metal_trim_ref.data.png",
+        "roughnessFactor": 0.483999997,
+        "specular": [
+          0.996078014,
+          0.996078014,
+          0.996078014,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ind_metal_trim_s.data.png",
+        "useAnisotropic": true,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 104,
+    "alphaTest": true,
+    "annotation": "BUILDINGS",
+    "cubemap": "global_cubemap_metalblurred",
+    "doubleSided": true,
+    "groundType": "METAL",
+    "invertBackFaceNormals": true,
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "1.3",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_plastic": {
+    "name": "ind_plastic",
+    "mapTo": "ind_plastic",
+    "class": "Material",
+    "persistentId": "ab1a9267-a2b4-478a-94aa-96a99289f070",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/si_plastic_d.dds",
+        "normalMap": "/levels/nationals/art/shapes/buildings/si_plastic_n.dds",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "specularMap": "/levels/nationals/art/shapes/buildings/si_plastic_s.dds",
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": true,
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.294118",
+    "specularStrength1": "0.2"
+  },
+  "ind_plywood_old": {
+    "name": "ind_plywood_old",
+    "mapTo": "ind_plywood_old",
+    "class": "material",
+    "persistentId": "22466117-6eb1-4877-b075-846ede29108b",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ind_plywood_d.color.png",
+        "normalMap": "/levels/nationals/art/shapes/buildings/ind_plywood_nm.normal.png",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "roughnessFactor": 0.879999995,
+        "specularMap": "/levels/nationals/art/shapes/buildings/ind_plywood_s.color.png",
+        "useAnisotropic": true,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 121,
+    "alphaTest": true,
+    "annotation": "BUILDINGS",
+    "doubleSided": true,
+    "groundType": "WOOD",
+    "invertBackFaceNormals": true,
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.294118",
+    "specularStrength1": "0.2"
+  },
+  "ind_pvc_cloth": {
+    "name": "ind_pvc_cloth",
+    "mapTo": "ind_pvc_cloth",
+    "class": "material",
+    "persistentId": "bd29d24a-29fc-4c24-83e2-3a1d11ae4964",
+    "Stages": [
+      {
+        "colorMap": "//levels/nationals/art/shapes/buildings/pvc_covering.color.png",
+        "normalMap": "//levels/nationals/art/shapes/buildings/pvc_covering.normal.png",
+        "specularMap": "//levels/nationals/art/shapes/buildings/pvc_covering_s.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": true
+  },
+  "ind_tin_01": {
+    "name": "ind_tin_01",
+    "mapTo": "ind_tin_01",
+    "class": "Material",
+    "persistentId": "2551c20a-3cfd-4c18-aeb5-bd107a79d4ae",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ut_corrugated_tin_V1_d.dds",
+        "detailScale": [
+          0.150000006,
+          0.150000006
+        ],
+        "diffuseColor": [
+          0.870588303,
+          0.870588303,
+          0.870588303,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ut_corrugated_tin_V1_n.dds",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "reflectivityMap": "/levels/nationals/art/shapes/buildings/ut_corrugated_tin_V1_r.dds",
+        "roughnessFactor": 0.503000021,
+        "specular": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ut_corrugated_tin_V1_s.dds",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "SOLID_LINE",
+    "cubemap": "global_cubemap_metalblurred",
+    "doubleSided": true,
+    "groundType": "METAL",
+    "invertBackFaceNormals": true,
+    "materialTag0": "Industrial",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_tin_02": {
+    "name": "ind_tin_02",
+    "mapTo": "ind_tin_02",
+    "class": "Material",
+    "persistentId": "f85fff98-85d2-4be0-9b82-ec129de95bbc",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ut_corrugated_tin_V2_d.dds",
+        "detailScale": [
+          0.150000006,
+          0.150000006
+        ],
+        "diffuseColor": [
+          0.870588303,
+          0.870588303,
+          0.870588303,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ut_corrugated_tin_V2_n.dds",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "reflectivityMap": "/levels/nationals/art/shapes/buildings/ut_corrugated_tin_V2_r.dds",
+        "roughnessFactor": 0.522000015,
+        "specular": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ut_corrugated_tin_V2_s.dds",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "SOLID_LINE",
+    "cubemap": "global_cubemap_metalblurred",
+    "doubleSided": true,
+    "groundType": "METAL",
+    "invertBackFaceNormals": true,
+    "materialTag0": "Industrial",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_tin_03": {
+    "name": "ind_tin_03",
+    "mapTo": "ind_tin_03",
+    "class": "Material",
+    "persistentId": "2c63d47e-71f0-4198-bf26-2c9d1530b17b",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ut_corrugated_tin_V3_d.dds",
+        "detailScale": [
+          0.150000006,
+          0.150000006
+        ],
+        "diffuseColor": [
+          0.870588303,
+          0.870588303,
+          0.870588303,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ut_corrugated_tin_V3_n.dds",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "reflectivityMap": "/levels/nationals/art/shapes/buildings/ut_corrugated_tin_V3_r.dds",
+        "roughnessFactor": 0.555999994,
+        "specular": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ut_corrugated_tin_V3_s.dds",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "SOLID_LINE",
+    "cubemap": "global_cubemap_metalblurred",
+    "doubleSided": true,
+    "groundType": "METAL",
+    "invertBackFaceNormals": true,
+    "materialTag0": "Industrial",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_trim_plastic": {
+    "name": "ind_trim_plastic",
+    "mapTo": "ind_trim_plastic",
+    "class": "Material",
+    "persistentId": "e2945fc2-9cdb-4272-8725-49ee406da6bd",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/si_plastic_trim_d.png",
+        "normalMap": "/levels/nationals/art/shapes/buildings/si_plastic_trim_n.dds",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "specularMap": "/levels/nationals/art/shapes/buildings/si_plastic_trim_s.dds",
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": true
+  },
+  "ind_wood_broken_trim": {
+    "name": "ind_wood_broken_trim",
+    "mapTo": "ind_wood_broken_trim",
+    "class": "material",
+    "persistentId": "d8de932b-5727-407f-98d9-8871e848bd84",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ut_trim_broken_wood_d.dds",
+        "detailScale": [
+          0.150000006,
+          0.150000006
+        ],
+        "diffuseColor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ut_trim_broken_wood_n.dds",
+        "specular": [
+          0.996078014,
+          0.996078014,
+          0.996078014,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ut_trim_wood_s.dds",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 101,
+    "alphaTest": true,
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "ASPHALT_OLD",
+    "invertBackFaceNormals": true,
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.3",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_wood_planks": {
+    "name": "ind_wood_planks",
+    "mapTo": "ind_wood_planks",
+    "class": "material",
+    "persistentId": "32eb9e6a-446d-4d44-baa0-6be4590d05b2",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/si_wood_wall_d.color.png",
+        "diffuseColor": [
+          0.988235354,
+          0.988235354,
+          0.988235354,
+          0.00800000038
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/si_wood_wall_n.normal.png",
+        "specularMap": "/levels/nationals/art/shapes/buildings/si_wood_wall_s.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 121,
+    "annotation": "BUILDINGS",
+    "groundType": "WOOD",
+    "invertBackFaceNormals": true,
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.294118",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "ind_wood_stack": {
+    "name": "ind_wood_stack",
+    "mapTo": "ind_wood_stack",
+    "class": "material",
+    "persistentId": "173da68f-ab02-45e2-87d5-e7308b28fd50",
+    "Stages": [
+      {
+        "colorMap": "//levels/nationals/art/shapes/buildings/wood_stack_d.color.png",
+        "normalMap": "//levels/nationals/art/shapes/buildings/wood_stack_nm.normal.png",
+        "specularMap": "//levels/nationals/art/shapes/buildings/wood_stack_s.data.png",
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ]
+  },
+  "ind_wood_trim": {
+    "name": "ind_wood_trim",
+    "mapTo": "ind_wood_trim",
+    "class": "material",
+    "persistentId": "573ec0d9-a2e2-4109-a820-71bba1ef417e",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ut_trim_wood_d.dds",
+        "detailScale": [
+          0.150000006,
+          0.150000006
+        ],
+        "diffuseColor": [
+          0.992156923,
+          0.992156923,
+          0.992156923,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/ut_trim_wood_n.dds",
+        "specular": [
+          0.996078014,
+          0.996078014,
+          0.996078014,
+          1
+        ],
+        "specularMap": "/levels/nationals/art/shapes/buildings/ut_trim_wood_s.dds",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "NATURE",
+    "doubleSided": true,
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "beamng",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0.3",
+    "specularStrength1": "0.2",
+    "translucentBlendOp": "None"
+  },
+  "industrial_signs": {
+    "name": "industrial_signs",
+    "mapTo": "industrial_signs",
+    "class": "Material",
+    "persistentId": "26f19124-bb1f-487a-9f22-00865ff66667",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/ind_industrial_signs_d.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0
+  },
+  "it_concrete_roadside_walls": {
+    "name": "it_concrete_roadside_walls",
+    "mapTo": "it_concrete_roadside_walls",
+    "class": "Material",
+    "persistentId": "0b27c719-d985-4edf-bbc4-00af90745c46",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/it_concrete_roadside_walls_d.dds",
+        "detailScale": [
+          0.300000011920929,
+          0.300000011920929
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/it_concrete_roadside_walls_n.dds",
+        "overlayMap": "/levels/nationals/art/shapes/buildings/utah_breakup_texture.dds",
+        "specularMap": "/levels/nationals/art/shapes/buildings/it_concrete_roadside_walls_s.dds",
+        "useAnisotropic": true,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "beamng",
+    "materialTag1": "italy",
+    "translucentBlendOp": "None"
+  },
+  "italy_bld_decals": {
+    "name": "italy_bld_decals",
+    "mapTo": "italy_bld_decals",
+    "class": "Material",
+    "persistentId": "3241cd92-cba4-42a5-ab19-0bee5c7ddd39",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/italy_bld_decals.dds",
+        "detailNormalMapStrength": 0.5,
+        "detailScale": [
+          8,
+          8
+        ],
+        "diffuseColor": [
+          0.9960780143737792,
+          0.9960780143737792,
+          0.9960780143737792,
+          1
+        ],
+        "specular": [
+          0.9960780143737792,
+          0.9960780143737792,
+          0.9960780143737792,
+          1
+        ],
+        "specularPower": 26,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "alphaTest": true,
+    "annotation": "BUILDINGS",
+    "doubleSided": true,
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "beamng",
+    "materialTag1": "Industrial",
+    "specularStrength0": "0.490196",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "italy_curb_concrete": {
+    "name": "italy_curb_concrete",
+    "mapTo": "italy_curb_concrete",
+    "class": "Material",
+    "persistentId": "c76012be-eb66-41d7-acbb-5aba951b7523",
+    "Stages": [
+      {
+        "colorMap": "italy_curb_concrete_d.dds",
+        "detailScale": [
+          6,
+          6
+        ],
+        "normalMap": "italy_curb_concrete_n.dds",
+        "specularMap": "italy_curb_concrete_s.dds",
+        "useAnisotropic": true,
+        "vertColor": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "beamng",
+    "materialTag1": "italy",
+    "translucentBlendOp": "None"
+  },
+  "italy_guardrails": {
+    "name": "italy_guardrails",
+    "mapTo": "italy_guardrails",
+    "class": "Material",
+    "persistentId": "c11fd14b-8569-4389-8faa-502379c8dbab",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/italy_guardrails_d.dds",
+        "detailScale": [
+          6,
+          6
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/italy_guardrails_n.dds",
+        "reflectivityMap": "/levels/nationals/art/shapes/buildings/italy_guardrails_r.dds",
+        "specularMap": "/levels/nationals/art/shapes/buildings/italy_guardrails_s.dds",
+        "specularPower": 1,
+        "useAnisotropic": true,
+        "vertColor": true
+      },
+      {
+        "useAnisotropic": true,
+        "vertColor": true
+      },
+      {},
+      {}
+    ],
+    "cubemap": "global_cubemap_metalblurred",
+    "groundType": "METAL",
+    "materialTag0": "beamng",
+    "materialTag1": "italy",
+    "specularStrength0": "0.490196",
+    "translucentBlendOp": "None"
+  },
+  "italy_mesh_fence": {
+    "name": "italy_mesh_fence",
+    "mapTo": "italy_mesh_fence",
+    "class": "Material",
+    "persistentId": "4597d1a3-f8f9-418f-a60c-286122f92fd8",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/italy_mesh_fence_d.dds",
+        "detailScale": [
+          6,
+          6
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/italy_mesh_fence_n.dds",
+        "specularMap": "/levels/nationals/art/shapes/buildings/italy_mesh_fence_s.dds",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 63,
+    "alphaTest": true,
+    "groundType": "METAL",
+    "materialTag0": "beamng",
+    "materialTag1": "italy",
+    "specularStrength0": "0.490196"
+  },
+  "metal_clutters_coll01": {
+    "name": "metal_clutters_coll01",
+    "mapTo": "metal_clutters_coll01",
+    "class": "Material",
+    "persistentId": "04989f56-3c76-4cc0-a94e-2a31ba1fb84e",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/si_metal_clutters_coll01_d.dds",
+        "normalMap": "/levels/nationals/art/shapes/buildings/si_metal_clutters_coll01_n.dds",
+        "specularMap": "/levels/nationals/art/shapes/buildings/si_metal_clutters_coll01_s.dds"
+      },
+      {},
+      {},
+      {}
+    ]
+  },
+  "non_metal_clutters_coll01": {
+    "name": "non_metal_clutters_coll01",
+    "mapTo": "non_metal_clutters_coll01",
+    "class": "Material",
+    "persistentId": "8ffcf87b-500e-4d25-b429-e5236cd449f2",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/si_non_metal_clutters_coll01.color.png",
+        "normalMap": "/levels/nationals/art/shapes/buildings/si_non_metal_clutters_coll01.normal.png",
+        "specularMap": "/levels/nationals/art/shapes/buildings/si_non_metal_clutters_coll01_s.data.png"
+      },
+      {},
+      {},
+      {}
+    ]
+  },
+  "road2_concrete": {
+    "name": "road2_concrete",
+    "mapTo": "road2_concrete",
+    "class": "Material",
+    "persistentId": "a82be4fb-9fc1-44b3-a8dc-799cc390822a",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/street_concrete1_d.dds",
+        "detailMap": "/levels/nationals/art/shapes/buildings/detail_grunge_02_streak_desat.dds",
+        "detailNormalMapStrength": 0.5,
+        "detailScale": [
+          0.2000000029802322,
+          0.2000000029802322
+        ],
+        "diffuseColor": [
+          0.505882382,
+          0.505882382,
+          0.505882382,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/buildings/street_concrete1_n.dds",
+        "specularMap": "/levels/nationals/art/shapes/buildings/street_concrete1_s.dds",
+        "specularPower": 1,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "annotation": "STREET",
+    "doubleSided": true,
+    "groundType": "ASPHALT_OLD",
+    "materialTag0": "buildingsAndPath",
+    "materialTag1": "beamng",
+    "specularStrength0": "0",
+    "translucentBlendOp": "None"
+  },
+  "waste_tile": {
+    "name": "waste_tile",
+    "mapTo": "waste_tile",
+    "class": "Material",
+    "persistentId": "7f574669-5862-4966-ba74-f2412df0012c",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/waste_tile.color.png",
+        "normalMap": "/levels/nationals/art/shapes/buildings/waste_tile.normal.png",
+        "specularMap": "/levels/nationals/art/shapes/buildings/waste_tile_s.color.png"
+      },
+      {},
+      {},
+      {}
+    ]
+  },
+  "wood_clutters_a": {
+    "name": "wood_clutters_a",
+    "mapTo": "wood_clutters_a",
+    "class": "Material",
+    "persistentId": "441239b5-8f72-40a6-95cb-4844f9ff041d",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/buildings/si_clutter_a_d.dds",
+        "normalMap": "/levels/nationals/art/shapes/buildings/si_clutter_a_n.dds",
+        "specularMap": "/levels/nationals/art/shapes/buildings/si_clutter_a_s.dds"
+      },
+      {},
+      {},
+      {}
+    ]
+  }
+}

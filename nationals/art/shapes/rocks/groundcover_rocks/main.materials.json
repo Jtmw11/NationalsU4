@@ -1,0 +1,41 @@
+{
+  "GC_utah_rocks_b": {
+    "name": "GC_utah_rocks_b",
+    "mapTo": "GC_utah_rocks_b",
+    "class": "material",
+    "persistentId": "2dac091c-1fea-467a-808f-610c8ea8b7b0",
+    "Stages": [
+      {
+        "colorMap": "levels/nationals/art/shapes/rocks/groundcover_rocks/GC_utah_rocks_b_d.dds",
+        "detailMap": "levels/nationals/art/shapes/rocks/groundcover_rocks/cliff_detail_d.dds",
+        "detailNormalMap": "levels/nationals/art/shapes/rocks/groundcover_rocks/cliff_detail_n.dds",
+        "detailNormalMapStrength": 2,
+        "detailScale": [
+          32,
+          32
+        ],
+        "diffuseColor": [
+          1,
+          0.9999930262565612,
+          0.9999899864196776,
+          1
+        ],
+        "normalMap": "levels/nationals/art/shapes/rocks/groundcover_rocks/GC_utah_rocks_b_n.dds",
+        "specular": [
+          0.396077991,
+          0.396077991,
+          0.396077991,
+          0.00800000038
+        ],
+        "specularPower": 10,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "ROCK",
+    "materialTag0": "Utah",
+    "specularStrength0": "0.490196"
+  }
+}

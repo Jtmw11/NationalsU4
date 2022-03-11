@@ -1,0 +1,26 @@
+{
+"holeMapPath":"/levels/nationals/export/theTerrain_holemap.png",
+"pos":{
+  "y":-512,
+  "x":-512,
+  "z":0
+},
+"opacityMaps":[
+  "/levels/nationals/export/theTerrain_layerMap_0_Grass.png",
+  "/levels/nationals/export/theTerrain_layerMap_10_Rock.png",
+  "/levels/nationals/export/theTerrain_layerMap_1_dirt_grass.png",
+  "/levels/nationals/export/theTerrain_layerMap_2_BeachSand.png",
+  "/levels/nationals/export/theTerrain_layerMap_3_dirt_rocky_large.png",
+  "/levels/nationals/export/theTerrain_layerMap_4_dirt_loose.png",
+  "/levels/nationals/export/theTerrain_layerMap_5_dirt_dusty.png",
+  "/levels/nationals/export/theTerrain_layerMap_6_groundmodel_asphalt1.png",
+  "/levels/nationals/export/theTerrain_layerMap_7_Concrete.png",
+  "/levels/nationals/export/theTerrain_layerMap_8_Grass2.png",
+  "/levels/nationals/export/theTerrain_layerMap_9_Mud.png"
+],
+"heightMapPath":"/levels/nationals/export/theTerrain_heightmap.png",
+"type":"TerrainData",
+"squareSize":1,
+"name":"theTerrain",
+"heightScale":100
+}

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.78.0 commit date:2016-09-26, commit time:12:42, hash:4bb1e22</authoring_tool>
+    </contributor>
+    <created>2018-05-09T16:29:32</created>
+    <modified>2018-05-09T16:29:32</modified>
+    <unit meter="1" name="meter" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="italy_bushes_bb-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.8 0.8 0.8 1</color>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 0</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="italy_bushes_bb-material" name="italy_bushes_bb">
+      <instance_effect url="#italy_bushes_bb-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane_6612-mesh" name="Plane.6612">
+      <mesh>
+        <source id="Plane_6612-mesh-positions">
+          <float_array count="36" id="Plane_6612-mesh-positions-array">-0.3814531 -0.02632701 0.01400482 0.2777242 -0.02632707 0.09756511 -0.3472905 0.2940307 -0.04340684 0.2435616 0.2940307 0.1549768 0.06106722 -0.02632701 0.3099952 0.03058171 -0.02632701 -0.2918922 0.03058177 0.2940307 0.3488234 0.06106722 0.2940307 -0.3307204 0.1280875 -0.02632701 -0.2992713 -0.2463583 -0.02430027 0.2020819 0.1673232 0.2960574 -0.287187 -0.2855941 0.2940307 0.1899974</float_array>
+          <technique_common>
+            <accessor count="12" source="#Plane_6612-mesh-positions-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_6612-mesh-normals">
+          <float_array count="42" id="Plane_6612-mesh-normals-array">0.9200237 0.2215923 0.3231924 -0.6653226 0.7419095 -0.08316516 -0.9843415 0.1725244 0.03615468 0.1016077 0.2222074 -0.9696906 0.05856394 0.7417121 0.6681568 0.1890965 0.207028 0.9598865 -0.7557026 0.2112913 0.6198949 0.3268752 0.7605243 -0.5610307 0.3854429 0.2012525 -0.9005172 0.920053 0.2214597 0.3231997 -0.6653693 0.7418646 -0.08319097 0.5043132 0.8016976 0.3208571 0.1190693 0.7549704 -0.6448583 -0.5520346 0.7485823 0.3672633</float_array>
+          <technique_common>
+            <accessor count="14" source="#Plane_6612-mesh-normals-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_6612-mesh-map-0">
+          <float_array count="36" id="Plane_6612-mesh-map-0-array">0.6461731 -3.6031e-5 0.3282813 0.3363299 0.3282813 -3.6031e-5 0.6461731 -3.6031e-5 0.3282813 0.3363299 0.3282813 -3.6031e-5 0.6461731 -3.6031e-5 0.3282813 0.3363299 0.3282813 -3.6031e-5 0.6461731 -3.6031e-5 0.3282813 0.3363299 0.6461731 0.3363299 0.6461731 -3.6031e-5 0.6461731 0.3363299 0.3282813 0.3363299 0.6461731 -3.6031e-5 0.6461731 0.3363299 0.3282813 0.3363299</float_array>
+          <technique_common>
+            <accessor count="18" source="#Plane_6612-mesh-map-0-array" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_6612-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_6612-mesh-positions" />
+        </vertices>
+        <polylist count="6" material="italy_bushes_bb-material">
+          <input offset="0" semantic="VERTEX" source="#Plane_6612-mesh-vertices" />
+          <input offset="1" semantic="NORMAL" source="#Plane_6612-mesh-normals" />
+          <input offset="2" semantic="TEXCOORD" set="0" source="#Plane_6612-mesh-map-0" />
+          <vcount>3 3 3 3 3 3 </vcount>
+          <p>1 0 0 2 1 1 0 2 2 5 3 3 6 4 4 4 5 5 9 6 6 10 7 7 8 8 8 1 9 9 2 10 10 3 11 11 5 3 12 7 12 13 6 4 14 9 6 15 11 13 16 10 7 17</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Plane_4968" name="Plane_4968" type="NODE">
+        <matrix sid="transform">2.066474 0 0 0 0 -9.03284e-8 -2.066474 0 0 2.066474 -9.03284e-8 0 0 0 0 1</matrix>
+        <instance_geometry name="Plane_4968" url="#Plane_6612-mesh">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="italy_bushes_bb-material" target="#italy_bushes_bb-material" />
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

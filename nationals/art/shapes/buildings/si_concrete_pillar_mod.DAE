@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>lucar</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.6;  Revision: 57</authoring_tool>
+      <source_data>file:///H:/BeamNG_Drive/1_BNGD_MAXFiles/Small_Island/Helipad/Helipad01.max</source_data>
+    </contributor>
+    <created>2020-03-19T12:10:26</created>
+    <modified>2020-03-19T12:10:26</modified>
+    <unit name="centimeter" meter="0.01" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="si_concrete">
+      <profile_COMMON>
+        <newparam sid="si_concrete_d_png-surface">
+          <surface type="2D">
+            <init_from>si_concrete_d_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="si_concrete_d_png-sampler">
+          <sampler2D>
+            <source>si_concrete_d_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="si_concrete_d_png-sampler" texcoord="CHANNEL1" />
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="lod_vertcol">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.588 0.588 0.588 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="si_concrete-material" name="si_concrete">
+      <instance_effect url="#si_concrete" />
+    </material>
+    <material id="lod_vertcol-material" name="lod_vertcol">
+      <instance_effect url="#lod_vertcol" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-si_concrete_pillar_mod250" name="si_concrete_pillar_mod250">
+      <mesh>
+        <source id="geom-si_concrete_pillar_mod250-positions">
+          <float_array id="geom-si_concrete_pillar_mod250-positions-array" count="120">-23 -25 0 25 -23 0 -25 23 0 23 25 0 -25 -23 244 23 -25 244 -23 25 244 25 23 244 -25 -23 0 23 -25 0 -23 25 0 25 23 0 -23 -25 244 25 -23 244 -25 23 244 23 25 244 -27.65993 -27.65993 259 27.65993 -29.65993 257 -27.65993 27.65993 259 29.65993 27.65993 257 -29.65993 -27.65993 246 27.65993 -29.65993 246 -27.65993 29.65993 246 29.65993 27.65993 246 -29.65993 -27.65993 257 -27.65993 -29.65993 257 29.65993 -27.65993 257 27.65993 -27.65993 259 -27.65993 29.65993 257 -29.65993 27.65993 257 27.65993 29.65993 257 27.65993 27.65993 259 -27.65993 -27.65993 244 -27.65993 -29.65993 246 27.65993 -27.65993 244 29.65993 -27.65993 246 -27.65993 27.65993 244 -29.65993 27.65993 246 27.65993 27.65993 244 27.65993 29.65993 246</float_array>
+          <technique_common>
+            <accessor source="#geom-si_concrete_pillar_mod250-positions-array" count="40" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_concrete_pillar_mod250-normals">
+          <float_array id="geom-si_concrete_pillar_mod250-normals-array" count="120">-0.04163054 -0.9991331 0 0.04163054 -0.9991331 0 0.04163054 -0.9991331 0 -0.04163054 -0.9991331 0 0.9991331 -0.04163054 0 0.9991331 0.04163054 0 0.9991331 0.04163054 0 0.9991331 -0.04163054 0 0.04163054 0.9991331 0 -0.04163054 0.9991331 0 -0.04163054 0.9991331 0 0.04163054 0.9991331 0 -0.9991331 0.04163054 0 -0.9991331 -0.04163054 0 -0.9991331 -0.04163054 0 -0.9991331 0.04163054 0 -0.03426378 -0.03426378 0.9988253 0.03426378 -0.03426378 0.9988253 0.03426378 0.03426378 0.9988253 -0.03426378 0.03426378 0.9988253 0.03191367 -0.9882041 0.1497809 -0.03191367 -0.9882041 0.1497809 -0.03191367 -0.9882041 -0.1497809 0.03191367 -0.9882041 -0.1497809 0.9882041 0.03191367 0.1497809 0.9882041 -0.03191367 0.1497809 0.9882041 -0.03191367 -0.1497809 0.9882041 0.03191367 -0.1497809 -0.03191367 0.9882041 0.1497809 0.03191367 0.9882041 0.1497809 0.03191367 0.9882041 -0.1497809 -0.03191367 0.9882041 -0.1497809 -0.9882041 -0.03191367 0.1497809 -0.9882041 0.03191367 0.1497809 -0.9882041 0.03191367 -0.1497809 -0.9882041 -0.03191367 -0.1497809 -0.03426378 -0.03426378 -0.9988253 -0.03426378 0.03426378 -0.9988253 0.03426378 0.03426378 -0.9988253 0.03426378 -0.03426378 -0.9988253</float_array>
+          <technique_common>
+            <accessor source="#geom-si_concrete_pillar_mod250-normals-array" count="40" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_concrete_pillar_mod250-map0">
+          <float_array id="geom-si_concrete_pillar_mod250-map0-array" count="384">0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255</float_array>
+          <technique_common>
+            <accessor source="#geom-si_concrete_pillar_mod250-map0-array" count="128" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_concrete_pillar_mod250-map1">
+          <float_array id="geom-si_concrete_pillar_mod250-map1-array" count="156">0.9724555 -0.7199998 0.6794115 1.432455 -0.7199998 0.6794115 1.432456 1.72 0.6794115 0.9724556 1.72 0.6794115 -0.4923976 -0.7199998 0.6794115 -0.03239768 -0.7199998 0.6794115 -0.03239771 1.72 0.6794115 -0.4923975 1.72 0.6794115 -0.004113346 -0.7199998 0.6794115 0.4558865 -0.7199998 0.6794115 0.4558864 1.72 0.6794115 -0.004113465 1.72 0.6794115 0.4841708 -0.7199998 0.6794115 0.944171 -0.7199998 0.6794115 0.944171 1.72 0.6794115 0.4841708 1.72 0.6794115 -0.520682 -0.7199998 0.6794115 -0.5206817 1.72 0.6794115 0.7607427 0.6232337 0 0.207862 0.623233 0 0.2078627 0.06314076 0 0.7607434 0.06314135 0 0.1997615 0.6501855 0 0.7688431 0.6501862 0 0.7647924 0.7617341 0 0.2038119 0.7617334 0 0.1870245 0.06281478 0 0.187024 0.6235585 0 0.08058574 0.6228693 0 0.08058631 0.06350387 0 0.768844 0.03618867 0 0.1997623 0.03618801 0 0.203813 -0.07535961 0 0.7647937 -0.07535902 0 0.7815808 0.6235595 0 0.7815816 0.06281555 0 0.88802 0.06350482 0 0.8880191 0.6228704 0 0.9148148 0.6264188 0 0.9148158 0.05995662 0 0.05379035 0.05995549 0 0.05378973 0.6264177 0 0.7636171 0.7904159 0 0.7624415 1.346694 0 0.2061626 1.346694 0 0.2049873 0.7904157 0 0.8906037 0.6503111 0 0.07800075 0.65031 0 0.07800146 0.03606308 0 0.8906048 0.03606422 0 0.7647937 -0.1040413 0 0.203813 -0.1040416 0</float_array>
+          <technique_common>
+            <accessor source="#geom-si_concrete_pillar_mod250-map1-array" count="52" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-si_concrete_pillar_mod250-vertices">
+          <input semantic="POSITION" source="#geom-si_concrete_pillar_mod250-positions" />
+        </vertices>
+        <triangles material="si_concrete" count="60">
+          <input semantic="VERTEX" source="#geom-si_concrete_pillar_mod250-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_concrete_pillar_mod250-normals" offset="1" />
+          <input semantic="COLOR" source="#geom-si_concrete_pillar_mod250-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_concrete_pillar_mod250-map1" offset="3" set="0" />
+          <p>0 0 0 0 9 1 1 1 5 2 2 2 5 2 2 2 12 3 3 3 0 0 0 0 1 4 4 4 11 5 5 5 7 6 6 6 7 6 6 6 13 7 7 7 1 4 4 4 3 8 8 8 10 9 9 9 6 10 10 10 6 10 10 10 15 11 11 11 3 8 8 8 2 12 12 12 8 13 13 13 4 14 14 14 4 14 14 14 14 15 15 15 2 12 12 12 9 1 16 16 1 4 17 4 13 7 18 7 13 7 18 7 5 2 19 17 9 1 16 16 12 3 20 3 4 14 21 14 8 13 22 13 8 13 22 13 0 0 23 0 12 3 20 3 11 5 24 5 3 8 25 8 15 11 26 11 15 11 26 11 7 6 27 6 11 5 24 5 10 9 28 9 2 12 29 12 14 15 30 15 14 15 30 15 6 10 31 10 10 9 28 9 16 16 32 18 27 17 33 19 31 18 34 20 31 18 34 20 18 19 35 21 16 16 32 18 17 20 36 22 25 21 37 23 33 22 38 24 33 22 38 24 21 23 39 25 17 20 36 22 19 24 40 26 26 25 41 27 35 26 42 28 35 26 42 28 23 27 43 29 19 24 40 26 28 28 44 30 30 29 45 31 39 30 46 32 39 30 46 32 22 31 47 33 28 28 44 30 24 32 48 34 29 33 49 35 37 34 50 36 37 34 50 36 20 35 51 37 24 32 48 34 36 37 53 43 38 38 54 44 34 39 55 45 34 39 55 45 32 36 52 42 36 37 53 43 16 16 56 18 24 32 57 34 25 21 58 23 17 20 59 22 26 25 60 27 27 17 61 19 18 19 62 21 28 28 63 30 29 33 64 35 19 24 65 26 30 29 66 31 31 18 67 20 20 35 68 37 32 36 69 38 33 22 70 46 21 23 71 47 34 39 72 41 35 26 73 28 22 31 74 49 36 37 75 39 37 34 76 36 23 27 77 29 38 38 78 40 39 30 79 48 16 16 80 18 25 21 81 23 17 20 82 22 17 20 82 22 27 17 83 19 16 16 80 18 27 17 84 19 26 25 85 27 19 24 86 26 19 24 86 26 31 18 87 20 27 17 84 19 31 18 88 20 30 29 89 31 28 28 90 30 28 28 90 30 18 19 91 21 31 18 88 20 18 19 92 21 29 33 93 35 24 32 94 34 24 32 94 34 16 16 95 18 18 19 92 21 25 21 96 23 24 32 97 34 20 35 98 37 20 35 98 37 33 22 99 46 25 21 96 23 26 25 100 27 17 20 101 22 21 23 102 47 21 23 102 47 35 26 103 28 26 25 100 27 29 33 104 35 28 28 105 30 22 31 106 49 22 31 106 49 37 34 107 36 29 33 104 35 30 29 108 31 19 24 109 26 23 27 110 29 23 27 110 29 39 30 111 48 30 29 108 31 33 22 112 24 32 36 113 42 34 39 114 45 34 39 114 45 21 23 115 25 33 22 112 24 35 26 116 28 34 39 117 41 38 38 118 40 38 38 118 40 23 27 119 29 35 26 116 28 39 30 120 32 38 38 121 51 36 37 122 50 36 37 122 50 22 31 123 33 39 30 120 32 37 34 124 36 36 37 125 39 32 36 126 38 32 36 126 38 20 35 127 37 37 34 124 36</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom-si_concrete_pillar_mod120" name="si_concrete_pillar_mod120">
+      <mesh>
+        <source id="geom-si_concrete_pillar_mod120-positions">
+          <float_array id="geom-si_concrete_pillar_mod120-positions-array" count="72">-24 -24 0 24 -24 0 -24 24 0 24 24 0 -24 -24 244 24 -24 244 -24 24 244 24 24 244 27.65993 -29.65993 259 29.65993 27.65993 259 -29.65993 -27.65993 244 27.65993 -29.65993 244 -27.65993 29.65993 244 29.65993 27.65993 244 -29.65993 -27.65993 259 -27.65993 -29.65993 259 29.65993 -27.65993 259 -27.65993 29.65993 259 -29.65993 27.65993 259 27.65993 29.65993 259 -27.65993 -29.65993 244 29.65993 -27.65993 244 -29.65993 27.65993 244 27.65993 29.65993 244</float_array>
+          <technique_common>
+            <accessor source="#geom-si_concrete_pillar_mod120-positions-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_concrete_pillar_mod120-normals">
+          <float_array id="geom-si_concrete_pillar_mod120-normals-array" count="144">0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.0348707 -0.9993919 0 -0.0348707 -0.9993919 0 -0.0348707 -0.9993919 0 0.0348707 -0.9993919 0 0.9993919 0.0348707 0 0.9993919 -0.0348707 0 0.9993919 -0.0348707 0 0.9993919 0.0348707 0 -0.0348707 0.9993919 0 0.0348707 0.9993919 0 0.0348707 0.9993919 0 -0.0348707 0.9993919 0 -0.9993919 -0.0348707 0 -0.9993919 0.0348707 0 -0.9993919 0.0348707 0 -0.9993919 -0.0348707 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#geom-si_concrete_pillar_mod120-normals-array" count="48" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_concrete_pillar_mod120-map0">
+          <float_array id="geom-si_concrete_pillar_mod120-map0-array" count="192">0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255 0.7529413 0.7411765 0.737255</float_array>
+          <technique_common>
+            <accessor source="#geom-si_concrete_pillar_mod120-map0-array" count="64" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_concrete_pillar_mod120-map1">
+          <float_array id="geom-si_concrete_pillar_mod120-map1-array" count="99">1.432455 -0.7199998 0.6794115 1.432456 1.72 0.6794115 0.9583133 1.72 0.6794115 -0.01825552 -0.7199998 0.6794115 -0.5065396 1.72 0.6794115 0.4700287 -0.7199998 0.6794115 -0.01825559 1.72 0.6794115 0.9583132 -0.7199998 0.6794115 0.4700286 1.72 0.6794115 -0.5065398 -0.7199998 0.6794115 0.1997615 0.6501855 0 0.7688431 0.6501862 0 0.7647924 0.7617341 0 0.2038119 0.7617334 0 0.1870245 0.06281478 0 0.187024 0.6235585 0 0.08058574 0.6228693 0 0.08058631 0.06350387 0 0.768844 0.03618867 0 0.1997623 0.03618801 0 0.203813 -0.07535961 0 0.7647937 -0.07535902 0 0.7815808 0.6235595 0 0.7815816 0.06281555 0 0.88802 0.06350482 0 0.8880191 0.6228704 0 0.8906037 0.6503111 0 0.07800075 0.65031 0 0.07800146 0.03606308 0 0.8906048 0.03606422 0 0.1860513 1.346694 0 0.762484 1.366806 0 0.7838135 0.7904159 0</float_array>
+          <technique_common>
+            <accessor source="#geom-si_concrete_pillar_mod120-map1-array" count="33" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-si_concrete_pillar_mod120-vertices">
+          <input semantic="POSITION" source="#geom-si_concrete_pillar_mod120-positions" />
+        </vertices>
+        <triangles material="si_concrete" count="36">
+          <input semantic="VERTEX" source="#geom-si_concrete_pillar_mod120-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_concrete_pillar_mod120-normals" offset="1" />
+          <input semantic="COLOR" source="#geom-si_concrete_pillar_mod120-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_concrete_pillar_mod120-map1" offset="3" set="0" />
+          <p>0 0 0 7 1 1 1 0 5 2 2 1 5 2 2 1 4 3 3 2 0 0 0 7 1 4 4 9 3 5 5 3 7 6 6 6 7 6 6 6 5 7 7 4 1 4 4 9 3 8 8 3 2 9 9 5 6 10 10 8 6 10 10 8 7 11 11 6 3 8 8 3 2 12 12 5 0 13 13 7 4 14 14 2 4 14 14 2 6 15 15 8 2 12 12 5 8 16 16 10 15 17 17 11 20 18 18 12 20 18 18 12 11 19 19 13 8 16 16 10 9 20 20 14 16 21 21 15 21 22 22 16 21 22 22 16 13 23 23 17 9 20 20 14 17 24 24 18 19 25 25 19 23 26 26 20 23 26 26 20 12 27 27 21 17 24 24 18 14 28 28 22 18 29 29 23 22 30 30 24 22 30 30 24 10 31 31 25 14 28 28 22 18 33 43 23 14 34 32 22 16 35 41 15 16 35 41 15 9 32 35 14 18 33 43 23 15 17 44 11 14 28 45 22 10 31 46 25 10 31 46 25 20 18 47 26 15 17 44 11 16 21 48 15 8 16 49 10 11 19 50 27 11 19 50 27 21 22 51 16 16 21 48 15 18 29 52 23 17 24 53 18 12 27 54 29 12 27 54 29 22 30 55 24 18 29 52 23 19 25 56 19 9 20 57 14 13 23 58 17 13 23 58 17 23 26 59 28 19 25 56 19 22 37 38 24 12 38 62 31 23 39 39 28 23 39 39 28 13 36 61 30 22 37 38 24 11 41 60 13 20 42 36 26 10 43 63 32 10 43 63 32 21 40 37 16 11 41 60 13 21 40 37 16 10 43 63 32 22 37 38 24 22 37 38 24 13 36 61 30 21 40 37 16 19 44 42 19 17 45 34 18 18 33 43 23 18 33 43 23 9 32 35 14 19 44 42 19 15 46 40 11 8 47 33 10 16 35 41 15 16 35 41 15 14 34 32 22 15 46 40 11</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom-si_concrete_pillar_mod50" name="si_concrete_pillar_mod50">
+      <mesh>
+        <source id="geom-si_concrete_pillar_mod50-positions">
+          <float_array id="geom-si_concrete_pillar_mod50-positions-array" count="48">-24 -24 0 24 -24 0 -24 24 0 24 24 0 -24 -24 244 24 -24 244 -24 24 244 24 24 244 28.65993 -28.65993 259 28.65993 28.65993 259 -28.65993 -28.65993 259 -28.65993 28.65993 259 -28.65993 -28.65993 244 28.65993 -28.65993 244 -28.65993 28.65993 244 28.65993 28.65993 244</float_array>
+          <technique_common>
+            <accessor source="#geom-si_concrete_pillar_mod50-positions-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_concrete_pillar_mod50-normals">
+          <float_array id="geom-si_concrete_pillar_mod50-normals-array" count="108">0 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 -1 0 0.9999999 0 0 1 0 0 0.9999999 0 0 1 0 0 0 0.9999999 0 0 1 0 0 0.9999999 0 0 1 0 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#geom-si_concrete_pillar_mod50-normals-array" count="36" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_concrete_pillar_mod50-map0">
+          <float_array id="geom-si_concrete_pillar_mod50-map0-array" count="108">0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785 0.6078432 0.6 0.5960785</float_array>
+          <technique_common>
+            <accessor source="#geom-si_concrete_pillar_mod50-map0-array" count="36" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_concrete_pillar_mod50-map1">
+          <float_array id="geom-si_concrete_pillar_mod50-map1-array" count="63">1.432455 -0.7199998 0.6794115 1.432456 1.72 0.6794115 0.9583133 1.72 0.6794115 -0.01825552 -0.7199998 0.6794115 -0.5065396 1.72 0.6794115 0.4700287 -0.7199998 0.6794115 -0.01825559 1.72 0.6794115 0.9583132 -0.7199998 0.6794115 0.4700286 1.72 0.6794115 -0.5065398 -0.7199998 0.6794115 0.1933927 0.6368721 0 0.7647924 0.7617341 0 0.1933934 0.0495014 0 0.1207995 0.6783042 0 0.7752128 0.04950211 0 0.203813 -0.07535961 0 0.7647937 -0.07535902 0 0.7752119 0.6368729 0 0.8470362 0.4887916 0 0.8541455 0.6878659 0 0.1148797 0.4820871 0</float_array>
+          <technique_common>
+            <accessor source="#geom-si_concrete_pillar_mod50-map1-array" count="21" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-si_concrete_pillar_mod50-vertices">
+          <input semantic="POSITION" source="#geom-si_concrete_pillar_mod50-positions" />
+        </vertices>
+        <triangles material="lod_vertcol" count="18">
+          <input semantic="VERTEX" source="#geom-si_concrete_pillar_mod50-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_concrete_pillar_mod50-normals" offset="1" />
+          <input semantic="COLOR" source="#geom-si_concrete_pillar_mod50-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_concrete_pillar_mod50-map1" offset="3" set="0" />
+          <p>0 0 0 7 1 1 1 0 5 2 2 1 5 2 2 1 4 3 3 2 0 0 0 7 1 4 4 9 3 5 5 3 7 6 6 6 7 6 6 6 5 7 7 4 1 4 4 9 3 8 8 3 2 9 9 5 6 10 10 8 6 10 10 8 7 11 11 6 3 8 8 3 2 12 12 5 0 13 13 7 4 14 14 2 4 14 14 2 6 15 15 8 2 12 12 5 8 16 16 10 10 17 17 17 12 18 18 11 12 18 18 11 13 19 19 13 8 16 16 10 9 20 20 12 8 21 21 10 13 22 22 13 13 22 22 13 15 23 23 20 9 20 20 12 11 24 24 14 9 25 25 12 15 26 26 15 15 26 26 15 14 27 27 16 11 24 24 14 10 28 28 17 11 29 29 14 14 30 30 18 14 30 30 18 12 31 31 19 10 28 28 17 11 32 33 14 10 33 34 17 8 34 35 10 8 34 35 10 9 35 32 12 11 32 33 14</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom-Colmesh-1_5" name="Colmesh-1">
+      <mesh>
+        <source id="geom-Colmesh-1_5-positions">
+          <float_array id="geom-Colmesh-1_5-positions-array" count="24">-25.04349 -25.02688 0 25.04349 -25.02688 0 -25.04349 25.02688 0 25.04349 25.02688 0 -28.67793 -28.6589 259.1799 28.67793 -28.6589 259.1799 -28.67793 28.6589 259.1799 28.67793 28.6589 259.1799</float_array>
+          <technique_common>
+            <accessor source="#geom-Colmesh-1_5-positions-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Colmesh-1_5-normals">
+          <float_array id="geom-Colmesh-1_5-normals-array" count="60">0 0 1 0 0 1 0 0 1 0 0 1 0 -0.9999019 -0.01401216 0 -0.9999018 -0.01401216 0 -0.9999018 -0.01401216 0 -0.9999018 -0.01401216 0.9999017 0 -0.01402146 0.9999017 0 -0.01402146 0.9999017 0 -0.01402146 0.9999017 0 -0.01402146 0 0.9999019 -0.01401216 0 0.9999018 -0.01401216 0 0.9999018 -0.01401216 0 0.9999018 -0.01401216 -0.9999017 0 -0.01402146 -0.9999017 0 -0.01402146 -0.9999017 0 -0.01402146 -0.9999017 0 -0.01402146</float_array>
+          <technique_common>
+            <accessor source="#geom-Colmesh-1_5-normals-array" count="20" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Colmesh-1_5-map1">
+          <float_array id="geom-Colmesh-1_5-map1-array" count="60">0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Colmesh-1_5-map1-array" count="20" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-Colmesh-1_5-vertices">
+          <input semantic="POSITION" source="#geom-Colmesh-1_5-positions" />
+        </vertices>
+        <triangles material="si_concrete" count="10">
+          <input semantic="VERTEX" source="#geom-Colmesh-1_5-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-Colmesh-1_5-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#geom-Colmesh-1_5-map1" offset="2" set="0" />
+          <p>4 0 0 5 1 1 7 2 3 7 2 3 6 3 2 4 0 0 0 4 4 1 5 5 5 6 7 5 6 7 4 7 6 0 4 4 1 8 8 3 9 9 7 10 11 7 10 11 5 11 10 1 8 8 3 12 12 2 13 13 6 14 15 6 14 15 7 15 14 3 12 12 2 16 16 0 17 17 4 18 19 4 18 19 6 19 18 2 16 16</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="si_concrete_d_png">
+      <init_from>../../../BeamNG_Drive/4_BNGD_Textures/Tiling_Output/small_island_concrete/si_concrete_d.png</init_from>
+    </image>
+  </library_images>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight" />
+      </node>
+      <node id="node-base00" name="base00">
+        <node id="node-collision-1" name="collision-1">
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <node id="node-nulldetail1" name="nulldetail1">
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <node id="node-start01" name="start01">
+          <node id="node-si_concrete_pillar_mod250" name="si_concrete_pillar_mod250">
+            <instance_geometry url="#geom-si_concrete_pillar_mod250">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="si_concrete" target="#si_concrete-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <node id="node-si_concrete_pillar_mod120" name="si_concrete_pillar_mod120">
+            <instance_geometry url="#geom-si_concrete_pillar_mod120">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="si_concrete" target="#si_concrete-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <node id="node-si_concrete_pillar_mod50" name="si_concrete_pillar_mod50">
+            <instance_geometry url="#geom-si_concrete_pillar_mod50">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lod_vertcol" target="#lod_vertcol-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <node id="node-Colmesh-1_5" name="Colmesh-1">
+            <instance_geometry url="#geom-Colmesh-1_5">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="si_concrete" target="#si_concrete-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,303 @@
+{
+  "damage": {
+    "name": "damage",
+    "mapTo": "damage",
+    "class": "Material",
+    "persistentId": "0e1f5d93-f164-4f9a-92e9-d4170454d530",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/nationals/art/decals/t_concrete_damage_decal_ao.data.png",
+        "baseColorFactor": [
+          1,
+          0.999989986,
+          0.999989986,
+          0.800000012
+        ],
+        "baseColorMap": "/levels/nationals/art/decals/t_concrete_damage_decal_b.color.png",
+        "detailNormalMap": "/levels/nationals/art/road/detailed_normals/t_asphalt_detail_02_nm.normal.png",
+        "normalMap": "/levels/nationals/art/decals/t_concrete_damage_decal_nm.normal.png",
+        "opacityFactor": 0.717000008,
+        "opacityMap": "/levels/nationals/art/decals/t_concrete_damage_decal_o.data.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/levels/nationals/art/decals/t_concrete_damage_decal_r.data.png",
+        "specular": [
+          0.360784322,
+          0.360784322,
+          0.360784322,
+          1
+        ]
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "materialTag0": "decal",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "translucent": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "decal_concrete_damage_01": {
+    "name": "decal_concrete_damage_01",
+    "mapTo": "unmapped_mat",
+    "class": "material",
+    "persistentId": "b4814a2c-d1e3-45f1-b1f8-4fdfaff3b062",
+    "Stages": [
+      {
+        "colorMap": "levels/nationals/art/decals/decal_concrete_damage_d.dds",
+        "diffuseColor": [
+          0.760784388,
+          0.760784388,
+          0.760784388,
+          0.800000012
+        ],
+        "normalMap": "levels/nationals/art/decals/decal_concrete_damage_n.dds",
+        "pixelSpecular": true,
+        "specular": [
+          0.360784322,
+          0.360784322,
+          0.360784322,
+          1
+        ],
+        "specularPower": 1,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 124,
+    "alphaTest": true,
+    "materialTag0": "decal",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "eca_decals_concrete_damage": {
+    "name": "eca_decals_concrete_damage",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "06068308-ed67-4dfd-a729-36a3c96291aa",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/decals/eca_decals_concrete_damage_d.dds",
+        "diffuseColor": [
+          0.662745118,
+          0.603921592,
+          0.529411793,
+          0.600000024
+        ],
+        "specularPower": 1,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "beamng",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "eca_road_variation_and_damage": {
+    "name": "eca_road_variation_and_damage",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "41ab6095-b6ad-4cde-b856-c1123f935688",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/decals/eca_road_variation_and_damage_d.dds",
+        "diffuseColor": [
+          0.796078503,
+          0.796078503,
+          0.796078503,
+          1
+        ],
+        "specularPower": 1,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "SIDEWALK",
+    "materialTag0": "decal",
+    "materialTag1": "beamng",
+    "materialTag2": "Industrial",
+    "materialTag3": "vegetation",
+    "materialTag4": "east_coast_usa",
+    "specularStrength0": "0",
+    "specularStrength1": "0.2",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "graffiti": {
+    "name": "graffiti",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "6e51faf0-b435-4c91-ac4f-205d8fa6e3b5",
+    "Stages": [
+      {
+        "colorMap": "decals_graffiti.dds",
+        "specularPower": 1,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "road",
+    "materialTag2": "beamng",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "ind_decal_stuff_01": {
+    "name": "ind_decal_stuff_01",
+    "mapTo": "unmapped_mat",
+    "class": "material",
+    "persistentId": "9ee4e62f-7ace-41f5-8459-562c9db3491a",
+    "Stages": [
+      {
+        "colorMap": "levels/nationals/art/decals/ind_trash_decal_03_d.color.png",
+        "normalMap": "levels/nationals/art/decals/ind_trash_decal_03_n.normal.png",
+        "specularMap": "levels/nationals/art/decals/ind_trash_decal_03_s.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "Industrial",
+    "materialTag2": "beamng",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "ind_decal_stuff_02": {
+    "name": "ind_decal_stuff_02",
+    "mapTo": "unmapped_mat",
+    "class": "material",
+    "persistentId": "2007197e-e645-4923-a4e6-729c9dd01cdb",
+    "Stages": [
+      {
+        "colorMap": "levels/nationals/art/decals/ind_trash_decal_02_d.color.png",
+        "normalMap": "levels/nationals/art/decals/ind_trash_decal_02_n.normal.png",
+        "specularMap": "levels/nationals/art/decals/ind_trash_decal_02_s.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "Industrial",
+    "materialTag2": "beamng",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "ind_decal_stuff_02b": {
+    "name": "ind_decal_stuff_02b",
+    "mapTo": "ind_decal_stuff_02b",
+    "class": "material",
+    "persistentId": "2ec59c46-d2e1-4374-91a8-3763112a3210",
+    "Stages": [
+      {
+        "colorMap": "levels/nationals/art/decals/ind_trash_decal_01_d.color.png",
+        "normalMap": "levels/nationals/art/decals/ind_trash_decal_01_n.normal.png",
+        "specularMap": "levels/nationals/art/decals/ind_trash_decal_01_s.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "Industrial",
+    "materialTag2": "beamng",
+    "specularColor0": "0.1 0.1 0.1 0.1",
+    "specularStrength0": "0.294118",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "nat_decals_fallen_leaves": {
+    "name": "nat_decals_fallen_leaves",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "dfa4330c-4a60-4f20-94a5-8c7ad22df801",
+    "Stages": [
+      {
+        "colorMap": "nat_decals_fallen_leaves_d.dds",
+        "specularMap": "nat_decals_fallen_leaves_s.dds",
+        "specularPower": 1,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "nat_decals_rocks_01": {
+    "name": "nat_decals_rocks_01",
+    "mapTo": "unmapped_mat",
+    "class": "material",
+    "persistentId": "cc0790c6-a340-4acf-8ff8-56b84ad00425",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/decals/nat_decals_rocks_01.dds",
+        "diffuseColor": [
+          0.9882353544235228,
+          0.9882353544235228,
+          0.9882353544235228,
+          0.800000012
+        ],
+        "normalMap": "/levels/nationals/art/decals/nat_decals_rocks_01_n.dds",
+        "specularMap": "/levels/nationals/art/decals/nat_decals_rocks_01_s.dds",
+        "specularPower": 1,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "alphaTest": true,
+    "materialTag0": "decal",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "specularStrength0": "0.784314",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "nat_decals_wetground": {
+    "name": "nat_decals_wetground",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "persistentId": "1c4a2b9a-60d1-489a-bd48-4068a51a1170",
+    "Stages": [
+      {
+        "colorMap": "levels/nationals/art/decals/nat_wetground_d.dds",
+        "pixelSpecular": true,
+        "specularPower": 46,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "materialTag0": "decal",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "specularStrength0": "0.196078",
+    "translucent": true,
+    "translucentZWrite": true
+  }
+}

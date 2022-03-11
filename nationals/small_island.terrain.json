@@ -1,0 +1,25 @@
+{
+  "binaryFormat": "version(char), size(unsigned int), heightMap(heightMapSize * heightMapItemSize), layerMap(layerMapSize * layerMapItemSize), layerTextureMap(layerMapSize * layerMapItemSize), materialNames",
+  "datafile": "/levels/nationals/small_island.ter",
+  "heightMapItemSize": 2,
+  "heightMapSize": 1048576,
+  "heightmapImage": "/levels/nationals/small_island.terrainheightmap.png",
+  "layerMapItemSize": 1,
+  "layerMapSize": 1048576,
+  "materials": [
+    "Grass",
+    "dirt_grass",
+    "BeachSand",
+    "dirt_rocky_large",
+    "dirt_loose",
+    "dirt_dusty",
+    "groundmodel_asphalt1",
+    "Concrete",
+    "Grass2",
+    "Mud",
+    "Rock",
+    "RockyDirt"
+  ],
+  "size": 1024,
+  "version": 8
+}

@@ -1,0 +1,530 @@
+{
+  "cork_oak" : {
+    "name" : "cork_oak",
+    "mapTo" : "cork_oak",
+    "class" : "Material",
+    "persistentId" : "e1052e6f-b6af-4f21-a912-a52af401d2bf",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/cork_oak_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/cork_oak_n.dds",
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/cork_oak_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 68,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "LEAVES_THIN",
+    "materialTag2" : "Natural"
+  },
+  "cork_oak_trunk" : {
+    "name" : "cork_oak_trunk",
+    "mapTo" : "cork_oak_trunk",
+    "class" : "Material",
+    "persistentId" : "69362721-6034-4687-b266-c0b65be57ac4",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/cork_oak_trunk_d.dds",
+        "detailNormalMap" : "levels/nationals/art/shapes/trees/trees_italy/cork_oak_trunk_n.dds",
+        "detailScale" : [ 0.2000000029802322, 0.2000000029802322 ],
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/cork_oak_trunk_n.dds",
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/cork_oak_trunk_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 85,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "WOOD",
+    "materialTag2" : "Natural"
+  },
+  "cypress" : {
+    "name" : "cypress",
+    "mapTo" : "cypress",
+    "class" : "Material",
+    "persistentId" : "cb16d28e-c5d0-47ae-80a6-8f98c2cb0585",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/cypress_d.dds",
+        "minnaertConstant" : -2,
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/cypress_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/cypress_s.dds",
+        "specularPower" : 1,
+        "subSurfaceColor" : [ 1, 0.8235290050506592, 0, 1 ],
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 93,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+	"groundType" : "LEAVES_THIN",
+    "materialTag3" : "Natural"
+  },
+  "fluffy" : {
+    "name" : "fluffy",
+    "mapTo" : "fluffy",
+    "class" : "Material",
+    "persistentId" : "e1ca8af3-78e4-4da1-8bac-eaeff202178a",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/fluffy_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/fluffy_n.dds",
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/fluffy_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 84,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "LEAVES_THIN",
+    "materialTag2" : "Natural"
+  },
+  "generibush_leaves" : {
+    "name" : "generibush_leaves",
+    "mapTo" : "generibush_leaves",
+    "class" : "Material",
+    "persistentId" : "766614f9-b563-4d9d-848e-905536f561ef",
+    "Stages" : [
+      {
+        "colorMap" : "generibush_d.dds",
+        "normalMap" : "generibush_n.dds",
+        "specularMap" : "generibush_s.dds",
+        "specularPower" : 21,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 84,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "LEAVES_THIN",
+    "materialTag2" : "Natural"
+  },
+  "generic_tree_vegetation" : {
+    "name" : "generic_tree_vegetation",
+    "mapTo" : "generic_tree_vegetation",
+    "class" : "Material",
+    "persistentId" : "b3dcbc4d-912e-4594-a0ab-4dd0fa24cefc",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/generic_tree_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/generic_tree_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/generic_tree_s.dds",
+        "specularPower" : 39
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 70,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "LEAVES_THIN",
+    "materialTag2" : "Natural"
+  },
+  "grape" : {
+    "name" : "grape",
+    "mapTo" : "grape",
+    "class" : "Material",
+    "persistentId" : "2e9f3a86-e752-4fab-83a8-576c50e11fba",
+    "Stages" : [
+      {
+        "colorMap" : "grape_d.dds",
+        "normalMap" : "grape_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "grape_s.dds",
+        "specularPower" : 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 100,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "LEAVES_THIN",
+    "materialTag2" : "Natural"
+  },
+  "holm_oak" : {
+    "name" : "holm_oak",
+    "mapTo" : "holm_oak",
+    "class" : "Material",
+    "persistentId" : "ac24ee3b-000a-4ed4-952d-29076f58a722",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/holm_oak_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/holm_oak_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/holm_oak_s.dds",
+        "specularPower" : 79,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 85,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "WOOD",
+    "materialTag2" : "Natural"
+  },
+  "holm_oak_branches" : {
+    "name" : "holm_oak_branches",
+    "mapTo" : "holm_oak_branches",
+    "class" : "Material",
+    "persistentId" : "61eca9c0-5c5c-4cfe-ab1d-cdf74769d3b2",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/holm_oak_branches_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/holm_oak_branches_n.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 100,
+    "alphaTest" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+	"groundType" : "LEAVES_STRONG",
+    "specularStrength0" : "0.490196"
+  },
+  "holm_oak_trunk" : {
+    "name" : "holm_oak_trunk",
+    "mapTo" : "holm_oak_trunk",
+    "class" : "Material",
+    "persistentId" : "8d979c08-ecf1-4bc1-b980-d4ded72834a7",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/tree_trunk_scan_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/tree_trunk_scan_n.dds",
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/tree_trunk_scan_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 85,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "WOOD",
+    "materialTag2" : "Natural"
+  },
+  "italy_palm_1_foliage" : {
+    "name" : "italy_palm_1_foliage",
+    "mapTo" : "italy_palm_1_foliage",
+    "class" : "Material",
+    "persistentId" : "5062c349-554f-4b4d-b8e0-6a0433e0638f",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/italy_palm_1_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/italy_palm_1_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/italy_palm_1_s.dds",
+        "specularPower" : 26,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 100,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "LEAVES_THIN",
+    "materialTag2" : "Natural"
+  },
+  "italy_palm_1_trunk" : {
+    "name" : "italy_palm_1_trunk",
+    "mapTo" : "italy_palm_1_trunk",
+    "class" : "Material",
+    "persistentId" : "82d4a5b5-365d-464d-933c-86470f7e6098",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/italy_palm_1_trunk_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/italy_palm_1_trunk_n.dds",
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/italy_palm_1_trunk_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 85,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "WOOD",
+    "materialTag2" : "Natural"
+  },
+  "olive" : {
+    "name" : "olive",
+    "mapTo" : "olive",
+    "class" : "Material",
+    "persistentId" : "ee5069a5-21c6-4a50-844e-78dec8dd8634",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/olive_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/olive_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/olive_s.dds",
+        "specularPower" : 21,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 85,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "LEAVES_THIN",
+    "materialTag2" : "Natural"
+  },
+  "olive_branches" : {
+    "name" : "olive_branches",
+    "mapTo" : "olive_branches",
+    "class" : "Material",
+    "persistentId" : "3a55af72-3574-4da9-afb8-600fe4536d2a",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/olive_branches_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/olive_branches_n.dds",
+        "pixelSpecular" : true,
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 100,
+    "alphaTest" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "LEAVES_STRONG",
+    "materialTag2" : "Natural"
+  },
+  "olive_trunk" : {
+    "name" : "olive_trunk",
+    "mapTo" : "olive_trunk",
+    "class" : "Material",
+    "persistentId" : "2118b083-ff37-4125-8e45-a8cc847d7d45",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/olive_trunk_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/olive_trunk_n.dds",
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/olive_trunk_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 85,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "WOOD",
+    "materialTag2" : "Natural"
+  },
+  "scots_pine" : {
+    "name" : "scots_pine",
+    "mapTo" : "scots_pine",
+    "class" : "Material",
+    "persistentId" : "7e1191cd-daa2-4389-9255-7e682b72e15b",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/scots_pine_d.dds",
+        "minnaertConstant" : -2,
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/scots_pine_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/scots_pine_s.dds",
+        "specularPower" : 1,
+        "subSurfaceColor" : [ 1, 0.8235290050506592, 0, 1 ],
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 93,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+	"groundType" : "LEAVES_THIN",
+    "materialTag3" : "Natural"
+  },
+  "scots_pine_branches" : {
+    "name" : "scots_pine_branches",
+    "mapTo" : "scots_pine_branches",
+    "class" : "Material",
+    "persistentId" : "83752160-2cc2-476a-9d5d-d70ea67075b6",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/scots_pine_branches_d.dds",
+        "diffuseColor" : [ 0.9960780143737793, 0.9960780143737793, 0.9960780143737793, 1 ],
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 100,
+    "alphaTest" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "LEAVES_STRONG",
+    "materialTag2" : "Natural"
+  },
+  "scots_pine_trunk" : {
+    "name" : "scots_pine_trunk",
+    "mapTo" : "scots_pine_trunk",
+    "class" : "Material",
+    "persistentId" : "6752b954-e426-4342-ae3b-a4286b0092a6",
+    "Stages" : [
+      {
+        "colorMap" : "scots_pine_bark_d.dds",
+        "normalMap" : "scots_pine_bark_n.dds",
+        "specularMap" : "scots_pine_bark_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 85,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "WOOD",
+    "materialTag2" : "Natural"
+  },
+  "scraggly" : {
+    "name" : "scraggly",
+    "mapTo" : "scraggly",
+    "class" : "Material",
+    "persistentId" : "bcbd5363-e8b3-45f0-8779-568330271a30",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/scraggly_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/scraggly_n.dds",
+        "specularMap" : "levels/nationals/art/shapes/trees/trees_italy/scraggly_s.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 85,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "LEAVES_THIN",
+    "materialTag2" : "Natural"
+  },
+  "scraggly_branches" : {
+    "name" : "scraggly_branches",
+    "mapTo" : "scraggly_branches",
+    "class" : "Material",
+    "persistentId" : "15ec68cf-3884-4e17-987e-5ac8ea13ea33",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/scraggly_branches_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/scraggly_branches_n.dds",
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 100,
+    "alphaTest" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+	"groundType" : "LEAVES_STRONG",
+    "materialTag2" : "Natural"
+  },
+  "tall_plant_vegetation" : {
+    "name" : "tall_plant_vegetation",
+    "mapTo" : "tall_plant_vegetation",
+    "class" : "Material",
+    "persistentId" : "dae450dd-abd4-446b-ba13-5f4e43ed7a37",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/trees/trees_italy/tall_plant_d.dds",
+        "normalMap" : "levels/nationals/art/shapes/trees/trees_italy/tall_plant_n.dds",
+        "specular" : [ 0.9882349967956543, 0.9882349967956543, 0.9882349967956543, 1 ],
+        "specularPower" : 1,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef" : 84,
+    "alphaTest" : true,
+    "doubleSided" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vegetation",
+    "materialTag2" : "Natural",
+	"groundType" : "LEAVES_THIN",
+    "specularStrength0" : "0.784314"
+  }
+}

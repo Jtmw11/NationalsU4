@@ -1,0 +1,320 @@
+{
+  "eca_rocks": {
+    "name": "eca_rocks",
+    "mapTo": "eca_rocks",
+    "class": "Material",
+    "persistentId": "7ed6ec7d-833f-44d7-87f4-b102ed9777d0",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/rocks/eca_rocks.color.png",
+        "detailMap": "levels/nationals/art/shapes/rocks/italy_rocksface_detail_d.dds",
+        "detailNormalMap": "levels/nationals/art/shapes/rocks/italy_rocksface_detail_n.dds",
+        "detailNormalMapStrength": 0.300000012,
+        "detailScale": [
+          16,
+          16
+        ],
+        "diffuseColor": [
+          1,
+          1,
+          0.999000013,
+          1
+        ],
+        "normalMap": "/levels/nationals/art/shapes/rocks/eca_rocks.normal.png",
+        "specularMap": "/levels/nationals/art/shapes/rocks/eca_rocks_s.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": true,
+    "groundType": "ROCK",
+    "materialTag0": "beamng",
+    "materialTag1": "Natural",
+    "translucentBlendOp": "None"
+  },
+  "rock_01_a": {
+    "name": "rock_01_a",
+    "mapTo": "rocks_01_a",
+    "class": "Material",
+    "persistentId": "5fe9b75a-99bf-4abf-8eaf-94d425eead15",
+    "Stages": [
+      {
+        "colorMap": "levels/nationals/art/shapes/rocks/groundcover_rocks/rocks_01_a_d.dds",
+        "normalMap": "levels/nationals/art/shapes/rocks/groundcover_rocks/rocks_01_a_n.dds",
+        "specularMap": "levels/nationals/art/shapes/rocks/groundcover_rocks/rocks_01_a_s.dds",
+        "specularPower": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "ROCK",
+    "doubleSided": true,
+    "groundType": "ROCK",
+    "materialTag0": "beamng",
+    "materialTag1": "Natural",
+    "translucentBlendOp": "None"
+  },
+  "rocks_cliff": {
+    "name": "rocks_cliff",
+    "mapTo": "rocks_cliff",
+    "class": "Material",
+    "persistentId": "ec3c0e26-adbb-455e-ae42-6ca78b1a54b6",
+    "Stages": [
+      {
+        "colorMap": "levels/nationals/art/shapes/rocks/rocks_cliff_d.dds",
+        "normalMap": "levels/nationals/art/shapes/rocks/rocks_cliff_n.dds",
+        "pixelSpecular": true,
+        "specularMap": "levels/nationals/art/shapes/rocks/rocks_cliff_s.dds",
+        "specularPower": 6
+      },
+      {},
+      {},
+      {}
+    ],
+    "annotation": "ROCK",
+    "groundType": "ROCK",
+    "materialTag0": "beamng",
+    "materialTag1": "Natural",
+    "translucentBlendOp": "None"
+  },
+  "cliff_repeat_low": {
+    "name": "cliff_repeat_low",
+    "mapTo": "cliff_repeat_low",
+    "class": "Material",
+    "persistentId": "f32ddba9-97fd-4fcd-a575-bac3f67d912b",
+    "Stages": [
+      {
+        "colorMap": "game:levels/nationals/art/shapes/rocks/cliff_repeat_low_d.dds",
+        "detailScale": [
+          8,
+          8
+        ],
+        "normalMap": "game:levels/nationals/art/shapes/rocks/cliff_repeat_low_n.dds",
+        "specularPower": 1,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "ROCK",
+    "materialTag0": "Utah",
+    "specularStrength0": "0.490196"
+  },
+  "lighter_rocks": {
+    "name": "lighter_rocks",
+    "mapTo": "lighter_rocks",
+    "class": "Material",
+    "persistentId": "7ed6ec7d-833f-44d7-87f4-b102ed9777d1",
+    "Stages": [
+      {
+        "colorMap": "levels/nationals/art/shapes/rocks/lighter_rock_Diffuse.png",
+        "detailNormalMap": "levels/nationals/art/shapes/rocks/lighter_rock_Normal.png",
+        "detailNormalMapStrength": 0.1,
+        "detailScale": [
+          8,
+          8
+        ],
+        "diffuseColor": [
+          1,
+          1,
+          0.9990000128746032,
+          1
+        ],
+        "normalMap": "levels/nationals/art/shapes/rocks/lighter_rock_Normal.png",
+        "specularMap": "levels/nationals/art/shapes/rocks/lighter_rock_Specular.png",
+        "specularPower": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "doubleSided": true,
+    "groundType": "ROCK",
+    "materialTag0": "beamng",
+    "materialTag1": "Natural",
+    "translucentBlendOp": "None"
+  },
+  "utah_rocks_a": {
+    "name": "utah_rocks_a",
+    "mapTo": "utah_rocks_a",
+    "class": "Material",
+    "persistentId": "77440828-8f3e-483c-af40-4750a449dd5b",
+    "Stages": [
+      {
+        "colorMap": "levels/nationals/art/terrains/newutahtexture_Diffuse.png",
+        "normalMap": "levels/nationals/art/terrains/newutahtexture_Normal.png",
+        "specularPower": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "ROCK",
+    "materialTag0": "Utah"
+  },
+  "utah_rocks_b": {
+    "name": "utah_rocks_b",
+    "mapTo": "utah_rocks_b",
+    "class": "Material",
+    "persistentId": "2dac091c-1fea-467a-808f-610c8ea8b7b0",
+    "Stages": [
+      {
+        "colorMap": "/levels/nationals/art/shapes/rocks/utah_rocks_b_d.dds",
+        "detailMap": "levels/nationals/art/shapes/rocks/cliff_detail_d.dds",
+        "detailNormalMap": "levels/nationals/art/shapes/rocks/cliff_detail_n.dds",
+        "detailScale": [
+          32,
+          32
+        ],
+        "diffuseColor": [
+          1,
+          0.999993026,
+          0.999989986,
+          1
+        ],
+        "normalMap": "levels/nationals/art/shapes/rocks/utah_rocks_b_n.dds",
+        "reflectivityMap": "/levels/nationals/art/terrains/cliff_detail_n.dds",
+        "roughnessFactor": 0.842635155,
+        "specular": [
+          0.396077991,
+          0.396077991,
+          0.396077991,
+          0.00800000038
+        ],
+        "specularMap": "/levels/nationals/art/shapes/rocks/utah_rocks_b_s.dds",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType": "ROCK",
+    "materialTag0": "Utah",
+    "materialTag1": "building",
+    "materialTag2": "offroadparadise",
+    "specularStrength0": "0.490196"
+  },
+    "jri_rocks": {
+      "name": "jri_rocks",
+      "mapTo": "jri_rocks",
+      "class": "Material",
+      "persistentId": "6c071962-a8ff-4146-a7e0-b6185262b593",
+      "Stages": [
+        {
+          "colorMap": "/levels/nationals/art/shapes/rocks/jri_rocks_d.color.dds",
+          "detailMap": "/levels/nationals/art/shapes/rocks/pac_rocks_detail_d.data.dds",
+          "detailNormalMap": "/levels/nationals/art/shapes/rocks/pac_rocks_detail_n.normal.dds",
+          "detailScale": [
+            32,
+            32
+          ],
+          "normalMap": "/levels/nationals/art/shapes/rocks/jri_rocks_n.normal.dds",
+          "specularMap": "/levels/nationals/art/shapes/rocks/jri_rocks_s.color.dds",
+          "useAnisotropic": true,
+          "vertColor": true
+        },
+        {},
+        {},
+        {}
+      ],
+      "groundType": "ROCK",
+      "materialTag0": "beamng",
+      "materialTag1": "Natural",
+      "translucentBlendOp": "None"
+    },
+    "hillclimb02_mat": {
+      "name": "hillclimb02_mat",
+      "mapTo": "hillclimb02",
+      "class": "Material",
+      "persistentId": "3b57653a-fc0f-4f4f-bad2-ceee6d3c658f",
+      "Stages": [
+        {
+          "colorMap": "levels/nationals/art/shapes/rocks/rock_Diffuse.png",
+          "detailNormalMap": "levels/nationals/art/shapes/rocks/rock_Normal.png",
+          "detailNormalMapStrength": 0.800000011920929,
+          "detailScale": [
+            8,
+            8
+          ],
+          "diffuseColor": [
+            1,
+            1,
+            0.9990000128746032,
+            1
+          ],
+          "normalMap": "levels/nationals/art/shapes/rocks/rock_Normal.png",
+          "specularMap": "levels/nationals/art/shapes/rocks/rock_Specular.png",
+          "specularPower": 1
+        },
+        {},
+        {},
+        {}
+      ],
+      "order_simset": 1986332937
+    },
+    "rockclimb01": {
+      "name": "rockclimb01",
+      "mapTo": "rockclimb01",
+      "class": "Material",
+      "persistentId": "185b2fd0-s222-4ba2-9aff-4578de455f33",
+      "Stages": [
+        {
+          "colorMap": "levels/nationals/art/shapes/rocks/rock_Diffuse.png",
+          "detailNormalMap": "levels/nationals/art/shapes/rocks/rock_Normal.png",
+          "detailNormalMapStrength": 0.800000011920929,
+          "detailScale": [
+            8,
+            8
+          ],
+          "diffuseColor": [
+            1,
+            1,
+            0.9990000128746032,
+            1
+          ],
+          "normalMap": "levels/nationals/art/shapes/rocks/rock_Normal.png",
+          "specularMap": "levels/nationals/art/shapes/rocks/rock_Specular.png",
+          "specularPower": 1
+        },
+        {},
+        {},
+        {}
+      ],
+      "doubleSided": true,
+      "order_simset": 1,
+      "showDust": true
+    },    
+  "italy_rocksface" : {
+    "name" : "italy_rocksface",
+    "mapTo" : "italy_rocksface",
+    "class" : "Material",
+    "persistentId" : "b0060c1a-6687-4bf1-8e8f-860ab174aeac",
+    "Stages" : [
+      {
+        "colorMap" : "levels/nationals/art/shapes/rocks/italy_rocksface_d.dds",
+        "detailMap" : "levels/nationals/art/shapes/rocks/italy_rocksface_detail_d.dds",
+        "detailNormalMap" : "levels/nationals/art/shapes/rocks/italy_rocksface_detail_n.dds",
+        "detailNormalMapStrength" : 0.4000000059604645,
+        "detailScale" : [ 22, 22 ],
+        "diffuseColor" : [
+          0.9333333969116211,
+          0.9333333969116211,
+          0.9333333969116211,
+          0.00800000037997961
+        ],
+        "normalMap" : "levels/nationals/art/shapes/rocks/italy_rocksface_n.dds",
+        "specularPower" : 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "groundType" : "ROCK",
+    "materialTag0" : "beamng",
+    "materialTag1" : "Natural",
+    "translucentBlendOp" : "None"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cubemap_small_island_reflection" : {
+    "name" : "cubemap_small_island_reflection",
+    "class" : "CubemapData",
+    "persistentId" : "0a627827-fd84-49f8-82e2-1b4a8013b31b",
+    "cubeFace" : [
+      "/levels/nationals/art/cubemaps/cubemap_small_island_reflection/cubemap/skybox0.hdr.dds",
+      "/levels/nationals/art/cubemaps/cubemap_small_island_reflection/cubemap/skybox1.hdr.dds",
+      "/levels/nationals/art/cubemaps/cubemap_small_island_reflection/cubemap/skybox2.hdr.dds",
+      "/levels/nationals/art/cubemaps/cubemap_small_island_reflection/cubemap/skybox3.hdr.dds",
+      "/levels/nationals/art/cubemaps/cubemap_small_island_reflection/cubemap/skybox4.hdr.dds",
+      "/levels/nationals/art/cubemaps/cubemap_small_island_reflection/cubemap/skybox5.hdr.dds"
+    ]
+  },
+  "road_sky_reflection" : {
+    "name" : "road_sky_reflection",
+    "mapTo" : "unmapped_mat",
+    "class" : "Material",
+    "persistentId" : "e5abc3dc-219e-4a20-b6bc-3b6e44414268",
+    "Stages" : [ {}, {}, {}, {} ],
+    "cubemap" : "road_sky_reflection",
+    "materialTag0" : "beamng",
+    "materialTag1" : "Natural",
+    "materialTag2" : "BNG_sky"
+  }
+}

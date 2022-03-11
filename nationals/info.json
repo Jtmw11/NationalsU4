@@ -1,0 +1,30 @@
+{
+    "title": "Nationals",
+	"defaultSpawnPointName":"spawn_north",
+    "description": "levels.small_island.info.description",
+    "previews": ["small_island_preview.jpg"],
+    "size": [1024,1024],
+	"country": "levels.common.country.usa",
+    "biome": "levels.small_island.info.biome",
+    "roads": "levels.small_island.info.roads",
+    "suitablefor": "levels.small_island.info.suitablefor",
+    "features": "levels.small_island.info.features",
+"spawnPoints":[
+  {
+    "translationId":"levels.small_island.spawnpoints.spawn_north",
+    "objectname":"spawn_north",
+    "preview":"spawn_north_preview.jpg"
+  },
+  {
+    "translationId":"levels.small_island.spawnpoints.spawn_south",
+    "objectname":"spawn_south",
+    "preview":"spawn_south_preview.jpg"
+  },
+  {
+    "translationId":"levels.small_island.spawnpoints.spawn_industrial",
+    "objectname":"spawn_industrial",
+    "preview":"spawn_industrial_preview.jpg"
+  }
+],
+    "authors": "BeamNG"
+}

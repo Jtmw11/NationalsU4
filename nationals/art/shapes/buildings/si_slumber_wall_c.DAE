@@ -1,0 +1,958 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>LUCA</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.6;  Revision: 63</authoring_tool>
+      <source_data>file:///H:/BeamNG_Drive/1_BNGD_MAXFiles/Small_Island/small_island_383.max</source_data>
+    </contributor>
+    <created>2019-11-29T17:02:30</created>
+    <modified>2019-11-29T17:02:30</modified>
+    <unit name="centimeter" meter="0.01" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="si_trim_wood">
+      <profile_COMMON>
+        <newparam sid="si_trim_wood_d_png-surface">
+          <surface type="2D">
+            <init_from>si_trim_wood_d_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="si_trim_wood_d_png-sampler">
+          <sampler2D>
+            <source>si_trim_wood_d_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="si_trim_wood_d_png-sampler" texcoord="CHANNEL1" />
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="si_trim_broken_wood">
+      <profile_COMMON>
+        <newparam sid="ut_trim_broken_wood_tga-surface">
+          <surface type="2D">
+            <init_from>ut_trim_broken_wood_tga</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="ut_trim_broken_wood_tga-sampler">
+          <sampler2D>
+            <source>ut_trim_broken_wood_tga-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="ut_trim_broken_wood_tga-sampler" texcoord="CHANNEL1" />
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <texture texture="ut_trim_broken_wood_tga-sampler" texcoord="CHANNEL1" />
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="si_corrugated_tin_V3">
+      <profile_COMMON>
+        <newparam sid="si_corrugated_tin_V3_d_png-surface">
+          <surface type="2D">
+            <init_from>si_corrugated_tin_V3_d_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="si_corrugated_tin_V3_d_png-sampler">
+          <sampler2D>
+            <source>si_corrugated_tin_V3_d_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="si_corrugated_tin_V3_d_png-sampler" texcoord="CHANNEL1" />
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="si_corrugated_tin_V2">
+      <profile_COMMON>
+        <newparam sid="si_corrugated_tin_V2_d_png-surface">
+          <surface type="2D">
+            <init_from>si_corrugated_tin_V2_d_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="si_corrugated_tin_V2_d_png-sampler">
+          <sampler2D>
+            <source>si_corrugated_tin_V2_d_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="si_corrugated_tin_V2_d_png-sampler" texcoord="CHANNEL1" />
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="lod_vertcol">
+      <profile_COMMON>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.588 0.588 0.588 1</color>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="si_wood">
+      <profile_COMMON>
+        <newparam sid="si_wood_d_png-surface">
+          <surface type="2D">
+            <init_from>si_wood_d_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="si_wood_d_png-sampler">
+          <sampler2D>
+            <source>si_wood_d_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.5882353 0.5882353 0.5882353 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="si_wood_d_png-sampler" texcoord="CHANNEL1" />
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>9.999999</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="si_trim_wood-material" name="si_trim_wood">
+      <instance_effect url="#si_trim_wood" />
+    </material>
+    <material id="si_trim_broken_wood-material" name="si_trim_broken_wood">
+      <instance_effect url="#si_trim_broken_wood" />
+    </material>
+    <material id="si_corrugated_tin_V3-material" name="si_corrugated_tin_V3">
+      <instance_effect url="#si_corrugated_tin_V3" />
+    </material>
+    <material id="si_corrugated_tin_V2-material" name="si_corrugated_tin_V2">
+      <instance_effect url="#si_corrugated_tin_V2" />
+    </material>
+    <material id="lod_vertcol-material" name="lod_vertcol">
+      <instance_effect url="#lod_vertcol" />
+    </material>
+    <material id="si_wood-material" name="si_wood">
+      <instance_effect url="#si_wood" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-si_slumber_wall_c100" name="si_slumber_wall_c100">
+      <mesh>
+        <source id="geom-si_slumber_wall_c100-positions">
+          <float_array id="geom-si_slumber_wall_c100-positions-array" count="282">16.18523 82.90033 22.85199 16.18498 -94.02112 22.85217 16.18498 -94.02112 1.794556 16.18523 82.90033 1.794373 13.1849 -94.02112 22.85217 13.1849 -94.02112 1.794556 13.18513 82.90033 1.794373 13.18513 82.90033 22.85199 18.9552 -89.12518 223.0419 18.95501 -89.12537 1.643799 18.95501 -68.06775 1.643799 18.9552 -68.06757 223.0419 15.95493 -89.12537 1.643799 15.95494 -68.06775 1.643799 15.9551 -68.06757 223.0419 15.95509 -89.12518 223.0419 16.08928 97.09332 172.9747 16.08898 -96.03937 172.9744 13.08904 -96.03943 172.9744 13.08928 97.09326 172.9747 13.08904 -96.03937 191.6614 13.08928 97.09332 191.6617 16.08898 -96.03937 191.6614 16.08928 97.09332 191.6617 16.08923 58.26862 191.6617 13.08924 58.26862 191.6617 13.08924 58.26855 172.9746 16.08923 58.26862 172.9746 19.02997 74.11371 223.0417 19.02997 60.31073 223.0417 19.02977 60.31055 1.643677 19.02978 74.11353 1.643677 16.02987 74.11371 223.0417 16.02986 60.31073 223.0417 16.0297 60.31055 1.643677 16.0297 74.11353 1.643677 28.08413 -92.92786 33.82581 50.84447 61.74982 60.28485 19.78873 -92.9278 216.5355 24.58802 61.74982 216.5355 28.0842 12.50104 33.82581 19.78882 61.74982 118.5811 27.08413 -92.92786 33.82581 50.05487 62.28033 59.97656 18.78895 -92.91663 216.5531 23.5897 61.78076 216.5844 27.0842 12.79749 33.65356 18.78977 62.0636 118.4362 20.78629 -72.22681 82.40234 20.78637 82.45074 5.407349 29.966 72.1673 74.91449 20.78627 -72.22687 10.40094 19.64586 15.5069 77.89655 20.78633 11.2868 40.83118 20.78632 9.333374 7.767883 19.78633 -72.23071 82.39447 19.78063 82.52917 5.468811 28.99563 72.35223 75.06995 19.78627 -72.22687 10.40094 18.62502 15.54309 77.91394 19.78646 11.27954 40.81659 19.78632 9.333374 7.767883 19.02995 -2.381775 230.5717 19.02994 -16.18475 230.5717 19.02975 -16.18506 9.173706 19.02976 -2.38208 9.173706 16.02967 -16.18506 9.173706 16.02968 -2.38208 9.173706 16.02984 -2.381775 230.5717 16.02984 -16.18475 230.5717 16.18889 -97.09363 31.03674 16.18908 74.15564 31.0365 -4.868549 54.20032 31.0365 -4.868722 -79.0199 31.03674 16.18908 74.15564 28.03644 -4.868549 54.20032 28.03644 -4.868722 -79.0199 28.03668 16.18889 -97.09363 28.03668 -50.84428 4.885559 -1.2207e-4 -50.84434 4.885559 28.33215 16.33849 72.06818 28.33215 16.33855 72.06818 -1.2207e-4 18.45989 69.94678 28.33215 18.45995 69.94678 -1.2207e-4 -48.72288 2.76416 -1.2207e-4 -48.72294 2.76416 28.33215 -48.72289 -14.35669 -1.2207e-4 -48.72295 -14.35669 28.33215 18.45965 -81.53943 28.33221 18.45971 -81.53943 -6.10352e-5 16.33825 -83.66083 28.33221 16.33831 -83.66083 -6.10352e-5 -50.84428 -16.47809 -1.2207e-4 -50.84435 -16.47809 28.33215</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c100-positions-array" count="94" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c100-normals">
+          <float_array id="geom-si_slumber_wall_c100-normals-array" count="870">0.9999999 -1.43384e-6 0 1 -1.43384e-6 0 0.9999999 -1.43384e-6 0 1 -1.43384e-6 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1.03495e-6 1 0 1.03495e-6 1 0 1.03495e-6 1 0 1.03495e-6 1 0 1.03495e-6 1 0 1.03495e-6 1 0 -1.03495e-6 -1 0 -1.03495e-6 -1 0 -1.03495e-6 -1 0 -1.03495e-6 -1 0 -1.03495e-6 -0.9999999 0 -1.03495e-6 -1 -0.9999999 1.27752e-6 0 -1 1.27752e-6 0 -0.9999999 1.27752e-6 0 -1 1.27752e-6 0 1 -2.71733e-7 -8.70117e-7 1 -2.71733e-7 -8.70117e-7 1 -2.71733e-7 -8.70117e-7 1 -2.71733e-7 -8.70117e-7 0 0 -1 0 0 -1 0 0 -0.9999999 0 0 -0.9999999 0 0 1 0 0 1 0 0 0.9999999 0 0 1 0 -1 8.27042e-7 0 -1 8.27042e-7 0 -0.9999999 8.27042e-7 0 -1 8.27042e-7 0 -1 8.27042e-7 0 -0.9999999 8.27042e-7 0 1 -8.27042e-7 0 1 -8.27042e-7 0 1 -8.27042e-7 0 1 -8.27042e-7 0 0.9999999 -8.27042e-7 0 1 -8.27042e-7 -1 3.6231e-7 7.32276e-7 -1 3.6231e-7 7.32276e-7 -1 3.6231e-7 7.32276e-7 -1 3.6231e-7 7.32276e-7 -3.20867e-11 1.57712e-6 -1 -3.20867e-11 1.57712e-6 -1 -3.19838e-11 1.57207e-6 -1 -3.19838e-11 1.57207e-6 -1 -1 1.24139e-6 -4.0546e-12 -1 1.24139e-6 -4.0546e-12 -1 1.22818e-6 -4.01144e-12 -1 1.22818e-6 -4.01144e-12 0 -1.57712e-6 0.9999999 0 -1.57712e-6 0.9999999 0 -1.57207e-6 0.9999999 0 -1.57207e-6 1 1 -1.54637e-6 0 1 -1.54637e-6 0 1 -1.52294e-6 0 1 -1.52294e-6 0 2.06172e-6 -0.9999999 3.30979e-7 2.03455e-5 -1 3.26617e-6 1.82837e-5 -0.9999999 2.93519e-6 0 -1 0 -3.21899e-11 1.58216e-6 -1 -3.21899e-11 1.58216e-6 -1 -1 1.25461e-6 -4.09776e-12 -1 1.25461e-6 -4.09776e-12 0 -1.58216e-6 1 0 -1.58216e-6 1 1 -1.5698e-6 0 0.9999999 -1.5698e-6 0 1 -2.76368e-7 -8.70117e-7 1 -2.76368e-7 -8.70117e-7 1 -2.76368e-7 -8.70117e-7 1 -2.76368e-7 -8.70117e-7 0 0 -1 0 0 -1 0 0 -0.9999999 0 0 -1 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 8.27042e-7 0 -1 8.27042e-7 0 -0.9999999 8.27042e-7 0 -1 8.27042e-7 0 -1 8.27042e-7 0 -0.9999999 8.27042e-7 0 1 -8.27042e-7 0 1 -8.27042e-7 0 1 -8.27042e-7 0 1 -8.27042e-7 0 0.9999999 -8.27042e-7 0 1 -8.27042e-7 -1 4.14552e-7 7.32276e-7 -1 4.14552e-7 7.32276e-7 -1 4.14552e-7 7.32276e-7 -1 4.14552e-7 7.32276e-7 0.9999079 0.007260446 0.01146574 0.9886948 -0.1138463 0.09757904 0.9983226 -0.03097567 -0.04891205 0.972527 -0.1469302 0.1805623 0.7364444 -0.5511218 0.3923195 0.997883 0.01952331 0.06203656 -0.9983227 0.03097124 0.04891207 -0.9885938 0.1143463 -0.09801605 -0.999908 -0.007251574 -0.01146263 -0.7369208 0.5506586 -0.3920751 -0.9724008 0.1474538 -0.1808151 -0.9978859 -0.01957007 -0.06197385 0.2895774 0.9550171 0.06393301 0.03104857 0.999517 0.001361915 0.03287852 0.9994586 0.001253568 0.2902295 0.9542297 0.07219833 0.04873705 -0.001512638 0.9988105 0.01757088 -7.47256e-4 0.9998453 0.01769818 -7.50383e-4 0.9998431 0.04886582 -0.001515799 0.9988043 0.2221673 0.1877815 -0.9567549 0.4823959 0.2262298 -0.8462355 0.4801674 0.2277752 -0.8470878 0.21775 0.1785784 -0.9595283 0.4689071 0.8471773 0.2498339 0.4705485 0.846019 0.2506711 -0.01113953 -0.9999378 -5.05202e-4 0 -1 6.14603e-5 -4.017e-5 -1 5.94168e-5 -0.01118008 -0.9999374 -5.07265e-4 0.001037835 -9.84457e-6 -0.9999995 0 0 -1 0.9992253 -0.03547404 -0.01703897 0.9998678 0.007243929 0.01455359 0.9951295 -0.07757198 -0.06082539 0.9703696 -0.1849281 -0.1555139 1 -6.37811e-7 -2.50756e-7 0.9999614 0.003915476 0.007866976 1 -6.27302e-7 -2.21474e-7 -0.9951238 0.0776374 0.06083559 -0.9998633 -0.007387879 -0.0147905 -0.999234 0.03536695 0.01674788 -0.9703695 0.184928 0.1555141 -0.9999999 -3.77195e-5 6.54971e-6 -0.9999599 -0.003984597 -0.00800647 -1 1.72221e-6 1.60531e-6 0.08634856 0.9871274 0.1346232 0.2037431 0.9722252 0.1151818 0.2026855 0.9724243 0.1153666 0.08522204 0.9872013 0.1347995 0.1607163 0.0226309 0.9867411 0.01865487 0.04913779 0.9986177 0.01950105 0.04886235 0.9986151 0.1623002 0.02235781 0.9864881 -2.78105e-4 -0.03226327 -0.9994794 -0.06340208 -0.03133618 -0.9974959 -0.06287681 -0.03134442 -0.9975289 0 -0.03226707 -0.9994793 -0.008062126 0.0508719 0.9986727 -0.007862066 0.0508769 0.998674 0.003872004 -0.9999924 3.69533e-7 0 -1 -5.34106e-5 3.45383e-5 -1 -5.29309e-5 0.00390637 -0.9999924 8.4686e-7 0 -0.03226677 -0.9994793 0 -0.03226677 -0.9994792 1 -4.14552e-7 -8.70116e-7 1 -4.14552e-7 -8.70116e-7 1 -4.14552e-7 -8.70116e-7 1 -4.14552e-7 -8.70116e-7 0 0 -0.9999999 0 0 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 1 0 0 1 0 0 1 0 0 1 0 -1 1.3784e-6 0 -1 1.3784e-6 0 -0.9999999 1.3784e-6 0 -1 1.3784e-6 0 -1 1.3784e-6 0 -0.9999999 1.3784e-6 0 1 -1.3784e-6 0 1 -1.3784e-6 0 1 -1.3784e-6 0 1 -1.3784e-6 0 0.9999999 -1.3784e-6 0 1 -1.3784e-6 -1 2.76368e-7 7.32276e-7 -1 2.76368e-7 7.32276e-7 -1 2.76368e-7 7.32276e-7 -1 2.76368e-7 7.32276e-7 -1.17742e-6 1.44981e-6 1 1.57293e-6 1.83261e-6 1 1.10355e-6 1.76728e-6 1 -1.35102e-6 1.42565e-6 1 -0.6878535 0.7258496 0 -0.6878536 0.7258496 0 -0.6878535 0.7258496 0 -0.6878536 0.7258496 0 -0.6512971 -0.7588229 0 -0.6512971 -0.7588229 0 -0.6512971 -0.7588229 0 -0.6512971 -0.7588229 0 1 -1.10265e-6 0 1 -1.10265e-6 0 1 -1.10265e-6 0 1 -1.10265e-6 0 1 -1.10265e-6 0 1 -1.10265e-6 0 -1 1.30287e-6 0 -1 1.30287e-6 0 -1 1.30287e-6 0 -1 1.30287e-6 0 -1 1.30287e-6 0 -1 1.30287e-6 0 1.17742e-6 -1.44981e-6 -1 1.35102e-6 -1.42565e-6 -1 -1.10355e-6 -1.76728e-6 -1 -1.57293e-6 -1.83261e-6 -1 -0.7071056 0.707108 -1.52329e-6 -0.7071056 0.7071078 -1.52329e-6 -0.7071056 0.707108 -1.52329e-6 -0.7071056 0.7071078 -1.52329e-6 0.7071068 0.7071068 1.52329e-6 0.7071068 0.7071068 1.52329e-6 0.7071068 0.7071068 1.52329e-6 0.7071068 0.7071068 1.52329e-6 -0.7071068 -0.7071068 -1.52329e-6 -0.7071068 -0.7071068 -1.52329e-6 -0.7071068 -0.7071068 -1.52329e-6 -0.7071068 -0.7071068 -1.52329e-6 0 0 -1 0 0 -1 0 0 -0.9999999 0 0 -1 0 0 -1 0 0 -0.9999999 0 0 1 0 0 0.9999999 0 0 1 0 0 1 0 0 0.9999999 0 0 1 0.7071056 -0.707108 1.52329e-6 0.7071056 -0.7071078 1.52329e-6 0.7071056 -0.707108 1.52329e-6 0.7071056 -0.7071078 1.52329e-6 0.7071076 0.707106 1.5233e-6 0.7071075 0.707106 1.5233e-6 0.7071076 0.707106 1.5233e-6 0.7071075 0.707106 1.5233e-6 0.7071065 -0.707107 1.52329e-6 0.7071065 -0.7071071 1.52329e-6 0.7071065 -0.707107 1.52329e-6 0.7071065 -0.7071071 1.52329e-6 -0.7071068 0.7071068 -1.52329e-6 -0.7071068 0.7071068 -1.52329e-6 -0.7071068 0.7071068 -1.52329e-6 -0.7071068 0.7071068 -1.52329e-6 4.54248e-7 -4.54248e-7 -1 4.54248e-7 -4.54248e-7 -1 4.54248e-7 -4.54248e-7 -1 4.54248e-7 -4.54248e-7 -1 4.54248e-7 -4.54248e-7 -1 4.54248e-7 -4.54248e-7 -0.9999999 -4.54248e-7 4.54248e-7 1 -4.54248e-7 4.54248e-7 1 -4.54248e-7 4.54248e-7 1 -4.54248e-7 4.54248e-7 1 -4.54248e-7 4.54248e-7 1 -4.54248e-7 4.54248e-7 1 -0.7071076 -0.707106 -1.5233e-6 -0.7071075 -0.707106 -1.5233e-6 -0.7071076 -0.707106 -1.5233e-6 -0.7071075 -0.707106 -1.5233e-6</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c100-normals-array" count="290" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c100-map0">
+          <float_array id="geom-si_slumber_wall_c100-map0-array" count="912">0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c100-map0-array" count="304" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c100-map1">
+          <float_array id="geom-si_slumber_wall_c100-map1-array" count="621">0.9095808 0.3019143 0 -1.592509 0.3018501 0 -1.592503 0.152947 0 0.9095922 0.1529922 0 -1.082669 0.4256313 0 -1.082668 0.4044171 0 1.41938 0.404412 0 1.419379 0.4256302 0 -1.264602 0.4256237 0 -1.264603 0.4044167 0 1.237445 0.4044178 0 1.237446 0.4256307 0 0.2942078 0.7514613 0 0.3880719 0.8594998 0 0.6024877 0.8594998 0 0.07979198 0.7514613 0 0.6024877 0.8747732 0 0.3880719 0.8747732 0 0.07979198 0.7361875 0 0.2942078 0.7361875 0 -1.592509 0.3018467 0 -1.592503 0.1529504 0 0.9095922 0.1530144 0 0.9095808 0.3018921 0 1.315052 0.301925 0 -1.816043 0.3018421 0 -1.816038 0.1529423 0 1.315064 0.1530251 0 -1.488133 0.4256307 0 -1.488133 0.4044172 0 1.64291 0.404417 0 1.642909 0.4256302 0 -1.488132 0.42563 0 -1.488133 0.4044167 0 1.64291 0.4044173 0 1.64291 0.4256309 0 0.2942078 0.7514613 0 0.3880719 0.8594998 0 0.6024877 0.8594998 0 0.07979198 0.7514613 0 0.6024877 0.8747732 0 0.3880719 0.8747732 0 0.07979198 0.7361875 0 0.2942078 0.7361875 0 -1.816043 0.3018421 0 -1.816038 0.1529423 0 1.315064 0.1530251 0 1.315052 0.301925 0 2.343287 0.5223053 0 2.343288 0.5384461 0 0.05474227 0.0738619 0 2.328213 0.07385869 0 2.328213 0.1744099 0 0.05474204 0.1744133 0 2.378206 0.6948965 0 2.378206 0.7110386 0 0.05501298 0.8921919 0 2.328484 0.8921928 0 2.328484 0.992744 0 0.05501326 0.9927433 0 2.610262 0.6948966 0 2.610262 0.7110387 0 0.4915982 0.7110395 0 0.472829 0.8921921 0 0.472558 0.1744126 0 0.4915982 0.6948971 0 0.487633 0.5384454 0 0.4725582 0.07386127 0 0.4876328 0.522303 0 0.4728292 0.9927435 0 0.06981476 0.5223029 0 0.06981522 0.5384444 0 0.07378045 0.6948972 0 0.07378045 0.7110397 0 1.315031 0.5022645 0 1.315018 0.5998664 0 -1.816056 0.5997831 0 -1.816051 0.5021814 0 -1.488133 0.4256307 0 -1.488132 0.42563 0 -1.488133 0.4044167 0 -1.488133 0.4044172 0 1.642911 0.4044173 0 1.64291 0.404417 0 1.642909 0.4256302 0 1.642911 0.4256309 0 0.3110091 0.7822892 0 0.4436831 0.7791052 0 0.1704625 0.7822892 0 0.5842297 0.7791052 0 0.5842297 0.7943786 0 0.4436831 0.7943786 0 0.1704625 0.7670154 0 0.3110091 0.7670155 0 1.315031 0.5022645 0 1.315018 0.5998664 0 -1.816056 0.5997831 0 -1.816051 0.5021814 0 -0.3434846 -0.3652566 0 1.270705 -0.1399956 0 -0.3432324 1.462259 0 1.204504 1.462573 0 0.7107509 -0.3653618 0 1.203216 0.4821597 0 -0.3548815 1.19392 0 1.232105 0.5077482 0 1.09879 1.202776 0 -0.3150659 0.4746304 0 0.5239228 1.196687 0 0.5030169 0.8250264 0 0.5009806 0.4934405 0 1.315031 0.5022645 0 1.315018 0.5998664 0 -1.816056 0.5997831 0 -1.816051 0.5021814 0 0.4436831 0.7791052 0 0.5842297 0.7791052 0 0.5842297 0.7943786 0 0.4436831 0.7943786 0 0.3110091 0.7822892 0 0.1704625 0.7822892 0 0.1704625 0.7670154 0 0.3110091 0.7670155 0 -1.488133 0.4256307 0 -1.488133 0.4044172 0 1.64291 0.404417 0 1.642909 0.4256302 0 -1.488132 0.42563 0 -1.488133 0.4044167 0 1.642911 0.4044173 0 1.642911 0.4256309 0 1.315031 0.5022645 0 -1.816051 0.5021814 0 -1.816056 0.5997831 0 1.315018 0.5998664 0 0.9687468 0.3019162 0 -1.453125 0.3018552 0 -1.170902 0.1529561 0 0.7393636 0.1682555 0 -1.141833 0.4256312 0 -1.141833 0.4044163 0 1.279998 0.4044089 0 1.279998 0.4256301 0 -0.8430094 0.4256119 0 -0.8430099 0.4044168 0 1.041009 0.4044196 0 1.041009 0.4256284 0 0.2652751 0.7514613 0 0.3880719 0.8594998 0 0.6024877 0.8594998 0 0.05085929 0.7514613 0 0.6024877 0.8747732 0 0.3880719 0.8747732 0 0.05085929 0.7361875 0 0.2652751 0.7361875 0 -1.453125 0.3018518 0 -1.170902 0.1529672 0 0.7131522 0.15301 0 0.9949673 0.3171757 0 -0.4723659 0.3017473 0 -0.4723787 0.502217 0 -1.816051 0.5021814 0 -1.816043 0.3018421 0 -1.488132 0.42563 0 0.2992544 0.4256309 0 0.2992545 0.4044171 0 -1.488133 0.4044167 0 1.64291 0.404417 0 -0.144478 0.4044219 0 -0.1444773 0.4256304 0 1.642909 0.4256302 0 0.3150882 0.8427357 0 0.06354381 0.8588953 0 0.02659929 0.8427357 0 0.3520327 0.8588953 0 0.3520327 0.8741688 0 0.06354381 0.8741688 0 0.02659929 0.827462 0 0.3150882 0.827462 0 -1.816051 0.5021814 0 -1.816043 0.3018421 0 -0.4723657 0.3018777 0 -0.4723788 0.5020863 0 -0.4723659 0.3017473 0 -0.4723787 0.502217 0 -1.816051 0.5021814 0 -1.816043 0.3018421 0 -1.488132 0.42563 0 0.2992544 0.4256309 0 0.2992545 0.4044171 0 -1.488133 0.4044167 0 1.64291 0.404417 0 -0.144478 0.4044219 0 -0.1444773 0.4256304 0 1.642909 0.4256302 0 0.3150882 0.8427357 0 0.06354381 0.8588953 0 0.02659929 0.8427357 0 0.3520327 0.8588953 0 0.3520327 0.8741688 0 0.06354381 0.8741688 0 0.02659929 0.827462 0 0.3150882 0.827462 0 -1.816051 0.5021814 0 -1.816043 0.3018421 0 -0.4723657 0.3018777 0 -0.4723788 0.5020863 0</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c100-map1-array" count="207" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c100-map2">
+          <float_array id="geom-si_slumber_wall_c100-map2-array" count="366">3.205753 1.456569 0.6633416 3.190002 -1.497094 0.6633359 3.219999 1.499954 0.6633403 3.219978 -1.536685 0.6633407 3.19 -1.497094 0.7181531 3.189997 1.427435 0.7181579 3.244386 1.545037 0.7181597 3.219978 -1.536685 0.7181583 3.190002 -1.422304 0.663336 3.190001 -1.422304 0.7181534 3.189998 1.285812 0.7181574 3.189998 1.285812 0.6633406 3.189997 1.72467 0.6633406 3.190002 -1.664244 0.6633356 3.220001 1.72467 0.6633404 3.21998 -1.664244 0.6633406 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.220001 1.72467 0.7181578 3.219977 -1.664244 0.7181582 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.189997 1.72467 0.6633406 3.220001 -1.59708 0.1070321 3.220001 1.665968 0.1070338 3.19 1.665968 0.1070338 3.19 -1.59708 0.1070315 3.190001 1.665968 0.02447549 3.190001 -1.59708 0.02447389 3.22 1.665968 0.0244755 3.22 -1.59708 0.02447328 3.22 -1.002794 0.02447368 3.190001 -1.002794 0.02447408 3.19 -1.002794 0.1070319 3.220001 -1.002794 0.1070324 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.219999 1.72467 0.5536535 3.22 1.72467 0.5895855 3.219983 -1.664244 0.5895854 3.219985 -1.664244 0.5536532 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 -77.33881 -91.35484 8.29541 77.33881 -64.89577 31.05566 -77.33881 91.35484 0 77.33881 91.35484 4.799194 28.09009 -91.35484 8.29541 77.33881 -6.599503 0 -77.33881 -91.35484 7.29541 77.86935 -65.20405 30.26605 -77.32766 91.37244 -0.999783 77.36978 91.40376 3.800872 28.38655 -91.52711 7.29541 77.65257 -6.744431 -0.9990457 -35.54869 -42.77834 -7.15256e-6 119.1289 -119.7733 -8.28505e-6 108.8454 -50.26614 9.179615 -35.54869 -114.7797 -1.21593e-5 52.18498 -47.28414 -1.140488 47.96497 -84.3495 -7.76401e-6 46.01151 -117.4128 -1.01165e-5 -35.55261 -42.7862 -0.9999686 119.2073 -119.7118 -1.005751 109.0303 -50.11063 8.209246 -35.54869 -114.7797 -1.000012 52.22122 -47.26674 -2.161326 47.95773 -84.36406 -0.9998756 46.01151 -117.4128 -1.00001 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.219985 -1.664244 0.5536532 3.219983 -1.664244 0.5895854 3.22 1.72467 0.5895855 3.219999 1.72467 0.5536535 3.189997 1.72467 0.5895857 3.190001 -1.664244 0.5895812 3.189999 -1.664244 0.5536494 3.189998 1.724669 0.5536537 3.204569 1.475228 0.6658185 3.190002 -1.402377 0.663336 3.224834 1.519391 0.6668959 3.219977 -1.467843 0.6633407 3.233225 -1.268394 0.7181568 3.192029 1.277135 0.7149206 3.317535 1.512403 0.721721 3.224409 -1.279846 0.7181588 3.190002 -1.271443 0.6633362 3.19 -0.9659892 0.7181544 3.189998 1.073197 0.7181572 3.189998 1.397199 0.6539584 3.189999 0.3940874 0.6633406 3.197752 0.4700659 0.5895849 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.219995 0.7114147 0.5895848 3.233191 0.8405404 0.6633404 3.21998 -1.664244 0.6633406 3.219983 -1.664244 0.5895854 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.19 -0.2099267 0.6633378 3.19 -0.2099263 0.5895872 3.189999 0.3940874 0.6633406 3.197752 0.4700659 0.5895849 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.219995 0.7114147 0.5895848 3.233191 0.8405404 0.6633404 3.21998 -1.664244 0.6633406 3.219983 -1.664244 0.5895854 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.19 -0.2099267 0.6633378 3.19 -0.2099263 0.5895872</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c100-map2-array" count="122" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c100-map3">
+          <float_array id="geom-si_slumber_wall_c100-map3-array" count="366">3.205753 1.456569 0.6633416 3.190002 -1.497094 0.6633359 3.219999 1.499954 0.6633403 3.219978 -1.536685 0.6633407 3.19 -1.497094 0.7181531 3.189997 1.427435 0.7181579 3.244386 1.545037 0.7181597 3.219978 -1.536685 0.7181583 3.190002 -1.422304 0.663336 3.190001 -1.422304 0.7181534 3.189998 1.285812 0.7181574 3.189998 1.285812 0.6633406 3.189997 1.72467 0.6633406 3.190002 -1.664244 0.6633356 3.220001 1.72467 0.6633404 3.21998 -1.664244 0.6633406 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.220001 1.72467 0.7181578 3.219977 -1.664244 0.7181582 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.189997 1.72467 0.6633406 3.220001 -1.59708 0.1070321 3.220001 1.665968 0.1070338 3.19 1.665968 0.1070338 3.19 -1.59708 0.1070315 3.190001 1.665968 0.02447549 3.190001 -1.59708 0.02447389 3.22 1.665968 0.0244755 3.22 -1.59708 0.02447328 3.22 -1.002794 0.02447368 3.190001 -1.002794 0.02447408 3.19 -1.002794 0.1070319 3.220001 -1.002794 0.1070324 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.219999 1.72467 0.5536535 3.22 1.72467 0.5895855 3.219983 -1.664244 0.5895854 3.219985 -1.664244 0.5536532 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 -77.33881 -91.35484 8.29541 77.33881 -64.89577 31.05566 -77.33881 91.35484 0 77.33881 91.35484 4.799194 28.09009 -91.35484 8.29541 77.33881 -6.599503 0 -77.33881 -91.35484 7.29541 77.86935 -65.20405 30.26605 -77.32766 91.37244 -0.999783 77.36978 91.40376 3.800872 28.38655 -91.52711 7.29541 77.65257 -6.744431 -0.9990457 -35.54869 -42.77834 -7.15256e-6 119.1289 -119.7733 -8.28505e-6 108.8454 -50.26614 9.179615 -35.54869 -114.7797 -1.21593e-5 52.18498 -47.28414 -1.140488 47.96497 -84.3495 -7.76401e-6 46.01151 -117.4128 -1.01165e-5 -35.55261 -42.7862 -0.9999686 119.2073 -119.7118 -1.005751 109.0303 -50.11063 8.209246 -35.54869 -114.7797 -1.000012 52.22122 -47.26674 -2.161326 47.95773 -84.36406 -0.9998756 46.01151 -117.4128 -1.00001 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.219985 -1.664244 0.5536532 3.219983 -1.664244 0.5895854 3.22 1.72467 0.5895855 3.219999 1.72467 0.5536535 3.189997 1.72467 0.5895857 3.190001 -1.664244 0.5895812 3.189999 -1.664244 0.5536494 3.189998 1.724669 0.5536537 3.204569 1.475228 0.6658185 3.190002 -1.402377 0.663336 3.224834 1.519391 0.6668959 3.219977 -1.467843 0.6633407 3.233225 -1.268394 0.7181568 3.192029 1.277135 0.7149206 3.317535 1.512403 0.721721 3.224409 -1.279846 0.7181588 3.190002 -1.271443 0.6633362 3.19 -0.9659892 0.7181544 3.189998 1.073197 0.7181572 3.189998 1.397199 0.6539584 3.189999 0.3940874 0.6633406 3.197752 0.4700659 0.5895849 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.219995 0.7114147 0.5895848 3.233191 0.8405404 0.6633404 3.21998 -1.664244 0.6633406 3.219983 -1.664244 0.5895854 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.19 -0.2099267 0.6633378 3.19 -0.2099263 0.5895872 3.189999 0.3940874 0.6633406 3.197752 0.4700659 0.5895849 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.219995 0.7114147 0.5895848 3.233191 0.8405404 0.6633404 3.21998 -1.664244 0.6633406 3.219983 -1.664244 0.5895854 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.19 -0.2099267 0.6633378 3.19 -0.2099263 0.5895872</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c100-map3-array" count="122" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c100-map10">
+          <float_array id="geom-si_slumber_wall_c100-map10-array" count="366">3.205753 1.456569 0.6633416 3.190002 -1.497094 0.6633359 3.219999 1.499954 0.6633403 3.219978 -1.536685 0.6633407 3.19 -1.497094 0.7181531 3.189997 1.427435 0.7181579 3.244386 1.545037 0.7181597 3.219978 -1.536685 0.7181583 3.190002 -1.422304 0.663336 3.190001 -1.422304 0.7181534 3.189998 1.285812 0.7181574 3.189998 1.285812 0.6633406 3.189997 1.72467 0.6633406 3.190002 -1.664244 0.6633356 3.220001 1.72467 0.6633404 3.21998 -1.664244 0.6633406 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.220001 1.72467 0.7181578 3.219977 -1.664244 0.7181582 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.189997 1.72467 0.6633406 3.220001 -1.59708 0.1070321 3.220001 1.665968 0.1070338 3.19 1.665968 0.1070338 3.19 -1.59708 0.1070315 3.190001 1.665968 0.02447549 3.190001 -1.59708 0.02447389 3.22 1.665968 0.0244755 3.22 -1.59708 0.02447328 3.22 -1.002794 0.02447368 3.190001 -1.002794 0.02447408 3.19 -1.002794 0.1070319 3.220001 -1.002794 0.1070324 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.219999 1.72467 0.5536535 3.22 1.72467 0.5895855 3.219983 -1.664244 0.5895854 3.219985 -1.664244 0.5536532 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 -77.33881 -91.35484 8.29541 77.33881 -64.89577 31.05566 -77.33881 91.35484 0 77.33881 91.35484 4.799194 28.09009 -91.35484 8.29541 77.33881 -6.599503 0 -77.33881 -91.35484 7.29541 77.86935 -65.20405 30.26605 -77.32766 91.37244 -0.999783 77.36978 91.40376 3.800872 28.38655 -91.52711 7.29541 77.65257 -6.744431 -0.9990457 -35.54869 -42.77834 -7.15256e-6 119.1289 -119.7733 -8.28505e-6 108.8454 -50.26614 9.179615 -35.54869 -114.7797 -1.21593e-5 52.18498 -47.28414 -1.140488 47.96497 -84.3495 -7.76401e-6 46.01151 -117.4128 -1.01165e-5 -35.55261 -42.7862 -0.9999686 119.2073 -119.7118 -1.005751 109.0303 -50.11063 8.209246 -35.54869 -114.7797 -1.000012 52.22122 -47.26674 -2.161326 47.95773 -84.36406 -0.9998756 46.01151 -117.4128 -1.00001 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.219985 -1.664244 0.5536532 3.219983 -1.664244 0.5895854 3.22 1.72467 0.5895855 3.219999 1.72467 0.5536535 3.189997 1.72467 0.5895857 3.190001 -1.664244 0.5895812 3.189999 -1.664244 0.5536494 3.189998 1.724669 0.5536537 3.204569 1.475228 0.6658185 3.190002 -1.402377 0.663336 3.224834 1.519391 0.6668959 3.219977 -1.467843 0.6633407 3.233225 -1.268394 0.7181568 3.192029 1.277135 0.7149206 3.317535 1.512403 0.721721 3.224409 -1.279846 0.7181588 3.190002 -1.271443 0.6633362 3.19 -0.9659892 0.7181544 3.189998 1.073197 0.7181572 3.189998 1.397199 0.6539584 3.189999 0.3940874 0.6633406 3.197752 0.4700659 0.5895849 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.219995 0.7114147 0.5895848 3.233191 0.8405404 0.6633404 3.21998 -1.664244 0.6633406 3.219983 -1.664244 0.5895854 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.19 -0.2099267 0.6633378 3.19 -0.2099263 0.5895872 3.189999 0.3940874 0.6633406 3.197752 0.4700659 0.5895849 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.219995 0.7114147 0.5895848 3.233191 0.8405404 0.6633404 3.21998 -1.664244 0.6633406 3.219983 -1.664244 0.5895854 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.19 -0.2099267 0.6633378 3.19 -0.2099263 0.5895872</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c100-map10-array" count="122" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-si_slumber_wall_c100-vertices">
+          <input semantic="POSITION" source="#geom-si_slumber_wall_c100-positions" />
+        </vertices>
+        <triangles material="si_trim_wood" count="94">
+          <input semantic="VERTEX" source="#geom-si_slumber_wall_c100-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_slumber_wall_c100-normals" offset="1" />
+          <input semantic="COLOR" source="#geom-si_slumber_wall_c100-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map1" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map2" offset="4" set="1" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map3" offset="5" set="2" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map10" offset="6" set="9" />
+          <p>2 0 1 2 4 4 4 3 1 2 3 5 5 5 0 2 3 0 0 0 0 0 2 3 0 0 0 0 1 3 0 1 1 1 1 2 0 1 2 4 4 4 5 4 5 14 7 7 7 2 5 6 16 4 4 4 1 6 7 17 1 1 1 1 6 7 17 1 1 1 4 7 4 13 3 3 3 5 4 5 14 7 7 7 3 8 9 15 5 5 5 6 9 10 18 6 6 6 7 10 11 19 2 2 2 7 10 11 19 2 2 2 0 11 8 12 0 0 0 3 8 9 15 5 5 5 7 12 13 5 2 2 2 4 13 14 6 3 3 3 1 14 15 7 1 1 1 1 15 15 7 1 1 1 0 16 12 4 0 0 0 7 17 13 5 2 2 2 5 18 17 9 7 7 7 6 19 18 10 6 6 6 3 20 19 11 5 5 5 3 21 19 11 5 5 5 2 22 16 8 4 4 4 5 23 17 9 7 7 7 5 24 23 21 9 9 9 4 25 20 20 8 8 8 7 26 21 23 11 11 11 7 26 21 23 11 11 11 6 27 22 22 10 10 10 5 24 23 21 9 9 9 10 28 25 26 16 16 16 11 29 26 27 17 17 17 8 30 27 24 12 12 12 8 30 27 24 12 12 12 9 31 24 25 13 13 13 10 28 25 26 16 16 16 13 32 29 38 19 19 19 10 33 30 40 16 16 16 9 34 31 41 13 13 13 9 34 31 41 13 13 13 12 35 28 37 15 15 15 13 32 29 38 19 19 19 11 36 33 39 17 17 17 14 37 34 42 18 18 18 15 38 35 43 14 14 14 15 38 35 43 14 14 14 8 39 32 36 12 12 12 11 36 33 39 17 17 17 15 40 37 29 14 14 14 12 41 38 30 15 15 15 9 42 39 31 13 13 13 9 43 39 31 13 13 13 8 44 36 28 12 12 12 15 45 37 29 14 14 14 13 46 41 33 19 19 19 14 47 42 34 18 18 18 11 48 43 35 17 17 17 11 49 43 35 17 17 17 10 50 40 32 16 16 16 13 51 41 33 19 19 19 13 52 47 45 21 21 21 12 53 44 44 20 20 20 15 54 45 47 23 23 23 15 54 45 47 23 23 23 14 55 46 46 22 22 22 13 52 47 45 21 21 21 20 72 64 54 28 28 28 18 73 65 60 26 26 26 17 74 66 61 25 25 25 17 74 66 61 25 25 25 22 75 67 55 30 30 30 20 72 64 54 28 28 28 17 76 69 48 25 25 25 18 77 70 49 26 26 26 26 57 71 66 34 34 34 26 57 71 66 34 34 34 27 56 68 68 35 35 35 17 76 69 48 25 25 25 18 78 73 51 26 26 26 20 79 74 52 28 28 28 25 61 75 64 33 33 33 25 61 75 64 33 33 33 26 60 72 67 34 34 34 18 78 73 51 26 26 26 20 80 77 54 28 28 28 22 81 78 55 30 30 30 24 65 79 62 32 32 32 24 65 79 62 32 32 32 25 64 76 65 33 33 33 20 80 77 54 28 28 28 22 82 81 57 30 30 30 17 83 82 58 25 25 25 27 69 83 69 35 35 35 27 69 83 69 35 35 35 24 68 80 63 32 32 32 22 82 81 57 30 30 30 29 84 85 75 37 37 37 30 85 86 76 38 38 38 31 86 87 77 39 39 39 31 86 87 77 39 39 39 28 87 84 74 36 36 36 29 84 85 75 37 37 37 35 88 89 89 42 42 42 31 89 90 90 39 39 39 30 90 91 91 38 38 38 30 90 91 91 38 38 38 34 91 88 87 43 43 43 35 88 89 89 42 42 42 28 92 93 88 36 36 36 32 93 94 92 41 41 41 33 94 95 93 40 40 40 33 94 95 93 40 40 40 29 95 92 86 37 37 37 28 92 93 88 36 36 36 33 96 97 81 40 40 40 34 97 98 83 43 43 43 30 98 99 84 38 38 38 30 99 99 84 38 38 38 29 100 96 78 37 37 37 33 101 97 81 40 40 40 35 102 101 80 42 42 42 32 103 102 82 41 41 41 28 104 103 85 36 36 36 28 105 103 85 36 36 36 31 106 100 79 39 39 39 35 107 101 80 42 42 42 33 108 107 95 45 45 45 32 109 104 94 44 44 44 35 110 105 97 47 47 47 35 110 105 97 47 47 47 34 111 106 96 46 46 46 33 108 107 95 45 45 45 63 178 209 112 75 75 75 64 179 210 113 76 76 76 65 180 211 114 77 77 77 65 180 211 114 77 77 77 62 181 208 111 74 74 74 63 178 209 112 75 75 75 67 182 213 116 79 79 79 65 183 214 117 77 77 77 64 184 215 118 76 76 76 64 184 215 118 76 76 76 66 185 212 115 78 78 78 67 182 213 116 79 79 79 62 186 217 120 74 74 74 68 187 218 121 80 80 80 69 188 219 122 81 81 81 69 188 219 122 81 81 81 63 189 216 119 75 75 75 62 186 217 120 74 74 74 69 190 221 124 81 81 81 66 191 222 125 78 78 78 64 192 223 126 76 76 76 64 193 223 126 76 76 76 63 194 220 123 75 75 75 69 195 221 124 81 81 81 67 196 225 128 79 79 79 68 197 226 129 80 80 80 62 198 227 130 74 74 74 62 199 227 130 74 74 74 65 200 224 127 77 77 77 67 201 225 128 79 79 79 69 202 231 134 85 85 85 68 203 228 131 82 82 82 67 204 229 132 83 83 83 67 204 229 132 83 83 83 66 205 230 133 84 84 84 69 202 231 134 85 85 85 72 206 233 137 90 90 90 73 207 234 138 91 91 91 70 208 235 135 86 86 86 70 208 235 135 86 86 86 71 209 232 136 87 87 87 72 206 233 137 90 90 90 75 210 237 149 93 93 93 72 211 238 151 90 90 90 71 212 239 152 87 87 87 71 212 239 152 87 87 87 74 213 236 148 89 89 89 75 210 237 149 93 93 93 73 214 241 150 91 91 91 76 215 242 153 92 92 92 77 216 243 154 88 88 88 77 216 243 154 88 88 88 70 217 240 147 86 86 86 73 214 241 150 91 91 91 77 218 245 140 88 88 88 74 219 246 141 89 89 89 71 220 247 142 87 87 87 71 221 247 142 87 87 87 70 222 244 139 86 86 86 77 223 245 140 88 88 88 75 224 249 144 93 93 93 76 225 250 145 92 92 92 73 226 251 146 91 91 91 73 227 251 146 91 91 91 72 228 248 143 90 90 90 75 229 249 144 93 93 93 75 230 255 156 95 95 95 74 231 252 155 94 94 94 77 232 253 158 97 97 97 77 232 253 158 97 97 97 76 233 254 157 96 96 96 75 230 255 156 95 95 95 81 234 257 162 101 101 101 78 235 258 159 98 98 98 79 236 259 160 99 99 99 79 236 259 160 99 99 99 80 237 256 161 100 100 100 81 234 257 162 101 101 101 83 238 261 174 104 104 104 81 239 262 175 101 101 101 80 240 263 176 100 100 100 80 240 263 176 100 100 100 82 241 260 172 105 105 105 83 238 261 174 104 104 104 78 242 265 173 98 98 98 84 243 266 177 103 103 103 85 244 267 178 102 102 102 85 244 267 178 102 102 102 79 245 264 171 99 99 99 78 242 265 173 98 98 98 83 246 269 166 104 104 104 84 247 270 168 103 103 103 78 248 271 169 98 98 98 78 249 271 169 98 98 98 81 250 268 163 101 101 101 83 251 269 166 104 104 104 85 252 273 165 102 102 102 82 253 274 167 105 105 105 80 254 275 170 100 100 100 80 255 275 170 100 100 100 79 256 272 164 99 99 99 85 257 273 165 102 102 102 83 258 279 180 107 107 107 82 259 276 179 106 106 106 85 260 277 182 109 109 109 85 260 277 182 109 109 109 84 261 278 181 108 108 108 83 258 279 180 107 107 107 89 262 281 186 113 113 113 86 263 282 183 110 110 110 87 264 283 184 111 111 111 87 264 283 184 111 111 111 88 265 280 185 112 112 112 89 262 281 186 113 113 113 91 266 285 198 116 116 116 89 267 286 199 113 113 113 88 268 287 200 112 112 112 88 268 287 200 112 112 112 90 269 284 196 117 117 117 91 266 285 198 116 116 116 86 270 289 197 110 110 110 92 271 290 201 115 115 115 93 272 291 202 114 114 114 93 272 291 202 114 114 114 87 273 288 195 111 111 111 86 270 289 197 110 110 110 91 274 293 190 116 116 116 92 275 294 192 115 115 115 86 276 295 193 110 110 110 86 277 295 193 110 110 110 89 278 292 187 113 113 113 91 279 293 190 116 116 116 93 280 297 189 114 114 114 90 281 298 191 117 117 117 88 282 299 194 112 112 112 88 283 299 194 112 112 112 87 284 296 188 111 111 111 93 285 297 189 114 114 114 91 286 303 204 119 119 119 90 287 300 203 118 118 118 93 288 301 206 121 121 121 93 288 301 206 121 121 121 92 289 302 205 120 120 120 91 286 303 204 119 119 119</p>
+        </triangles>
+        <triangles material="si_trim_broken_wood" count="8">
+          <input semantic="VERTEX" source="#geom-si_slumber_wall_c100-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_slumber_wall_c100-normals" offset="1" />
+          <input semantic="COLOR" source="#geom-si_slumber_wall_c100-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map1" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map2" offset="4" set="1" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map3" offset="5" set="2" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map10" offset="6" set="9" />
+          <p>27 56 49 68 35 35 35 26 57 50 66 34 34 34 19 58 51 71 27 27 27 19 58 51 71 27 27 27 16 59 48 70 24 24 24 27 56 49 68 35 35 35 26 60 53 67 34 34 34 25 61 54 64 33 33 33 21 62 55 53 29 29 29 21 62 55 53 29 29 29 19 63 52 50 27 27 27 26 60 53 67 34 34 34 25 64 57 65 33 33 33 24 65 58 62 32 32 32 23 66 59 73 31 31 31 23 66 59 73 31 31 31 21 67 56 72 29 29 29 25 64 57 65 33 33 33 24 68 61 63 32 32 32 27 69 62 69 35 35 35 16 70 63 59 24 24 24 16 70 63 59 24 24 24 23 71 60 56 31 31 31 24 68 61 63 32 32 32</p>
+        </triangles>
+        <triangles material="si_corrugated_tin_V3" count="20">
+          <input semantic="VERTEX" source="#geom-si_slumber_wall_c100-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_slumber_wall_c100-normals" offset="1" />
+          <input semantic="COLOR" source="#geom-si_slumber_wall_c100-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map1" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map2" offset="4" set="1" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map3" offset="5" set="2" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map10" offset="6" set="9" />
+          <p>38 112 108 100 50 50 50 41 113 109 103 53 53 53 39 114 110 101 51 51 51 40 115 111 102 52 52 52 37 116 112 99 49 49 49 41 113 113 103 53 53 53 38 112 114 100 50 50 50 36 117 115 98 48 48 48 41 113 116 103 53 53 53 36 117 117 98 48 48 48 40 115 118 102 52 52 52 41 113 119 103 53 53 53 45 118 120 101 57 57 57 47 119 121 103 59 59 59 44 120 122 100 56 56 56 47 119 123 103 59 59 59 43 121 124 99 55 55 55 46 122 125 102 58 58 58 47 119 126 103 59 59 59 42 123 127 98 54 54 54 44 120 128 100 56 56 56 47 119 129 103 59 59 59 46 122 130 102 58 58 58 42 123 131 98 54 54 54 47 124 134 103 59 59 59 45 125 135 101 57 57 57 39 126 132 101 51 51 51 39 126 132 101 51 51 51 41 127 133 103 53 53 53 47 124 134 103 59 59 59 45 128 138 101 57 57 57 44 129 139 100 56 56 56 38 130 136 100 50 50 50 38 130 136 100 50 50 50 39 131 137 101 51 51 51 45 128 138 101 57 57 57 46 132 142 102 58 58 58 43 133 143 99 55 55 55 37 134 140 99 49 49 49 37 134 140 99 49 49 49 40 135 141 102 52 52 52 46 132 142 102 58 58 58 43 136 146 99 55 55 55 47 124 147 103 59 59 59 41 127 144 103 53 53 53 41 127 144 103 53 53 53 37 137 145 99 49 49 49 43 136 146 99 55 55 55 44 138 150 100 56 56 56 42 139 151 98 54 54 54 36 140 148 98 48 48 48 36 140 148 98 48 48 48 38 141 149 100 50 50 50 44 138 150 100 56 56 56 42 142 154 98 54 54 54 46 132 155 102 58 58 58 40 135 152 102 52 52 52 40 135 152 102 52 52 52 36 143 153 98 48 48 48 42 142 154 98 54 54 54</p>
+        </triangles>
+        <triangles material="si_corrugated_tin_V2" count="24">
+          <input semantic="VERTEX" source="#geom-si_slumber_wall_c100-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_slumber_wall_c100-normals" offset="1" />
+          <input semantic="COLOR" source="#geom-si_slumber_wall_c100-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map1" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map2" offset="4" set="1" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map3" offset="5" set="2" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c100-map10" offset="6" set="9" />
+          <p>52 144 158 108 64 64 64 53 145 159 109 65 65 65 49 146 156 105 61 61 61 49 146 156 105 61 61 61 50 147 157 106 62 62 62 52 144 158 108 64 64 64 54 148 160 110 66 66 66 49 146 161 105 61 61 61 53 145 162 109 65 65 65 52 144 163 108 64 64 64 48 149 164 104 60 60 60 53 145 165 109 65 65 65 51 150 168 107 63 63 63 54 148 169 110 66 66 66 53 145 166 109 65 65 65 53 145 166 109 65 65 65 48 149 167 104 60 60 60 51 150 168 107 63 63 63 56 151 172 105 68 68 68 60 152 173 109 72 72 72 59 153 170 108 71 71 71 59 153 170 108 71 71 71 57 154 171 106 69 69 69 56 151 172 105 68 68 68 60 152 174 109 72 72 72 56 151 175 105 68 68 68 61 155 176 110 73 73 73 60 152 177 109 72 72 72 55 156 178 104 67 67 67 59 153 179 108 71 71 71 60 152 182 109 72 72 72 61 155 183 110 73 73 73 58 157 180 107 70 70 70 58 157 180 107 70 70 70 55 156 181 104 67 67 67 60 152 182 109 72 72 72 56 158 186 105 68 68 68 57 159 187 106 69 69 69 50 160 184 106 62 62 62 50 160 184 106 62 62 62 49 161 185 105 61 61 61 56 158 186 105 68 68 68 57 162 190 106 69 69 69 59 163 191 108 71 71 71 52 164 188 108 64 64 64 52 164 188 108 64 64 64 50 165 189 106 62 62 62 57 162 190 106 69 69 69 61 166 194 110 73 73 73 56 167 195 105 68 68 68 49 168 192 105 61 61 61 49 168 192 105 61 61 61 54 169 193 110 66 66 66 61 166 194 110 73 73 73 59 163 198 108 71 71 71 55 170 199 104 67 67 67 48 171 196 104 60 60 60 48 171 196 104 60 60 60 52 164 197 108 64 64 64 59 163 198 108 71 71 71 55 172 202 104 67 67 67 58 173 203 107 70 70 70 51 174 200 107 63 63 63 51 174 200 107 63 63 63 48 175 201 104 60 60 60 55 172 202 104 67 67 67 58 176 206 107 70 70 70 61 166 207 110 73 73 73 54 169 204 110 66 66 66 54 169 204 110 66 66 66 51 177 205 107 63 63 63 58 176 206 107 70 70 70</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom-si_slumber_wall_c40" name="si_slumber_wall_c40">
+      <mesh>
+        <source id="geom-si_slumber_wall_c40-positions">
+          <float_array id="geom-si_slumber_wall_c40-positions-array" count="270">16.18523 82.90033 22.85199 16.18498 -94.02112 22.85217 16.18498 -94.02112 1.794556 16.18523 82.90033 1.794373 13.1849 -94.02112 22.85217 13.1849 -94.02112 1.794556 13.18513 82.90033 1.794373 13.18513 82.90033 22.85199 18.9552 -89.12518 223.0419 18.95501 -89.12537 1.643799 18.95501 -68.06775 1.643799 18.9552 -68.06757 223.0419 15.95493 -89.12537 1.643799 15.95494 -68.06775 1.643799 15.9551 -68.06757 223.0419 15.95509 -89.12518 223.0419 16.08928 97.09332 172.9747 16.08898 -96.03937 172.9744 13.08904 -96.03943 172.9744 13.08928 97.09326 172.9747 13.08904 -96.03937 191.6614 13.08928 97.09332 191.6617 16.08898 -96.03937 191.6614 16.08928 97.09332 191.6617 16.08923 58.26862 191.6617 13.08924 58.26862 191.6617 13.08924 58.26855 172.9746 16.08923 58.26862 172.9746 19.02997 74.11371 223.0417 19.02997 60.31073 223.0417 19.02977 60.31055 1.643677 19.02978 74.11353 1.643677 16.02987 74.11371 223.0417 16.02986 60.31073 223.0417 16.0297 60.31055 1.643677 16.0297 74.11353 1.643677 28.08413 -92.92786 33.82581 50.84447 61.74982 60.28485 19.78873 -92.9278 216.5355 24.58802 61.74982 216.5355 28.0842 12.50104 33.82581 19.78882 61.74982 118.5811 27.08413 -92.92786 33.82581 50.05487 62.28033 59.97656 18.78895 -92.91663 216.5531 23.5897 61.78076 216.5844 27.0842 12.79749 33.65356 18.78977 62.0636 118.4362 20.78629 -72.22681 82.40234 20.78637 82.45074 5.407349 29.966 72.1673 74.91449 20.78627 -72.22687 10.40094 19.64586 15.5069 77.89655 20.78633 11.2868 40.83118 20.78632 9.333374 7.767883 19.78633 -72.23071 82.39447 19.78063 82.52917 5.468811 28.99563 72.35223 75.06995 19.78627 -72.22687 10.40094 18.62502 15.54309 77.91394 19.78646 11.27954 40.81659 19.78632 9.333374 7.767883 19.02995 -2.381775 230.5717 19.02994 -16.18475 230.5717 19.02975 -16.18506 9.173706 19.02976 -2.38208 9.173706 16.02967 -16.18506 9.173706 16.02968 -2.38208 9.173706 16.02984 -2.381775 230.5717 16.02984 -16.18475 230.5717 16.18889 -97.09363 31.03674 16.18908 74.15564 31.0365 -4.868549 54.20032 31.0365 -4.868722 -79.0199 31.03674 -50.84428 4.885559 -1.2207e-4 -50.84434 4.885559 28.33215 16.33849 72.06818 28.33215 16.33855 72.06818 -1.2207e-4 18.45989 69.94678 28.33215 18.45995 69.94678 -1.2207e-4 -48.72288 2.76416 -1.2207e-4 -48.72294 2.76416 28.33215 -48.72289 -14.35669 -1.2207e-4 -48.72295 -14.35669 28.33215 18.45965 -81.53943 28.33221 18.45971 -81.53943 -6.10352e-5 16.33825 -83.66083 28.33221 16.33831 -83.66083 -6.10352e-5 -50.84428 -16.47809 -1.2207e-4 -50.84435 -16.47809 28.33215</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c40-positions-array" count="90" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c40-normals">
+          <float_array id="geom-si_slumber_wall_c40-normals-array" count="282">0.9999999 -1.43384e-6 0 1 -1.43384e-6 0 0.9999999 -1.43384e-6 0 1 -1.43384e-6 0 -0.9999999 1.27752e-6 0 -1 1.27752e-6 0 -0.9999999 1.27752e-6 0 -1 1.27752e-6 0 1 -2.71733e-7 -8.70117e-7 1 -2.71733e-7 -8.70117e-7 1 -2.71733e-7 -8.70117e-7 1 -2.71733e-7 -8.70117e-7 -1 3.6231e-7 7.32276e-7 -1 3.6231e-7 7.32276e-7 -1 3.6231e-7 7.32276e-7 -1 3.6231e-7 7.32276e-7 -1 1.24139e-6 -4.0546e-12 -1 1.24139e-6 -4.0546e-12 -1 1.22818e-6 -4.01144e-12 -1 1.22818e-6 -4.01144e-12 1 -1.54637e-6 0 1 -1.54637e-6 0 1 -1.52294e-6 0 1 -1.52294e-6 0 -1 1.25461e-6 -4.09776e-12 -1 1.25461e-6 -4.09776e-12 1 -1.5698e-6 0 0.9999999 -1.5698e-6 0 1 -2.76368e-7 -8.70117e-7 1 -2.76368e-7 -8.70117e-7 1 -2.76368e-7 -8.70117e-7 1 -2.76368e-7 -8.70117e-7 -1 4.14552e-7 7.32276e-7 -1 4.14552e-7 7.32276e-7 -1 4.14552e-7 7.32276e-7 -1 4.14552e-7 7.32276e-7 0.9999079 0.007260446 0.01146574 0.9886948 -0.1138463 0.09757904 0.9983226 -0.03097567 -0.04891205 0.972527 -0.1469302 0.1805623 0.7364444 -0.5511218 0.3923195 0.997883 0.01952331 0.06203656 -0.9983227 0.03097124 0.04891207 -0.9885938 0.1143463 -0.09801605 -0.999908 -0.007251574 -0.01146263 -0.7369208 0.5506586 -0.3920751 -0.9724008 0.1474538 -0.1808151 -0.9978859 -0.01957007 -0.06197385 0.9992253 -0.03547404 -0.01703897 0.9998678 0.007243929 0.01455359 0.9951295 -0.07757198 -0.06082539 0.9703696 -0.1849281 -0.1555139 1 -6.37811e-7 -2.50756e-7 0.9999614 0.003915476 0.007866976 1 -6.27302e-7 -2.21474e-7 -0.9951238 0.0776374 0.06083559 -0.9998633 -0.007387879 -0.0147905 -0.999234 0.03536695 0.01674788 -0.9703695 0.184928 0.1555141 -0.9999999 -3.77195e-5 6.54971e-6 -0.9999599 -0.003984597 -0.00800647 -1 1.72221e-6 1.60531e-6 1 -4.14552e-7 -8.70116e-7 1 -4.14552e-7 -8.70116e-7 1 -4.14552e-7 -8.70116e-7 1 -4.14552e-7 -8.70116e-7 0 0 -0.9999999 0 0 -0.9999999 0 0 -1 0 0 -0.9999999 -1 2.76368e-7 7.32276e-7 -1 2.76368e-7 7.32276e-7 -1 2.76368e-7 7.32276e-7 -1 2.76368e-7 7.32276e-7 -1.17742e-6 1.44981e-6 1 1.57293e-6 1.83261e-6 1 1.10355e-6 1.76728e-6 1 -1.35102e-6 1.42565e-6 1 -0.7071056 0.707108 -1.52329e-6 -0.7071056 0.7071078 -1.52329e-6 -0.7071056 0.707108 -1.52329e-6 -0.7071056 0.7071078 -1.52329e-6 0.7071056 -0.707108 1.52329e-6 0.7071056 -0.7071078 1.52329e-6 0.7071056 -0.707108 1.52329e-6 0.7071056 -0.7071078 1.52329e-6 0.7071076 0.707106 1.5233e-6 0.7071075 0.707106 1.5233e-6 0.7071076 0.707106 1.5233e-6 0.7071075 0.707106 1.5233e-6 -0.7071076 -0.707106 -1.5233e-6 -0.7071075 -0.707106 -1.5233e-6 -0.7071076 -0.707106 -1.5233e-6 -0.7071075 -0.707106 -1.5233e-6</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c40-normals-array" count="94" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c40-map0">
+          <float_array id="geom-si_slumber_wall_c40-map0-array" count="372">0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6789216 0.6259804 0.4931373 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6186275 0.59375 0.5289216 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 0.6991422 0.6273285 0.5238971 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6263481 0.5970588 0.5143995 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.6343138 0.6053922 0.554902 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196 0.6450981 0.6107844 0.5490196</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c40-map0-array" count="124" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c40-map1">
+          <float_array id="geom-si_slumber_wall_c40-map1-array" count="243">0.9095808 0.3019143 0 -1.592509 0.3018501 0 -1.592503 0.152947 0 0.9095922 0.1529922 0 -1.592509 0.3018467 0 -1.592503 0.1529504 0 0.9095922 0.1530144 0 0.9095808 0.3018921 0 1.315052 0.301925 0 -1.816043 0.3018421 0 -1.816038 0.1529423 0 1.315064 0.1530251 0 -1.816043 0.3018421 0 -1.816038 0.1529423 0 1.315064 0.1530251 0 1.315052 0.301925 0 0.05474227 0.0738619 0 2.328213 0.07385869 0 2.328213 0.1744099 0 0.05474204 0.1744133 0 0.05501298 0.8921919 0 2.328484 0.8921928 0 2.328484 0.992744 0 0.05501326 0.9927433 0 0.472829 0.8921921 0 0.472558 0.1744126 0 0.4725582 0.07386127 0 0.4728292 0.9927435 0 1.315031 0.5022645 0 1.315018 0.5998664 0 -1.816056 0.5997831 0 -1.816051 0.5021814 0 1.315031 0.5022645 0 1.315018 0.5998664 0 -1.816056 0.5997831 0 -1.816051 0.5021814 0 -0.3434846 -0.3652566 0 1.270705 -0.1399956 0 -0.3432324 1.462259 0 1.204504 1.462573 0 0.7107509 -0.3653618 0 1.203216 0.4821597 0 -0.3548815 1.19392 0 1.232105 0.5077482 0 1.09879 1.202776 0 -0.3150659 0.4746304 0 0.5239228 1.196687 0 0.5030169 0.8250264 0 0.5009806 0.4934405 0 1.315031 0.5022645 0 1.315018 0.5998664 0 -1.816056 0.5997831 0 -1.816051 0.5021814 0 0.4436831 0.7791052 0 0.5842297 0.7791052 0 0.5842297 0.7943786 0 0.4436831 0.7943786 0 1.315031 0.5022645 0 -1.816051 0.5021814 0 -1.816056 0.5997831 0 1.315018 0.5998664 0 0.9687468 0.3019162 0 -1.453125 0.3018552 0 -1.170902 0.1529561 0 0.7393636 0.1682555 0 -0.4723659 0.3017473 0 -0.4723787 0.502217 0 -1.816051 0.5021814 0 -1.816043 0.3018421 0 -1.816051 0.5021814 0 -1.816043 0.3018421 0 -0.4723657 0.3018777 0 -0.4723788 0.5020863 0 -0.4723659 0.3017473 0 -0.4723787 0.502217 0 -1.816051 0.5021814 0 -1.816043 0.3018421 0 -1.816051 0.5021814 0 -1.816043 0.3018421 0 -0.4723657 0.3018777 0 -0.4723788 0.5020863 0</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c40-map1-array" count="81" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c40-map2">
+          <float_array id="geom-si_slumber_wall_c40-map2-array" count="276">3.205753 1.456569 0.6633416 3.190002 -1.497094 0.6633359 3.19 -1.497094 0.7181531 3.189997 1.427435 0.7181579 3.190002 -1.422304 0.663336 3.190001 -1.422304 0.7181534 3.189998 1.285812 0.7181574 3.189998 1.285812 0.6633406 3.189997 1.72467 0.6633406 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.189997 1.72467 0.6633406 3.220001 -1.59708 0.1070321 3.220001 1.665968 0.1070338 3.19 1.665968 0.1070338 3.19 -1.59708 0.1070315 3.190001 1.665968 0.02447549 3.190001 -1.59708 0.02447389 3.22 1.665968 0.0244755 3.22 -1.59708 0.02447328 3.22 -1.002794 0.02447368 3.190001 -1.002794 0.02447408 3.19 -1.002794 0.1070319 3.220001 -1.002794 0.1070324 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 -77.33881 -91.35484 8.29541 77.33881 -64.89577 31.05566 -77.33881 91.35484 0 77.33881 91.35484 4.799194 28.09009 -91.35484 8.29541 77.33881 -6.599503 0 -77.33881 -91.35484 7.29541 77.86935 -65.20405 30.26605 -77.32766 91.37244 -0.999783 77.36978 91.40376 3.800872 28.38655 -91.52711 7.29541 77.65257 -6.744431 -0.9990457 -35.54869 -42.77834 -7.15256e-6 119.1289 -119.7733 -8.28505e-6 108.8454 -50.26614 9.179615 -35.54869 -114.7797 -1.21593e-5 52.18498 -47.28414 -1.140488 47.96497 -84.3495 -7.76401e-6 46.01151 -117.4128 -1.01165e-5 -35.55261 -42.7862 -0.9999686 119.2073 -119.7118 -1.005751 109.0303 -50.11063 8.209246 -35.54869 -114.7797 -1.000012 52.22122 -47.26674 -2.161326 47.95773 -84.36406 -0.9998756 46.01151 -117.4128 -1.00001 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.219985 -1.664244 0.5536532 3.219983 -1.664244 0.5895854 3.189997 1.72467 0.5895857 3.190001 -1.664244 0.5895812 3.189999 -1.664244 0.5536494 3.189998 1.724669 0.5536537 3.204569 1.475228 0.6658185 3.190002 -1.402377 0.663336 3.233225 -1.268394 0.7181568 3.192029 1.277135 0.7149206 3.189999 0.3940874 0.6633406 3.197752 0.4700659 0.5895849 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.19 -0.2099267 0.6633378 3.19 -0.2099263 0.5895872 3.189999 0.3940874 0.6633406 3.197752 0.4700659 0.5895849 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.19 -0.2099267 0.6633378 3.19 -0.2099263 0.5895872</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c40-map2-array" count="92" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c40-map3">
+          <float_array id="geom-si_slumber_wall_c40-map3-array" count="276">3.205753 1.456569 0.6633416 3.190002 -1.497094 0.6633359 3.19 -1.497094 0.7181531 3.189997 1.427435 0.7181579 3.190002 -1.422304 0.663336 3.190001 -1.422304 0.7181534 3.189998 1.285812 0.7181574 3.189998 1.285812 0.6633406 3.189997 1.72467 0.6633406 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.189997 1.72467 0.6633406 3.220001 -1.59708 0.1070321 3.220001 1.665968 0.1070338 3.19 1.665968 0.1070338 3.19 -1.59708 0.1070315 3.190001 1.665968 0.02447549 3.190001 -1.59708 0.02447389 3.22 1.665968 0.0244755 3.22 -1.59708 0.02447328 3.22 -1.002794 0.02447368 3.190001 -1.002794 0.02447408 3.19 -1.002794 0.1070319 3.220001 -1.002794 0.1070324 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 -77.33881 -91.35484 8.29541 77.33881 -64.89577 31.05566 -77.33881 91.35484 0 77.33881 91.35484 4.799194 28.09009 -91.35484 8.29541 77.33881 -6.599503 0 -77.33881 -91.35484 7.29541 77.86935 -65.20405 30.26605 -77.32766 91.37244 -0.999783 77.36978 91.40376 3.800872 28.38655 -91.52711 7.29541 77.65257 -6.744431 -0.9990457 -35.54869 -42.77834 -7.15256e-6 119.1289 -119.7733 -8.28505e-6 108.8454 -50.26614 9.179615 -35.54869 -114.7797 -1.21593e-5 52.18498 -47.28414 -1.140488 47.96497 -84.3495 -7.76401e-6 46.01151 -117.4128 -1.01165e-5 -35.55261 -42.7862 -0.9999686 119.2073 -119.7118 -1.005751 109.0303 -50.11063 8.209246 -35.54869 -114.7797 -1.000012 52.22122 -47.26674 -2.161326 47.95773 -84.36406 -0.9998756 46.01151 -117.4128 -1.00001 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.219985 -1.664244 0.5536532 3.219983 -1.664244 0.5895854 3.189997 1.72467 0.5895857 3.190001 -1.664244 0.5895812 3.189999 -1.664244 0.5536494 3.189998 1.724669 0.5536537 3.204569 1.475228 0.6658185 3.190002 -1.402377 0.663336 3.233225 -1.268394 0.7181568 3.192029 1.277135 0.7149206 3.189999 0.3940874 0.6633406 3.197752 0.4700659 0.5895849 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.19 -0.2099267 0.6633378 3.19 -0.2099263 0.5895872 3.189999 0.3940874 0.6633406 3.197752 0.4700659 0.5895849 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.19 -0.2099267 0.6633378 3.19 -0.2099263 0.5895872</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c40-map3-array" count="92" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c40-map10">
+          <float_array id="geom-si_slumber_wall_c40-map10-array" count="276">3.205753 1.456569 0.6633416 3.190002 -1.497094 0.6633359 3.19 -1.497094 0.7181531 3.189997 1.427435 0.7181579 3.190002 -1.422304 0.663336 3.190001 -1.422304 0.7181534 3.189998 1.285812 0.7181574 3.189998 1.285812 0.6633406 3.189997 1.72467 0.6633406 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.189997 1.72467 0.6633406 3.220001 -1.59708 0.1070321 3.220001 1.665968 0.1070338 3.19 1.665968 0.1070338 3.19 -1.59708 0.1070315 3.190001 1.665968 0.02447549 3.190001 -1.59708 0.02447389 3.22 1.665968 0.0244755 3.22 -1.59708 0.02447328 3.22 -1.002794 0.02447368 3.190001 -1.002794 0.02447408 3.19 -1.002794 0.1070319 3.220001 -1.002794 0.1070324 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 -77.33881 -91.35484 8.29541 77.33881 -64.89577 31.05566 -77.33881 91.35484 0 77.33881 91.35484 4.799194 28.09009 -91.35484 8.29541 77.33881 -6.599503 0 -77.33881 -91.35484 7.29541 77.86935 -65.20405 30.26605 -77.32766 91.37244 -0.999783 77.36978 91.40376 3.800872 28.38655 -91.52711 7.29541 77.65257 -6.744431 -0.9990457 -35.54869 -42.77834 -7.15256e-6 119.1289 -119.7733 -8.28505e-6 108.8454 -50.26614 9.179615 -35.54869 -114.7797 -1.21593e-5 52.18498 -47.28414 -1.140488 47.96497 -84.3495 -7.76401e-6 46.01151 -117.4128 -1.01165e-5 -35.55261 -42.7862 -0.9999686 119.2073 -119.7118 -1.005751 109.0303 -50.11063 8.209246 -35.54869 -114.7797 -1.000012 52.22122 -47.26674 -2.161326 47.95773 -84.36406 -0.9998756 46.01151 -117.4128 -1.00001 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.219985 -1.664244 0.5536532 3.219983 -1.664244 0.5895854 3.189997 1.72467 0.5895857 3.190001 -1.664244 0.5895812 3.189999 -1.664244 0.5536494 3.189998 1.724669 0.5536537 3.204569 1.475228 0.6658185 3.190002 -1.402377 0.663336 3.233225 -1.268394 0.7181568 3.192029 1.277135 0.7149206 3.189999 0.3940874 0.6633406 3.197752 0.4700659 0.5895849 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.19 -0.2099267 0.6633378 3.19 -0.2099263 0.5895872 3.189999 0.3940874 0.6633406 3.197752 0.4700659 0.5895849 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.19 -0.2099267 0.6633378 3.19 -0.2099263 0.5895872</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c40-map10-array" count="92" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-si_slumber_wall_c40-vertices">
+          <input semantic="POSITION" source="#geom-si_slumber_wall_c40-positions" />
+        </vertices>
+        <triangles material="si_trim_wood" count="32">
+          <input semantic="VERTEX" source="#geom-si_slumber_wall_c40-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_slumber_wall_c40-normals" offset="1" />
+          <input semantic="COLOR" source="#geom-si_slumber_wall_c40-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map1" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map2" offset="4" set="1" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map3" offset="5" set="2" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map10" offset="6" set="9" />
+          <p>2 0 1 2 2 2 2 3 1 2 3 3 3 3 0 2 3 0 0 0 0 0 2 3 0 0 0 0 1 3 0 1 1 1 1 2 0 1 2 2 2 2 5 4 7 5 5 5 5 4 5 4 4 4 4 4 7 6 5 7 7 7 7 7 6 5 7 7 7 7 6 7 6 6 6 6 6 5 4 7 5 5 5 5 10 8 9 10 10 10 10 11 9 10 11 11 11 11 8 10 11 8 8 8 8 8 10 11 8 8 8 8 9 11 8 9 9 9 9 10 8 9 10 10 10 10 13 12 15 13 13 13 13 12 13 12 12 12 12 12 15 14 13 15 15 15 15 15 14 13 15 15 15 15 14 15 14 14 14 14 14 13 12 15 13 13 13 13 18 24 25 17 18 18 18 20 25 26 18 20 20 20 25 17 27 25 25 25 25 25 17 27 25 25 25 25 26 16 24 26 26 26 26 18 24 25 17 18 18 18 22 26 29 21 22 22 22 17 27 30 22 17 17 17 27 21 31 27 27 27 27 27 21 31 27 27 27 27 24 20 28 24 24 24 24 22 26 29 21 22 22 22 29 28 33 29 29 29 29 30 29 34 30 30 30 30 31 30 35 31 31 31 31 31 30 35 31 31 31 31 28 31 32 28 28 28 28 29 28 33 29 29 29 29 33 32 39 33 33 33 33 32 33 36 32 32 32 32 35 34 37 35 35 35 35 35 34 37 35 35 35 35 34 35 38 34 34 34 34 33 32 39 33 33 33 33 63 62 93 50 63 63 63 64 63 94 51 64 64 64 65 64 95 52 65 65 65 65 64 95 52 65 65 65 62 65 92 49 62 62 62 63 62 93 50 63 63 63 67 66 97 54 67 67 67 65 67 98 55 65 65 65 64 68 99 56 64 64 64 64 68 99 56 64 64 64 66 69 96 53 66 66 66 67 66 97 54 67 67 67 69 70 103 60 71 71 71 68 71 100 57 68 68 68 67 72 101 58 69 69 69 67 72 101 58 69 69 69 66 73 102 59 70 70 70 69 70 103 60 71 71 71 72 74 105 63 74 74 74 73 75 106 64 75 75 75 70 76 107 61 72 72 72 70 76 107 61 72 72 72 71 77 104 62 73 73 73 72 74 105 63 74 74 74 77 78 109 68 79 79 79 74 79 110 65 76 76 76 75 80 111 66 77 77 77 75 80 111 66 77 77 77 76 81 108 67 78 78 78 77 78 109 68 79 79 79 79 82 115 70 81 81 81 78 83 112 69 80 80 80 81 84 113 72 83 83 83 81 84 113 72 83 83 83 80 85 114 71 82 82 82 79 82 115 70 81 81 81 85 86 117 76 87 87 87 82 87 118 73 84 84 84 83 88 119 74 85 85 85 83 88 119 74 85 85 85 84 89 116 75 86 86 86 85 86 117 76 87 87 87 87 90 123 78 89 89 89 86 91 120 77 88 88 88 89 92 121 80 91 91 91 89 92 121 80 91 91 91 88 93 122 79 90 90 90 87 90 123 78 89 89 89</p>
+        </triangles>
+        <triangles material="si_trim_broken_wood" count="4">
+          <input semantic="VERTEX" source="#geom-si_slumber_wall_c40-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_slumber_wall_c40-normals" offset="1" />
+          <input semantic="COLOR" source="#geom-si_slumber_wall_c40-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map1" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map2" offset="4" set="1" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map3" offset="5" set="2" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map10" offset="6" set="9" />
+          <p>26 16 17 26 26 26 26 25 17 18 25 25 25 25 21 18 19 19 21 21 21 21 18 19 19 21 21 21 19 19 16 16 19 19 19 26 16 17 26 26 26 26 24 20 21 24 24 24 24 27 21 22 27 27 27 27 16 22 23 23 16 16 16 16 22 23 23 16 16 16 23 23 20 20 23 23 23 24 20 21 24 24 24 24</p>
+        </triangles>
+        <triangles material="si_corrugated_tin_V3" count="8">
+          <input semantic="VERTEX" source="#geom-si_slumber_wall_c40-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_slumber_wall_c40-normals" offset="1" />
+          <input semantic="COLOR" source="#geom-si_slumber_wall_c40-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map1" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map2" offset="4" set="1" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map3" offset="5" set="2" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map10" offset="6" set="9" />
+          <p>38 36 40 38 38 38 38 41 37 41 41 41 41 41 39 38 42 39 39 39 39 40 39 43 40 40 40 40 37 40 44 37 37 37 37 41 37 45 41 41 41 41 38 36 46 38 38 38 38 36 41 47 36 36 36 36 41 37 48 41 41 41 41 36 41 49 36 36 36 36 40 39 50 40 40 40 40 41 37 51 41 41 41 41 45 42 52 39 45 45 45 47 43 53 41 47 47 47 44 44 54 38 44 44 44 47 43 55 41 47 47 47 43 45 56 37 43 43 43 46 46 57 40 46 46 46 47 43 58 41 47 47 47 42 47 59 36 42 42 42 44 44 60 38 44 44 44 47 43 61 41 47 47 47 46 46 62 40 46 46 46 42 47 63 36 42 42 42</p>
+        </triangles>
+        <triangles material="si_corrugated_tin_V2" count="12">
+          <input semantic="VERTEX" source="#geom-si_slumber_wall_c40-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_slumber_wall_c40-normals" offset="1" />
+          <input semantic="COLOR" source="#geom-si_slumber_wall_c40-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map1" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map2" offset="4" set="1" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map3" offset="5" set="2" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c40-map10" offset="6" set="9" />
+          <p>52 48 66 46 52 52 52 53 49 67 47 53 53 53 49 50 64 43 49 49 49 49 50 64 43 49 49 49 50 51 65 44 50 50 50 52 48 66 46 52 52 52 54 52 68 48 54 54 54 49 50 69 43 49 49 49 53 49 70 47 53 53 53 52 48 71 46 52 52 52 48 53 72 42 48 48 48 53 49 73 47 53 53 53 51 54 76 45 51 51 51 54 52 77 48 54 54 54 53 49 74 47 53 53 53 53 49 74 47 53 53 53 48 53 75 42 48 48 48 51 54 76 45 51 51 51 56 55 80 43 56 56 56 60 56 81 47 60 60 60 59 57 78 46 59 59 59 59 57 78 46 59 59 59 57 58 79 44 57 57 57 56 55 80 43 56 56 56 60 56 82 47 60 60 60 56 55 83 43 56 56 56 61 59 84 48 61 61 61 60 56 85 47 60 60 60 55 60 86 42 55 55 55 59 57 87 46 59 59 59 60 56 90 47 60 60 60 61 59 91 48 61 61 61 58 61 88 45 58 58 58 58 61 88 45 58 58 58 55 60 89 42 55 55 55 60 56 90 47 60 60 60</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom-si_slumber_wall_c15" name="si_slumber_wall_c15">
+      <mesh>
+        <source id="geom-si_slumber_wall_c15-positions">
+          <float_array id="geom-si_slumber_wall_c15-positions-array" count="138">18.9552 -89.12518 223.0419 18.95501 -89.12537 1.643799 18.95501 -68.06775 1.643799 18.9552 -68.06757 223.0419 15.95493 -89.12537 1.643799 15.95494 -68.06775 1.643799 15.9551 -68.06757 223.0419 15.95509 -89.12518 223.0419 16.08928 97.09332 172.9747 16.08898 -96.03937 172.9744 13.08904 -96.03943 172.9744 13.08928 97.09326 172.9747 13.08904 -96.03937 191.6614 13.08928 97.09332 191.6617 16.08898 -96.03937 191.6614 16.08928 97.09332 191.6617 19.02997 74.11371 223.0417 19.02997 60.31073 223.0417 19.02977 60.31055 1.643677 19.02978 74.11353 1.643677 16.02987 74.11371 223.0417 16.02986 60.31073 223.0417 16.0297 60.31055 1.643677 16.0297 74.11353 1.643677 28.08413 -92.92786 33.82581 50.84447 61.74982 60.28485 19.78873 -92.9278 216.5355 24.58802 61.74982 216.5355 28.0842 12.50104 33.82581 19.78882 61.74982 118.5811 20.78629 -72.22681 82.40234 20.78637 82.45074 5.407349 29.966 72.1673 74.91449 20.78627 -72.22687 10.40094 19.02995 -2.381775 230.5717 19.02994 -16.18475 230.5717 19.02975 -16.18506 9.173706 19.02976 -2.38208 9.173706 16.02967 -16.18506 9.173706 16.02968 -2.38208 9.173706 16.02984 -2.381775 230.5717 16.02984 -16.18475 230.5717 16.33849 72.06818 28.33215 16.33855 72.06818 -1.2207e-4 18.45989 69.94678 28.33215 18.45995 69.94678 -1.2207e-4</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c15-positions-array" count="46" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c15-normals">
+          <float_array id="geom-si_slumber_wall_c15-normals-array" count="150">1 -2.71733e-7 -8.70117e-7 1 -2.71733e-7 -8.70117e-7 1 -2.71733e-7 -8.70117e-7 1 -2.71733e-7 -8.70117e-7 -1 3.6231e-7 7.32276e-7 -1 3.6231e-7 7.32276e-7 -1 3.6231e-7 7.32276e-7 -1 3.6231e-7 7.32276e-7 -1 1.24929e-6 -4.08041e-12 -1 1.24929e-6 -4.08041e-12 -1 1.24929e-6 -4.08041e-12 -1 1.24929e-6 -4.08041e-12 1 -1.56038e-6 0 0.9999999 -1.56038e-6 0 1 -1.56038e-6 0 0.9999999 -1.56038e-6 0 1 -2.76368e-7 -8.70117e-7 1 -2.76368e-7 -8.70117e-7 1 -2.76368e-7 -8.70117e-7 1 -2.76368e-7 -8.70117e-7 -1 4.14552e-7 7.32276e-7 -1 4.14552e-7 7.32276e-7 -1 4.14552e-7 7.32276e-7 -1 4.14552e-7 7.32276e-7 0.997883 0.01952331 0.06203656 0.972527 -0.1469302 0.1805623 0.9886947 -0.1138463 0.09757903 0.9999079 0.007260446 0.01146574 0.9983226 -0.03097567 -0.04891205 0.9940181 -0.04866931 -0.09777216 0.9875554 -0.07008393 -0.1407926 0.9990791 -0.01912154 -0.03841278 1 -6.35729e-7 -2.11923e-7 1 -4.14552e-7 -8.70116e-7 1 -4.14552e-7 -8.70116e-7 1 -4.14552e-7 -8.70116e-7 1 -4.14552e-7 -8.70116e-7 0 0 -0.9999999 0 0 -0.9999999 0 0 -1 0 0 -0.9999999 -1 2.76368e-7 7.32276e-7 -1 2.76368e-7 7.32276e-7 -1 2.76368e-7 7.32276e-7 -1 2.76368e-7 7.32276e-7 0.7071068 0.7071068 1.52329e-6 0.7071068 0.7071068 1.52329e-6 0.7071068 0.7071068 1.52329e-6 0.7071068 0.7071068 1.52329e-6 0.7364444 -0.5511218 0.3923195</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c15-normals-array" count="50" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c15-map0">
+          <float_array id="geom-si_slumber_wall_c15-map0-array" count="156">0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.7019608 0.6 0.5607843 0.7019608 0.6 0.5607843 0.7019608 0.6 0.5607843 0.7019608 0.6 0.5607843 0.7019608 0.6 0.5607843 0.7019608 0.6 0.5607843 0.7019608 0.6 0.5607843 0.7019608 0.6 0.5607843 0.7019608 0.6 0.5607843 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.4156863 0.372549 0.3215686 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.577451 0.5426471 0.4882353 0.7019608 0.6 0.5607843 0.7019608 0.6 0.5607843 0.7019608 0.6 0.5607843</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c15-map0-array" count="52" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c15-map1">
+          <float_array id="geom-si_slumber_wall_c15-map1-array" count="150">1.315052 0.301925 0 -1.816043 0.3018421 0 -1.816038 0.1529423 0 1.315064 0.1530251 0 -1.816043 0.3018421 0 -1.816038 0.1529423 0 1.315064 0.1530251 0 1.315052 0.301925 0 0.05474227 0.0738619 0 2.328213 0.07385869 0 2.328213 0.1744099 0 0.05474204 0.1744133 0 0.05501298 0.8921919 0 2.328484 0.8921928 0 2.328484 0.992744 0 0.05501326 0.9927433 0 1.315031 0.5022645 0 1.315018 0.5998664 0 -1.816056 0.5997831 0 -1.816051 0.5021814 0 1.315031 0.5022645 0 1.315018 0.5998664 0 -1.816056 0.5997831 0 -1.816051 0.5021814 0 -0.3434846 -0.3652566 0 1.270705 -0.1399956 0 -0.3432324 1.462259 0 1.204504 1.462573 0 0.7107509 -0.3653618 0 1.203216 0.4821597 0 -0.3548815 1.19392 0 1.232105 0.5077482 0 1.09879 1.202776 0 -0.3150659 0.4746304 0 1.315031 0.5022645 0 1.315018 0.5998664 0 -1.816056 0.5997831 0 -1.816051 0.5021814 0 0.4436831 0.7791052 0 0.5842297 0.7791052 0 0.5842297 0.7943786 0 0.4436831 0.7943786 0 1.315031 0.5022645 0 -1.816051 0.5021814 0 -1.816056 0.5997831 0 1.315018 0.5998664 0 0.06354381 0.8588953 0 0.3520327 0.8588953 0 0.3520327 0.8741688 0 0.06354381 0.8741688 0</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c15-map1-array" count="50" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c15-map2">
+          <float_array id="geom-si_slumber_wall_c15-map2-array" count="144">3.189997 1.72467 0.6633406 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.189997 1.72467 0.6633406 3.220001 -1.59708 0.1070321 3.220001 1.665968 0.1070338 3.19 1.665968 0.1070338 3.19 -1.59708 0.1070315 3.190001 1.665968 0.02447549 3.190001 -1.59708 0.02447389 3.22 1.665968 0.0244755 3.22 -1.59708 0.02447328 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 -77.33881 -91.35484 8.29541 77.33881 -64.89577 31.05566 -77.33881 91.35484 0 77.33881 91.35484 4.799194 28.09009 -91.35484 8.29541 77.33881 -6.599503 0 -35.54869 -42.77834 -7.15256e-6 119.1289 -119.7733 -8.28505e-6 108.8454 -50.26614 9.179615 -35.54869 -114.7797 -1.21593e-5 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.219985 -1.664244 0.5536532 3.219983 -1.664244 0.5895854 3.189997 1.72467 0.5895857 3.190001 -1.664244 0.5895812 3.189999 -1.664244 0.5536494 3.189998 1.724669 0.5536537 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.21998 -1.664244 0.6633406 3.219983 -1.664244 0.5895854</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c15-map2-array" count="48" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c15-map3">
+          <float_array id="geom-si_slumber_wall_c15-map3-array" count="144">3.189997 1.72467 0.6633406 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.189997 1.72467 0.6633406 3.220001 -1.59708 0.1070321 3.220001 1.665968 0.1070338 3.19 1.665968 0.1070338 3.19 -1.59708 0.1070315 3.190001 1.665968 0.02447549 3.190001 -1.59708 0.02447389 3.22 1.665968 0.0244755 3.22 -1.59708 0.02447328 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 -77.33881 -91.35484 8.29541 77.33881 -64.89577 31.05566 -77.33881 91.35484 0 77.33881 91.35484 4.799194 28.09009 -91.35484 8.29541 77.33881 -6.599503 0 -35.54869 -42.77834 -7.15256e-6 119.1289 -119.7733 -8.28505e-6 108.8454 -50.26614 9.179615 -35.54869 -114.7797 -1.21593e-5 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.219985 -1.664244 0.5536532 3.219983 -1.664244 0.5895854 3.189997 1.72467 0.5895857 3.190001 -1.664244 0.5895812 3.189999 -1.664244 0.5536494 3.189998 1.724669 0.5536537 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.21998 -1.664244 0.6633406 3.219983 -1.664244 0.5895854</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c15-map3-array" count="48" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-si_slumber_wall_c15-map10">
+          <float_array id="geom-si_slumber_wall_c15-map10-array" count="144">3.189997 1.72467 0.6633406 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.190002 -1.664244 0.6633356 3.190001 -1.664244 0.7181529 3.189997 1.72467 0.718158 3.189997 1.72467 0.6633406 3.220001 -1.59708 0.1070321 3.220001 1.665968 0.1070338 3.19 1.665968 0.1070338 3.19 -1.59708 0.1070315 3.190001 1.665968 0.02447549 3.190001 -1.59708 0.02447389 3.22 1.665968 0.0244755 3.22 -1.59708 0.02447328 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 -77.33881 -91.35484 8.29541 77.33881 -64.89577 31.05566 -77.33881 91.35484 0 77.33881 91.35484 4.799194 28.09009 -91.35484 8.29541 77.33881 -6.599503 0 -35.54869 -42.77834 -7.15256e-6 119.1289 -119.7733 -8.28505e-6 108.8454 -50.26614 9.179615 -35.54869 -114.7797 -1.21593e-5 3.189997 1.72467 0.5895857 3.189998 1.724669 0.5536537 3.189999 -1.664244 0.5536494 3.190001 -1.664244 0.5895812 3.219985 -1.664244 0.5536532 3.219983 -1.664244 0.5895854 3.189997 1.72467 0.5895857 3.190001 -1.664244 0.5895812 3.189999 -1.664244 0.5536494 3.189998 1.724669 0.5536537 3.190001 -1.664244 0.5895812 3.190002 -1.664244 0.6633356 3.21998 -1.664244 0.6633406 3.219983 -1.664244 0.5895854</float_array>
+          <technique_common>
+            <accessor source="#geom-si_slumber_wall_c15-map10-array" count="48" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-si_slumber_wall_c15-vertices">
+          <input semantic="POSITION" source="#geom-si_slumber_wall_c15-positions" />
+        </vertices>
+        <triangles material="lod_vertcol" count="26">
+          <input semantic="VERTEX" source="#geom-si_slumber_wall_c15-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-si_slumber_wall_c15-normals" offset="1" />
+          <input semantic="COLOR" source="#geom-si_slumber_wall_c15-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c15-map1" offset="3" set="0" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c15-map2" offset="4" set="1" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c15-map3" offset="5" set="2" />
+          <input semantic="TEXCOORD" source="#geom-si_slumber_wall_c15-map10" offset="6" set="9" />
+          <p>2 0 1 2 2 2 2 3 1 2 3 3 3 3 0 2 3 0 0 0 0 0 2 3 0 0 0 0 1 3 0 1 1 1 1 2 0 1 2 2 2 2 5 4 7 5 5 5 5 4 5 4 4 4 4 4 7 6 5 7 7 7 7 7 6 5 7 7 7 7 6 7 6 6 6 6 6 5 4 7 5 5 5 5 10 8 9 9 10 10 10 12 9 10 10 12 12 12 13 10 11 11 13 13 13 13 10 11 11 13 13 13 11 11 8 8 11 11 11 10 8 9 9 10 10 10 14 12 13 13 14 14 14 9 13 14 14 9 9 9 8 14 15 15 8 8 8 8 14 15 15 8 8 8 15 15 12 12 15 15 15 14 12 13 13 14 14 14 17 16 17 17 17 17 17 18 17 18 18 18 18 18 19 18 19 19 19 19 19 19 18 19 19 19 19 19 16 19 16 16 16 16 16 17 16 17 17 17 17 17 21 20 23 21 21 21 21 20 21 20 20 20 20 20 23 22 21 23 23 23 23 23 22 21 23 23 23 23 22 23 22 22 22 22 22 21 20 23 21 21 21 21 24 24 25 24 24 24 24 28 25 26 28 28 28 28 29 26 27 29 29 29 29 26 27 24 26 26 26 26 24 24 25 24 24 24 24 29 26 27 29 29 29 29 26 27 24 26 26 26 26 29 26 27 29 29 29 29 27 28 28 27 27 27 27 31 29 29 31 31 31 31 32 30 30 32 32 32 32 30 31 31 30 30 30 30 30 31 31 30 30 30 30 33 32 32 33 33 33 33 31 29 29 31 31 31 31 35 33 34 35 35 35 35 36 34 35 36 36 36 36 37 35 36 37 37 37 37 37 35 36 37 37 37 37 34 36 33 34 34 34 34 35 33 34 35 35 35 35 39 37 38 39 39 39 39 37 38 39 40 37 37 37 36 39 40 41 36 36 36 36 39 40 41 36 36 36 38 40 37 38 38 38 38 39 37 38 39 39 39 39 41 41 44 45 43 43 43 40 42 41 42 40 40 40 39 43 42 43 41 41 41 39 43 42 43 41 41 41 38 44 43 44 42 42 42 41 41 44 45 43 43 43 45 45 46 47 46 46 46 43 46 47 48 45 45 45 42 47 48 49 44 44 44 42 47 48 49 44 44 44 44 48 45 46 47 47 47 45 45 46 47 46 46 46 28 25 49 28 28 28 28 25 49 50 25 25 25 25 29 26 51 29 29 29 29</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="geom-Colmesh-1_16" name="Colmesh-1">
+      <mesh>
+        <source id="geom-Colmesh-1_16-positions">
+          <float_array id="geom-Colmesh-1_16-positions-array" count="24">-49.41126 -34.29272 7.61254e-13 30.05205 -106.9966 -0.1512451 -49.41126 19.01359 7.61254e-13 22.6625 86.17732 -0.1512451 15.88543 -106.9966 228.0244 22.37752 -106.9966 215.6497 15.88543 93.52702 228.0244 22.37752 93.52702 215.6497</float_array>
+          <technique_common>
+            <accessor source="#geom-Colmesh-1_16-positions-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Colmesh-1_16-normals">
+          <float_array id="geom-Colmesh-1_16-normals-array" count="72">-0.002001771 -5.78534e-5 -0.9999979 -0.002098472 0 -0.9999977 -0.002013694 -5.07208e-5 -0.999998 -0.00197236 -7.54494e-5 -0.999998 0.8855345 0 0.4645737 0.8855345 0 0.4645737 0.8855345 0 0.4645737 0.8855345 0 0.4645737 -0.6653049 -0.745968 -0.03001784 -0.674861 -0.7375545 -0.02400009 -0.4175005 -0.894041 -0.1624319 -0.3593325 -0.9139706 -0.1885148 0.9996559 0.02001186 0.01695562 0.9992692 0.03822539 1.77353e-5 0.9996608 0.01778381 0.01902611 0.9993682 0 0.03554053 -0.6728389 0.738493 -0.04377145 -0.6811436 0.7308403 -0.04377161 -0.3780702 0.9248677 -0.04101975 -0.06490707 0.9973102 -0.03405188 -0.9613602 0 0.2752935 -0.9613602 0 0.2752935 -0.9613603 0 0.2752935 -0.9613603 0 0.2752935</float_array>
+          <technique_common>
+            <accessor source="#geom-Colmesh-1_16-normals-array" count="24" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Colmesh-1_16-map1">
+          <float_array id="geom-Colmesh-1_16-map1-array" count="72">1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Colmesh-1_16-map1-array" count="24" stride="3">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+              <param name="P" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-Colmesh-1_16-vertices">
+          <input semantic="POSITION" source="#geom-Colmesh-1_16-positions" />
+        </vertices>
+        <triangles material="si_wood" count="12">
+          <input semantic="VERTEX" source="#geom-Colmesh-1_16-vertices" offset="0" />
+          <input semantic="NORMAL" source="#geom-Colmesh-1_16-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#geom-Colmesh-1_16-map1" offset="2" set="0" />
+          <p>0 0 0 2 1 2 3 2 3 3 2 3 1 3 1 0 0 0 4 4 4 5 5 5 7 6 7 7 6 7 6 7 6 4 4 4 0 8 8 1 9 9 5 10 11 5 10 11 4 11 10 0 8 8 1 12 12 3 13 13 7 14 15 7 14 15 5 15 14 1 12 12 3 16 16 2 17 17 6 18 19 6 18 19 7 19 18 3 16 16 2 20 20 0 21 21 4 22 23 4 22 23 6 23 22 2 20 20</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="si_corrugated_tin_V2_d_png">
+      <init_from>file:///H:/BeamNG_Drive/4_BNGD_Textures/Tiling_Output/small_island_corrugatedmetal/si_corrugated_tin_V2_d.png</init_from>
+    </image>
+    <image id="si_corrugated_tin_V3_d_png">
+      <init_from>file:///H:/BeamNG_Drive/4_BNGD_Textures/Tiling_Output/small_island_corrugatedmetal/si_corrugated_tin_V3_d.png</init_from>
+    </image>
+    <image id="si_wood_d_png">
+      <init_from>file:///H:/BeamNG_Drive/4_BNGD_Textures/Tiling_Output/small_island_wood/si_wood_d.png</init_from>
+    </image>
+    <image id="si_trim_wood_d_png">
+      <init_from>file:///H:/BeamNG_Drive/4_BNGD_Textures/Trims/Small_Island/Trim_wood/si_trim_wood_d.png</init_from>
+    </image>
+    <image id="ut_trim_broken_wood_tga">
+      <init_from>file:///H:/BeamNG_Drive/4_BNGD_Textures/Trims/Small_Island/Trim_wood/ut_trim_broken_wood.tga</init_from>
+    </image>
+  </library_images>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight" />
+      </node>
+      <node id="node-base00" name="base00">
+        <node id="node-collision-1" name="collision-1">
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <node id="node-nulldetail1" name="nulldetail1">
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <node id="node-start01" name="start01">
+          <node id="node-si_slumber_wall_c100" name="si_slumber_wall_c100">
+            <instance_geometry url="#geom-si_slumber_wall_c100">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="si_corrugated_tin_V2" target="#si_corrugated_tin_V2-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                  <instance_material symbol="si_trim_broken_wood" target="#si_trim_broken_wood-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                  <instance_material symbol="si_trim_wood" target="#si_trim_wood-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                  <instance_material symbol="si_corrugated_tin_V3" target="#si_corrugated_tin_V3-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <node id="node-si_slumber_wall_c40" name="si_slumber_wall_c40">
+            <instance_geometry url="#geom-si_slumber_wall_c40">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="si_corrugated_tin_V2" target="#si_corrugated_tin_V2-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                  <instance_material symbol="si_trim_broken_wood" target="#si_trim_broken_wood-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                  <instance_material symbol="si_trim_wood" target="#si_trim_wood-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                  <instance_material symbol="si_corrugated_tin_V3" target="#si_corrugated_tin_V3-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <node id="node-si_slumber_wall_c15" name="si_slumber_wall_c15">
+            <instance_geometry url="#geom-si_slumber_wall_c15">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lod_vertcol" target="#lod_vertcol-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <node id="node-Colmesh-1_16" name="Colmesh-1">
+            <instance_geometry url="#geom-Colmesh-1_16">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="si_wood" target="#si_wood-material">
+                    <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0" />
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+            <extra>
+              <technique profile="OpenCOLLADA">
+                <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+                <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+                <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+                <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="OpenCOLLADA">
+              <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+              <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+              <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+              <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+            </technique>
+          </extra>
+        </node>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene" />
+  </scene>
+</COLLADA>
